@@ -1,3 +1,8 @@
 body {
     background-color: #000000;
 }
+p {
+    text-decoration: none;
+    -moz-text-decoration-color: #FFFFFF; /* Code for Firefox */
+    text-decoration-color: #FFFFFF;
+}
