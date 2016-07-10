@@ -10,10 +10,8 @@ ul.menu {
     background-color: #000;
 }
 
-/* Float the list items side by side */
 ul.menu li {float: center;}
 
-/* Style the links inside the list items */
 ul.menu li a {
     display: inline-block;
     color: #FFFFFF;
@@ -24,8 +22,6 @@ ul.menu li a {
     font-size: 17px;
 }
 
-/* Change background color of links on hover */
 ul.menu li a:hover {background-color: #000;}
 
-/* Hide the list item that contains the link that should open and close the menu on small screens */
 ul.menu li.icon {display: none;}
