@@ -11,12 +11,12 @@ ul.menu {
 }
 
 /* Float the list items side by side */
-ul.menu li {float: left;}
+ul.menu li {float: center;}
 
 /* Style the links inside the list items */
 ul.menu li a {
     display: inline-block;
-    color: #f2f2f2;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -25,7 +25,7 @@ ul.menu li a {
 }
 
 /* Change background color of links on hover */
-ul.menu li a:hover {background-color: #111;}
+ul.menu li a:hover {background-color: #F2F;}
 
 /* Hide the list item that contains the link that should open and close the menu on small screens */
 ul.menu li.icon {display: none;}
