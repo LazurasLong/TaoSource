@@ -1,5 +1,5 @@
  */html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
- body{margin:0;background-color:#000000;h1:#FFFFFF;p:#FFFFFF}
+ body{margin:0;background:#000000;h1:#FFFFFF;p:#FFFFFF}
  article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
  audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
  audio:not([controls]){display:none;height:0}[hidden],template{display:none}
@@ -24,7 +24,7 @@
  optgroup{font-weight:700}
  table{border-spacing:0;border-collapse:collapse}
  td,th{padding:0}/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */@media 
- print{*,:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important}
+ print{*,:after,:before{color:#000!important;text-shadow:none!important;background:000!important;-webkit-box-shadow:none!important;box-shadow:none!important}
  a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}
  a[href^="javascript:"]:after,a[href^="#"]:after{content:""}
  blockquote,pre{border:1px solid #000;page-break-inside:avoid}
