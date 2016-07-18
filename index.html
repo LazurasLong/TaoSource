@@ -7,9 +7,89 @@
 <meta property="og:title" content="OdicforceSounds">
 <title>OdicforceSounds</title>
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
-<link rel="stylesheet" href="pages/css/od.css">
 </head>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500);
 
+/* main Styles */
+
+html { box-sizing: border-box; }
+
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+  background: #000000;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+a { text-decoration: none; }
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+h1 { text-align:center; margin-top:150px;}
+
+/* Navigation Styles */
+
+nav { background: #000000; }
+
+nav ul {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  display: block;
+  font-size: 14px;
+  padding: 15px 14px;
+  transition: 0.3s linear;
+}
+
+nav ul li:hover { background: #000000; }
+
+nav ul li ul {
+  border-bottom: 5px solid #000000;
+  display: none;
+  position: absolute;
+  width: 250px;
+}
+
+nav ul li ul li {
+  border-top: 1px solid #000000;
+  display: block;
+}
+
+nav ul li ul li:first-child { border-top: none; }
+
+nav ul li ul li a {
+  background: #000000;
+  display: block;
+  padding: 10px 14px;
+}
+
+nav ul li ul li a:hover { background: #0000FF; }
+
+nav .fa.fa-angle-down { margin-left: 6px; }
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+</style>
 <body>
 <nav>
   <div class="container">
