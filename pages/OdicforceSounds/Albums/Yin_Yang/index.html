@@ -10,6 +10,7 @@
 <meta name="keywords" content="odin,thor,shiva,buddha,visions,od,odicforce,odicforcesounds,mission,worldwide,peace,hanuman,year of the monkey,2016,fire,free,god,signals,electromagnetis,harmony,techno,psytrance,spiritual,psychedelic,revolution,edm,hackatom,github,google,facebook,twiter,openshift,opensource,worldcleaner,mixcloud,soundcloud,bandcamp,ios,android,social network,competition,brands,human care,animal care,nature care,yin yang,free,download,share,massive,education,social,status,game,life,love,change,luck,fortune,faith,movement,magnetism,odic force">
 <meta property="og:title" content="OdicforceSounds">
 <title>OdicforceSounds</title>
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script> 
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
 <link rel="stylesheet" href="http://github.com/OdicforceSounds/WorldCleaner/blob/gh-pages/pages/css/bootstrap.min.css">
 
@@ -254,9 +255,9 @@ display: inline;
 <script>
 $('nav li').hover(
   function() {
-	  $('ul', this).stop().slideDown(200);
+    $('ul', this).stop().slideDown(200);
   },
-	function() {
+  function() {
     $('ul', this).stop().slideUp(200);
   }
 );
@@ -270,7 +271,7 @@ $('nav li').hover(
 
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.src = ('http:' == document.location.protocol ? 'http://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
