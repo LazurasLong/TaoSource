@@ -1,7 +1,4 @@
 # WorldCleaner
-
-This is an Open Source Project and Shall be forever. Read Eternal License ! 
-
-Website of World Wide Conscience Cleaner aka World Wide Brands Competition
-
-All about OdicforceSounds 
+Read more 
+1 - here: https://github.com/OdicforceSounds/odicforcesounds.com/wiki
+2 - here: https://www.facebook.com/odicforcesounds/posts/831816413649165
