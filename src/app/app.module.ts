@@ -27,6 +27,7 @@ import { OtComponent } from './pages/articles/ot/ot.component';
 import { WwccComponent } from './pages/articles/more/wwcc/wwcc.component';
 import { WwbcComponent } from './pages/articles/more/wwbc/wwbc.component';
 import { WhoweareComponent } from './pages/articles/more/whoweare/whoweare.component';
+import { UtellmeComponent } from './pages/articles/more/utellme/utellme.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -49,7 +50,8 @@ const appRoutes: Routes = [
   { path: 'articles/ot', component: OtComponent },
   { path: 'articles/whoweare', component: WhoweareComponent },
   { path: 'articles/wwcc', component: WwccComponent },
-  { path: 'articles/wwbc', component: WwbcComponent }
+  { path: 'articles/wwbc', component: WwbcComponent },
+  { path: 'articles/more/utellme', component: UtellmeComponent }
 ]
 
 @NgModule({
@@ -74,7 +76,8 @@ const appRoutes: Routes = [
     OtComponent,
     WwccComponent,
     WwbcComponent,
-    WhoweareComponent
+    WhoweareComponent,
+    UtellmeComponent
   ],
   imports: [
     BrowserModule,
