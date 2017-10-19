@@ -1,5 +1,12 @@
 {
   "projects": {
+<<<<<<< HEAD
     "default": "world-cleaner"
   }
 }
+=======
+    "default": "world-cleaner",
+    "worldcleaner": "world-cleaner"
+  }
+}
+>>>>>>> 3173f967c369cfcbd8b3b3128504e3ece4de7ef3

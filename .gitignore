@@ -1,13 +1,18 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
+<<<<<<< HEAD
 # /dist
+=======
+dist
+>>>>>>> 3173f967c369cfcbd8b3b3128504e3ece4de7ef3
 /tmp
 
 # dependencies
 /node_modules
 
 # IDEs and editors
+<<<<<<< HEAD
 /.idea
 .project
 .classpath
@@ -30,6 +35,8 @@
 npm-debug.log
 testem.log
 /typings
+=======
+>>>>>>> 3173f967c369cfcbd8b3b3128504e3ece4de7ef3
 
 # e2e
 /e2e/*.js
