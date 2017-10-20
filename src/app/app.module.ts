@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes, Route, provideRoutes } from '@angular/router';
 import { HashLocationStrategy, Location, LocationStrategy } from '@angular/common';
-
+import { RecaptchaModule } from 'ng-recaptcha';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -28,13 +28,21 @@ import { WwccComponent } from './pages/articles/more/wwcc/wwcc.component';
 import { WwbcComponent } from './pages/articles/more/wwbc/wwbc.component';
 import { WhoweareComponent } from './pages/articles/more/whoweare/whoweare.component';
 import { UtellmeComponent } from './pages/articles/more/utellme/utellme.component';
+import { IntroComponent } from './pages/wiki/intro/intro.component';
+import { FirststepsComponent } from './pages/wiki/firststeps/firststeps.component';
+import { CoreconceptsComponent } from './pages/wiki/coreconcepts/coreconcepts.component';
+import { IdeaComponent } from './pages/wiki/idea/idea.component';
+import { ChallengeComponent } from './pages/wiki/challenge/challenge.component';
+import { PathComponent } from './pages/wiki/path/path.component';
+import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
+
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full'},
   { path: 'home', component: HomeComponent },
   { path: 'who', component: WhoComponent },
-  { path: 'license', component: LicenseComponent }, 
-  { path: 'mixcloud', component: MixcloudComponent }, 
+  { path: 'license', component: LicenseComponent },
+  { path: 'mixcloud', component: MixcloudComponent },
   { path: 'soundcloud', component: SoundcloudComponent },
   { path: 'bandcamp', component: BandcampComponent },
   { path: 'articles', component: ArticlesComponent },
@@ -51,7 +59,14 @@ const appRoutes: Routes = [
   { path: 'articles/whoweare', component: WhoweareComponent },
   { path: 'articles/wwcc', component: WwccComponent },
   { path: 'articles/wwbc', component: WwbcComponent },
-  { path: 'articles/more/utellme', component: UtellmeComponent }
+  { path: 'articles/more/utellme', component: UtellmeComponent },
+  { path: 'wiki/intro', component: IntroComponent },
+  { path: 'wiki/firststeps', component: FirststepsComponent },
+  { path: 'wiki/coreconcepts', component: CoreconceptsComponent },
+  { path: 'wiki/idea', component: IdeaComponent },
+  { path: 'wiki/challenge', component: ChallengeComponent },
+  { path: 'wiki/path', component: PathComponent },
+  { path: 'wiki/privacy', component: PrivacyComponent }
 ]
 
 @NgModule({
@@ -77,7 +92,14 @@ const appRoutes: Routes = [
     WwccComponent,
     WwbcComponent,
     WhoweareComponent,
-    UtellmeComponent
+    UtellmeComponent,
+    IntroComponent,
+    FirststepsComponent,
+    CoreconceptsComponent,
+    IdeaComponent,
+    ChallengeComponent,
+    PathComponent,
+    PrivacyComponent
   ],
   imports: [
     BrowserModule,
