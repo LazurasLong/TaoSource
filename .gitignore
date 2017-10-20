@@ -4,8 +4,6 @@
 <<<<<<< HEAD
 # /dist
 =======
-dist
->>>>>>> 3173f967c369cfcbd8b3b3128504e3ece4de7ef3
 /tmp
 
 # dependencies
@@ -36,7 +34,6 @@ npm-debug.log
 testem.log
 /typings
 =======
->>>>>>> 3173f967c369cfcbd8b3b3128504e3ece4de7ef3
 
 # e2e
 /e2e/*.js
