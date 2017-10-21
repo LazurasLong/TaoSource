@@ -25,8 +25,7 @@ import { ArticlesComponent } from './pages/articles/articles.component';
 import { WikiComponent } from './pages/wiki/wiki.component';
 import { BandcampComponent } from './pages/bandcamp/bandcamp.component';
 // import { LoginComponent } from './pages/login/login.component';
-// Visions of Thor - Album and Tracks
-import { VotComponent } from './pages/bandcamp/albums/vot/vot.component'; // Album
+import { VotComponent } from './pages/bandcamp/albums/vot/vot.component'; // Visions of Thor - Album and Tracks
 import { Vot1Component } from './pages/bandcamp/albums/vot/tracks/vot1/vot1.component';
 import { Vot2Component } from './pages/bandcamp/albums/vot/tracks/vot2/vot2.component';
 import { Vot3Component } from './pages/bandcamp/albums/vot/tracks/vot3/vot3.component';
@@ -38,22 +37,20 @@ import { Vot8Component } from './pages/bandcamp/albums/vot/tracks/vot8/vot8.comp
 import { Vot9Component } from './pages/bandcamp/albums/vot/tracks/vot9/vot9.component';
 import { Vot10Component } from './pages/bandcamp/albums/vot/tracks/vot10/vot10.component';
 import { Vot11Component } from './pages/bandcamp/albums/vot/tracks/vot11/vot11.component';
-// Machine World - Album and Tracks
-import { MwComponent } from './pages/bandcamp/albums/mw/mw.component';
-// Space Trip - Album and Tracks
-import { StComponent } from './pages/bandcamp/albums/st/st.component'; // Space Trip
+import { MwComponent } from './pages/bandcamp/albums/mw/mw.component';// Machine World - Album and Tracks
+import { Mw3Component } from './pages/bandcamp/albums/mw/tracks/mw3/mw3.component'; // Control - Free to Ask
+import { StComponent } from './pages/bandcamp/albums/st/st.component'; // Space Trip - Album and Tracks
 import { St5Component } from './pages/bandcamp/albums/st/tracks/st5/st5.component'; // ID - 666
-// Shiva and Kali Dance - Album and Tracks
-import { SkdComponent } from './pages/bandcamp/albums/skd/skd.component';
-// Eternal Delay - Album and Tracks
-import { EtComponent } from './pages/bandcamp/albums/et/et.component';
-// Noise Frequency - Impulse - Album and Tracks
-import { NfiComponent } from './pages/bandcamp/albums/nfi/nfi.component';
+import { SkdComponent } from './pages/bandcamp/albums/skd/skd.component';// Shiva and Kali Dance - Album and Tracks 
+import { EtComponent } from './pages/bandcamp/albums/et/et.component'; // Eternal Delay - Album and Tracks
+import { NfiComponent } from './pages/bandcamp/albums/nfi/nfi.component'; // Noise Frequency - Impulse - Album and Tracks
+import { Nfi4Component } from './pages/bandcamp/albums/nfi/tracks/nfi4/nfi4.component';
 import { EsComponent } from './pages/bandcamp/albums/es/es.component'; // Emotional Signals - Album and Tracks
 import { Es1Component } from './pages/bandcamp/albums/es/tracks/es1/es1.component'; // We Came in Peace
 import { Es9Component } from './pages/bandcamp/albums/es/tracks/es9/es9.component'; // shamanic Visions
 import { Es10Component } from './pages/bandcamp/albums/es/tracks/es10/es10.component'; // In Fun to Care
 import { OtComponent } from './pages/bandcamp/albums/ot/ot.component'; // Only Tributes - Album and Tracks
+import { Ot5Component} from './pages/bandcamp/albums/ot/tracks/ot5/ot5.component'; // Lords - Egocentric Will
 // import { WwccComponent } from './pages/articles/more/wwcc/wwcc.component';
 // import { WwbcComponent } from './pages/articles/more/wwbc/wwbc.component';
 import { WhoweareComponent } from './pages/articles/more/whoweare/whoweare.component';
@@ -67,11 +64,11 @@ import { PathComponent } from './pages/wiki/path/path.component';
 // import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
 
 
-const appRoutes: Routes = [ // HTTP PATH
+const appRoutes: Routes = [ // HTML  PATH
   { path: '', redirectTo: '/home', pathMatch: 'full'},
   { path: 'home', component: HomeComponent },
   { path: 'who', component: WhoComponent },
-  { path: 'license', component: LicenseComponent },
+  { path: 'license', component: LicenseComponent }, // Eternal License
   { path: 'mixcloud', component: MixcloudComponent }, // Mixcloud
   { path: 'mx/tao/rfyin', component: RfyinComponent }, // Tao Ring of Fire (Yin)
   { path: 'mx/tao/rfyang', component: RfyangComponent }, // Tao Ring of Fire (Yang)
@@ -87,33 +84,36 @@ const appRoutes: Routes = [ // HTTP PATH
   { path: 'articles', component: ArticlesComponent },
 //  { path: 'login', component: LoginComponent },
   { path: 'wiki', component: WikiComponent },
-  { path: 'bc/a/vot', component: VotComponent }, // Visions of Thor Album and Tracks - HTTP PATH
-  { path: 'bc/vot/t/v1', component: Vot1Component }, // track 1
-  { path: 'bc/vot/t/v2', component: Vot2Component }, // track 2
-  { path: 'bc/vot/t/v3', component: Vot3Component }, // track 3
-  { path: 'bc/vot/t/v4', component: Vot4Component }, // track 4
-  { path: 'bc/vot/t/v5', component: Vot5Component }, // track 5
-  { path: 'bc/vot/t/v6', component: Vot6Component }, // track 6
+  { path: 'bc/a/vot', component: VotComponent }, // Visions of Thor Album and Tracks - HTML  PATH
+  { path: 'bc/vot/t/v1', component: Vot1Component }, // Emerge
+  { path: 'bc/vot/t/v2', component: Vot2Component }, // Water Horses - Woman Free
+  { path: 'bc/vot/t/v3', component: Vot3Component }, // Pain vs Love
+  { path: 'bc/vot/t/v4', component: Vot4Component }, // Black Birds
+  { path: 'bc/vot/t/v5', component: Vot5Component }, // Summer Night
+  { path: 'bc/vot/t/v6', component: Vot6Component }, //
   { path: 'bc/vot/t/v7', component: Vot7Component }, // track 7
   { path: 'bc/vot/t/v8', component: Vot8Component }, // track 8
   { path: 'bc/vot/t/v9', component: Vot9Component }, // track 9
   { path: 'bc/vot/t/v10', component: Vot10Component }, // track 10
   { path: 'bc/vot/t/v11', component: Vot11Component }, // track 11
-  { path: 'bc/a/mw', component: MwComponent },// Machine World Album and Tracks - HTTP PATH
-  { path: 'bc/a/st', component: StComponent }, // Space Trip Album and Tracks - HTTP PATH
+  { path: 'bc/a/mw', component: MwComponent },// Machine World Album and Tracks - HTML  PATH
+  { path: 'bc/mw/t/mw3', component: Mw3Component }, // Control - Free to Ask
+  { path: 'bc/a/st', component: StComponent }, // Space Trip Album and Tracks - HTML  PATH
   { path: 'bc/st/t/st5', component: St5Component }, // ID - 666
   { path: 'bc/a/skd', component: SkdComponent },
   { path: 'bc/a/et', component: EtComponent },
-  { path: 'bc/a/nfi', component: NfiComponent },
-  { path: 'bc/a/es', component: EsComponent }, // Emotional Signals Album and Tracks - HTTP PATH
+  { path: 'bc/a/nfi', component: NfiComponent }, // Noise Frequency Album and Traks - HTML  PATH
+  { path: 'bc/a/t/nfi4', component: Nfi4Component },
+  { path: 'bc/a/es', component: EsComponent }, // Emotional Signals Album and Tracks - HTML  PATH
   { path: 'bc/a/es/t/es1', component: Es1Component }, // We Came in Peace
   { path: 'bc/a/es/t/es9', component: Es9Component }, // Shamanic Visions
   { path: 'bc/a/es/t/es10', component: Es10Component }, // Fun to Care
-  { path: 'bc/a/ot', component: OtComponent },
+  { path: 'bc/a/ot', component: OtComponent }, // Only Tributes Album and Tracks
+  { path: 'bc/a/ot/t/ot5', component: Ot5Component }, // Lords - Egocentric Will
   { path: 'articles/whoweare', component: WhoweareComponent },
 //  { path: 'articles/wwcc', component: WwccComponent },
 //  { path: 'articles/wwbc', component: WwbcComponent },
-  { path: 'articles/more/utellme', component: UtellmeComponent },
+  { path: 'tao', component: UtellmeComponent },
   { path: 'wiki/intro', component: IntroComponent },
   { path: 'wiki/firststeps', component: FirststepsComponent },
   { path: 'wiki/coreconcepts', component: CoreconceptsComponent },
@@ -156,17 +156,20 @@ const appRoutes: Routes = [ // HTTP PATH
     Vot9Component, // Track 9 - Visions of Thor
     Vot10Component, // Track 10 - Visions of Thor
     Vot11Component, // Track 11 - Visions of Thor
-    MwComponent,
+    MwComponent, // Album - Machine World
+    Mw3Component, // Control - Free to Ask
     StComponent, // Album - Space Trip
     St5Component, // Track 5 - ID 666
     SkdComponent,
     EtComponent,
-    NfiComponent,
+    NfiComponent, // Album - Noise Frequency
+    Nfi4Component, // Not Bad - Wrong
     EsComponent, // Album - Emotional Signals
     Es1Component, // we came in peace - trace zone
     Es9Component, // Shamanic Visions
     Es10Component, // Fun to Care
-    OtComponent,
+    OtComponent, // Album - Only Tributes
+    Ot5Component, // Lords - Egocentric Will
 //    WwccComponent,
 //    WwbcComponent,
     WhoweareComponent,
