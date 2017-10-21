@@ -7,14 +7,23 @@ import { HashLocationStrategy, Location, LocationStrategy } from '@angular/commo
 // import { RecaptchaModule } from 'ng-recaptcha';
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -;
 import { AppComponent } from './app.component';
-import { HomeComponent } from './pages/home/home.component';
-import { LicenseComponent } from './pages/license/license.component';
-import { WhoComponent } from './pages/who/who.component';
+import { HomeComponent } from './pages/home/home.component'; // Visions
+import { LicenseComponent } from './pages/license/license.component'; // Eternal License
+import { WhoComponent } from './pages/who/who.component'; // Who We Are
 // import { SoundcloudComponent } from './pages/soundcloud/soundcloud.component';
-// import { MixcloudComponent } from './pages/mixcloud/mixcloud.component';
-import { BandcampComponent } from './pages/bandcamp/bandcamp.component';
+import { MixcloudComponent } from './pages/mixcloud/mixcloud.component'; // Tao 
+import { RfyinComponent } from './pages/mixcloud/tao/rfyin/rfyin.component'; // Ring of Fire (Yin)
+import { RfyangComponent } from './pages/mixcloud/tao/rfyang/rfyang.component'; // Ring of Gire (Yang)
+import { DramonkComponent } from './pages/mixcloud/tao/dramonk/dramonk.component'; // Dragon & Monkey  ( Love )
+import { SolplexComponent } from './pages/mixcloud/tao/solplex/solplex.component'; // Fire (Base)
+import { MonkComponent } from './pages/mixcloud/tao/monk/monk.component'; // Monk (Black Gold)
+import { RtComponent } from './pages/mixcloud/tao/rt/rt.component'; // Real Time Shamanic Quest
+import { MissionComponent } from './pages/mixcloud/tao/mission/mission.component'; // World wide target
+import { TaoComponent } from './pages/mixcloud/tao/tao/tao.component'; // Last Warning
+import { DataComponent } from './pages/mixcloud/tao/data/data.component'; // Data
 import { ArticlesComponent } from './pages/articles/articles.component';
 import { WikiComponent } from './pages/wiki/wiki.component';
+import { BandcampComponent } from './pages/bandcamp/bandcamp.component';
 // import { LoginComponent } from './pages/login/login.component';
 // Visions of Thor - Album and Tracks
 import { VotComponent } from './pages/bandcamp/albums/vot/vot.component'; // Album
@@ -32,17 +41,19 @@ import { Vot11Component } from './pages/bandcamp/albums/vot/tracks/vot11/vot11.c
 // Machine World - Album and Tracks
 import { MwComponent } from './pages/bandcamp/albums/mw/mw.component';
 // Space Trip - Album and Tracks
-import { StComponent } from './pages/bandcamp/albums/st/st.component';
+import { StComponent } from './pages/bandcamp/albums/st/st.component'; // Space Trip
+import { St5Component } from './pages/bandcamp/albums/st/tracks/st5/st5.component'; // ID - 666
 // Shiva and Kali Dance - Album and Tracks
 import { SkdComponent } from './pages/bandcamp/albums/skd/skd.component';
 // Eternal Delay - Album and Tracks
 import { EtComponent } from './pages/bandcamp/albums/et/et.component';
 // Noise Frequency - Impulse - Album and Tracks
 import { NfiComponent } from './pages/bandcamp/albums/nfi/nfi.component';
-// Emotional Signals - Album and Tracks
-import { EsComponent } from './pages/bandcamp/albums/es/es.component';
-// Only Tributes - Album and Tracks
-import { OtComponent } from './pages/bandcamp/albums/ot/ot.component';
+import { EsComponent } from './pages/bandcamp/albums/es/es.component'; // Emotional Signals - Album and Tracks
+import { Es1Component } from './pages/bandcamp/albums/es/tracks/es1/es1.component'; // We Came in Peace
+import { Es9Component } from './pages/bandcamp/albums/es/tracks/es9/es9.component'; // shamanic Visions
+import { Es10Component } from './pages/bandcamp/albums/es/tracks/es10/es10.component'; // In Fun to Care
+import { OtComponent } from './pages/bandcamp/albums/ot/ot.component'; // Only Tributes - Album and Tracks
 // import { WwccComponent } from './pages/articles/more/wwcc/wwcc.component';
 // import { WwbcComponent } from './pages/articles/more/wwbc/wwbc.component';
 import { WhoweareComponent } from './pages/articles/more/whoweare/whoweare.component';
@@ -56,19 +67,27 @@ import { PathComponent } from './pages/wiki/path/path.component';
 // import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
 
 
-const appRoutes: Routes = [
+const appRoutes: Routes = [ // HTTP PATH
   { path: '', redirectTo: '/home', pathMatch: 'full'},
   { path: 'home', component: HomeComponent },
   { path: 'who', component: WhoComponent },
   { path: 'license', component: LicenseComponent },
-//  { path: 'mixcloud', component: MixcloudComponent },
+  { path: 'mixcloud', component: MixcloudComponent }, // Mixcloud
+  { path: 'mx/tao/rfyin', component: RfyinComponent }, // Tao Ring of Fire (Yin)
+  { path: 'mx/tao/rfyang', component: RfyangComponent }, // Tao Ring of Fire (Yang)
+  { path: 'mx/tao/dramonk', component: DramonkComponent }, // Dragon & Monkey ( Hope )
+  { path: 'mx/tao/solplex', component: SolplexComponent }, // Firebase (Solar Plexus)
+  { path: 'mx/tao/monk', component: MonkComponent }, // Monk (Black Gold)
+  { path: 'mx/tao/rt', component: RtComponent }, // Real Time Shamanic Quest
+  { path: 'mx/tao/mission', component: MissionComponent }, // World wide Target
+  { path: 'mx/tao/tao', component: TaoComponent }, // Last Warning
+  { path: 'mx/tao/data', component: DataComponent }, // Data
 //  { path: 'soundcloud', component: SoundcloudComponent },
   { path: 'bandcamp', component: BandcampComponent },
   { path: 'articles', component: ArticlesComponent },
 //  { path: 'login', component: LoginComponent },
   { path: 'wiki', component: WikiComponent },
-// Visions of Thor Albums and Tracks - Routing Paths
-  { path: 'bc/a/vot', component: VotComponent }, // Album << 
+  { path: 'bc/a/vot', component: VotComponent }, // Visions of Thor Album and Tracks - HTTP PATH
   { path: 'bc/vot/t/v1', component: Vot1Component }, // track 1
   { path: 'bc/vot/t/v2', component: Vot2Component }, // track 2
   { path: 'bc/vot/t/v3', component: Vot3Component }, // track 3
@@ -80,13 +99,16 @@ const appRoutes: Routes = [
   { path: 'bc/vot/t/v9', component: Vot9Component }, // track 9
   { path: 'bc/vot/t/v10', component: Vot10Component }, // track 10
   { path: 'bc/vot/t/v11', component: Vot11Component }, // track 11
-
-  { path: 'bc/a/mw', component: MwComponent },
-  { path: 'bc/a/st', component: StComponent },
+  { path: 'bc/a/mw', component: MwComponent },// Machine World Album and Tracks - HTTP PATH
+  { path: 'bc/a/st', component: StComponent }, // Space Trip Album and Tracks - HTTP PATH
+  { path: 'bc/st/t/st5', component: St5Component }, // ID - 666
   { path: 'bc/a/skd', component: SkdComponent },
   { path: 'bc/a/et', component: EtComponent },
   { path: 'bc/a/nfi', component: NfiComponent },
-  { path: 'bc/a/es', component: EsComponent },
+  { path: 'bc/a/es', component: EsComponent }, // Emotional Signals Album and Tracks - HTTP PATH
+  { path: 'bc/a/es/t/es1', component: Es1Component }, // We Came in Peace
+  { path: 'bc/a/es/t/es9', component: Es9Component }, // Shamanic Visions
+  { path: 'bc/a/es/t/es10', component: Es10Component }, // Fun to Care
   { path: 'bc/a/ot', component: OtComponent },
   { path: 'articles/whoweare', component: WhoweareComponent },
 //  { path: 'articles/wwcc', component: WwccComponent },
@@ -108,7 +130,16 @@ const appRoutes: Routes = [
     LicenseComponent,
     WhoComponent,
 //    SoundcloudComponent,
-//    MixcloudComponent,
+    MixcloudComponent, // mixcloud
+    RfyinComponent, // Ring of Fire (Yin)
+    RfyangComponent, // Ring of Fire (Yang)
+    DramonkComponent, // Dragon & Monkey (Hope)
+    SolplexComponent, // Firebase ( Solar Plexus )
+    MonkComponent, // Monk (Black Gold)
+    RtComponent, // Real Time Shamanic Quest
+    MissionComponent, // World wide Target
+    TaoComponent, // Last Warning
+    DataComponent, // Data
     BandcampComponent,
     ArticlesComponent,
     WikiComponent,
@@ -126,11 +157,15 @@ const appRoutes: Routes = [
     Vot10Component, // Track 10 - Visions of Thor
     Vot11Component, // Track 11 - Visions of Thor
     MwComponent,
-    StComponent,
+    StComponent, // Album - Space Trip
+    St5Component, // Track 5 - ID 666
     SkdComponent,
     EtComponent,
     NfiComponent,
-    EsComponent,
+    EsComponent, // Album - Emotional Signals
+    Es1Component, // we came in peace - trace zone
+    Es9Component, // Shamanic Visions
+    Es10Component, // Fun to Care
     OtComponent,
 //    WwccComponent,
 //    WwbcComponent,
