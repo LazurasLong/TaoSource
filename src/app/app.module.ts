@@ -10,8 +10,13 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component'; // Visions
 import { LicenseComponent } from './pages/license/license.component'; // Eternal License
 import { WhoComponent } from './pages/who/who.component'; // Who We Are
-// import { SoundcloudComponent } from './pages/soundcloud/soundcloud.component';
-import { MixcloudComponent } from './pages/mixcloud/mixcloud.component'; // Tao 
+import { SoundcloudComponent } from './pages/soundcloud/soundcloud.component'; // Sounds Cloud
+import { BringyoufireComponent } from './pages/soundcloud/magic/fantasy/bringyoufire/bringyoufire.component'; // Bring You Fire
+import { ThreeComponent } from './pages/articles/more/utellme/three/three.component'; // 3 - You Tell Me
+import { AbsoluteComponent} from './pages/articles/more/utellme/absolute/absolute.component'; // Absolute
+import { DragonComponent } from './pages/soundcloud/path/shields/dragon/dragon.component'; // The Dragon
+import { MonkingComponent } from './pages/soundcloud/magic/fantasy/monking/monking.component'; // Sun Wukong
+import { MixcloudComponent } from './pages/mixcloud/mixcloud.component'; // // MixCloud
 import { RfyinComponent } from './pages/mixcloud/tao/rfyin/rfyin.component'; // Ring of Fire (Yin)
 import { RfyangComponent } from './pages/mixcloud/tao/rfyang/rfyang.component'; // Ring of Gire (Yang)
 import { DramonkComponent } from './pages/mixcloud/tao/dramonk/dramonk.component'; // Dragon & Monkey  ( Love )
@@ -79,7 +84,12 @@ const appRoutes: Routes = [ // HTML  PATH
   { path: 'mx/tao/mission', component: MissionComponent }, // World wide Target
   { path: 'mx/tao/tao', component: TaoComponent }, // Last Warning
   { path: 'mx/tao/data', component: DataComponent }, // Data
-//  { path: 'soundcloud', component: SoundcloudComponent },
+  { path: 'soundcloud', component: SoundcloudComponent }, // SoundCloud
+  { path: 'three', component: ThreeComponent }, // 3 You tell Me!
+  { path: 'absolute', component: AbsoluteComponent }, // Absolute
+  { path: 'fire', component: BringyoufireComponent }, // Bring You Fire
+  { path: 'dragon', component: DragonComponent }, // The Dragon
+  { path: 'king', component: MonkingComponent }, // Sun Wukong
   { path: 'bandcamp', component: BandcampComponent },
   { path: 'articles', component: ArticlesComponent },
 //  { path: 'login', component: LoginComponent },
@@ -129,7 +139,7 @@ const appRoutes: Routes = [ // HTML  PATH
     HomeComponent,
     LicenseComponent,
     WhoComponent,
-//    SoundcloudComponent,
+    SoundcloudComponent, // Soundcloud
     MixcloudComponent, // mixcloud
     RfyinComponent, // Ring of Fire (Yin)
     RfyangComponent, // Ring of Fire (Yang)
@@ -140,6 +150,11 @@ const appRoutes: Routes = [ // HTML  PATH
     MissionComponent, // World wide Target
     TaoComponent, // Last Warning
     DataComponent, // Data
+    ThreeComponent, // 3 You tell me
+    AbsoluteComponent, // Absolute
+    BringyoufireComponent, // Bring You Fire
+    DragonComponent, // The Dragon
+    MonkingComponent, // Sun Wukong
     BandcampComponent,
     ArticlesComponent,
     WikiComponent,
