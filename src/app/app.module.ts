@@ -91,18 +91,21 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: '', redirectTo: '/home', pathMatch: 'full'},
   { path: 'home', component: HomeComponent },
   { path: 'who', component: WhoComponent },
+  { path: 'about/me/and/you', component: WhoweareComponent },
   { path: 'license', component: LicenseComponent }, // Eternal License
+  { path: 'wiki', component: WikiComponent },
+//  { path: 'articles', component: ArticlesComponent },
 // ######################################################################################################
 //  { path: 'mixcloud', component: MixcloudComponent }, // Mixcloud
   { path: 'we/must/change/our/ways', component: ChangeComponent }, // Tribute - Severn Cullis Suzuki
-  { path: 'mx/tao/rfyin', component: RfyinComponent }, // Tao Ring of Fire (Yin)
-  { path: 'mx/tao/rfyang', component: RfyangComponent }, // Tao Ring of Fire (Yang)
-  { path: 'mx/tao/dramonk', component: DramonkComponent }, // Dragon & Monkey ( Hope )
-  { path: 'mx/tao/solplex', component: SolplexComponent }, // Firebase (Solar Plexus)
-  { path: 'mx/tao/monk', component: MonkComponent }, // Monk (Black Gold)
-  { path: 'mx/tao/rt', component: RtComponent }, // Real Time Shamanic Quest
-  { path: 'mx/tao/mission', component: MissionComponent }, // World wide Target
-  { path: 'mx/tao/tao', component: TaoComponent }, // Last Warning
+  { path: 'ring/of/fire/yin', component: RfyinComponent }, // Tao Ring of Fire (Yin)
+  { path: 'ring/of/fire/yang', component: RfyangComponent }, // Tao Ring of Fire (Yang)
+  { path: 'eternal/fance/of/love/tao', component: DramonkComponent }, // Dragon & Monkey ( Hope )
+  { path: 'firebase/solar/plexus', component: SolplexComponent }, // Firebase (Solar Plexus)
+  { path: 'genius/monkey/style', component: MonkComponent }, // Monk (Black Gold)
+  { path: 'real/time', component: RtComponent }, // Real Time Shamanic Quest
+  { path: 'mission/world/wide/target', component: MissionComponent }, // World wide Target
+  { path: 'last/warning/tao/touch', component: TaoComponent }, // Last Warning
   { path: 'mx/tao/data', component: DataComponent }, // Data
 // ######################################################################################################
 //  { path: 'soundcloud', component: SoundcloudComponent }, // SoundCloud
@@ -112,13 +115,17 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'fire', component: BringyoufireComponent }, // Bring You Fire
   { path: 'dragon', component: DragonComponent }, // The Dragon
   { path: 'king', component: MonkingComponent }, // Sun Wukong
-  { path: 'will', component: WillpowerComponent }, // the Possession of Will
-  { path: 'articles', component: ArticlesComponent },
-  { path: 'wiki', component: WikiComponent },
-  { path: 'bandcamp', component: BandcampComponent },
-  { path: 'bc/a/vot', component: VotComponent }, // Visions of Thor Album and Tracks - HTML  PATH
-  { path: 'bc/vot/t/v1', component: Vot1Component }, // Emerge
-  { path: 'bc/vot/t/v2', component: Vot2Component }, // Water Horses - Woman Free
+  { path: 'possession/of/will', component: WillpowerComponent }, // the Possession of Will
+// ######################################################################################################
+// ######################################################################################################
+// ######################################################################################################
+  { path: 'yin/yang', component: BandcampComponent }, // YinYang Tribute
+// ######################################################################################################
+// ######################################################################################################
+// ######################################################################################################
+  { path: 'visions/of/thor', component: VotComponent }, // Visions of Thor Album and Tracks
+  { path: 'emerge/internal/upgrade', component: Vot1Component }, // Emerge
+  { path: 'water/horses/woman/free', component: Vot2Component }, // Water Horses - Woman Free
   { path: 'bc/vot/t/v3', component: Vot3Component }, // Pain vs Love
   { path: 'black/birds/red/eyes', component: Vot4Component }, // Black Birds
   { path: 'bc/vot/t/v5', component: Vot5Component }, // Summer Night
@@ -128,22 +135,27 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'bc/vot/t/v9', component: Vot9Component }, // track 9
   { path: 'bc/vot/t/v10', component: Vot10Component }, // track 10
   { path: 'bc/vot/t/v11', component: Vot11Component }, // track 11
-  { path: 'bc/a/mw', component: MwComponent },// Machine World Album and Tracks - HTML  PATH
-  { path: 'bc/mw/t/mw3', component: Mw3Component }, // Control - Free to Ask
-  { path: 'bc/a/st', component: StComponent }, // Space Trip Album and Tracks - HTML  PATH
-  { path: 'bc/st/t/st5', component: St5Component }, // ID - 666
-  { path: 'bc/a/skd', component: SkdComponent },
-  { path: 'bc/a/et', component: EtComponent },
-  { path: 'bc/a/nfi', component: NfiComponent }, // Noise Frequency Album and Traks - HTML  PATH
-  { path: 'bc/a/t/nfi4', component: Nfi4Component },
-  { path: 'bc/a/es', component: EsComponent }, // Emotional Signals Album and Tracks - HTML  PATH
-  { path: 'bc/a/es/t/es1', component: Es1Component }, // We Came in Peace
-  { path: 'bc/a/es/t/es9', component: Es9Component }, // Shamanic Visions
+// ######################################################################################################
+  { path: 'machine/world', component: MwComponent },// Machine World Album and Tracks
+  { path: 'control/free/to/ask', component: Mw3Component }, // Control - Free to Ask
+// ######################################################################################################
+  { path: 'space/trip', component: StComponent }, // Space Trip Album and Tracks
+  { path: 'id/666', component: St5Component }, // ID - 666
+// ######################################################################################################
+  { path: 'shiva/and/kali/dance', component: SkdComponent },
+// ######################################################################################################
+  { path: 'eternal/delay', component: EtComponent }, // Noise Frequency Album 
+  { path: 'noise/frequency/impulse', component: NfiComponent }, 
+  { path: 'not/bad/wrong', component: Nfi4Component },
+// ######################################################################################################
+  { path: 'emotional/signals', component: EsComponent }, // Emotional Signals Album and Tracks
+  { path: 'we/came/in/peace', component: Es1Component }, // We Came in Peace
   { path: 'little/box/universe', component: Es8Component }, // Little Box - Universe
-  { path: 'bc/a/es/t/es10', component: Es10Component }, // Fun to Care
-  { path: 'bc/a/ot', component: OtComponent }, // Only Tributes Album and Tracks
-  { path: 'bc/a/ot/t/ot5', component: Ot5Component }, // Lords - Egocentric Will
-  { path: 'articles/whoweare', component: WhoweareComponent },
+  { path: 'shamanic/visions', component: Es9Component }, // Shamanic Visions
+  { path: 'the/fun/project/is/fun/to/take/care', component: Es10Component }, // Fun to Care
+// ######################################################################################################
+  { path: 'only/tributes', component: OtComponent }, // Only Tributes Album and Tracks
+  { path: 'lords/egocentric/will', component: Ot5Component }, // Lords - Egocentric Will
 //  { path: 'articles/wwcc', component: WwccComponent },
 //  { path: 'articles/wwbc', component: WwbcComponent },
   { path: 'tao', component: UtellmeComponent },
