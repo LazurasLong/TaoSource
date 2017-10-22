@@ -12,6 +12,7 @@ import { LicenseComponent } from './pages/license/license.component'; // Eternal
 import { WhoComponent } from './pages/who/who.component'; // Who We Are
 // ###################################################################################################### Political Tributes
 import { ChangeComponent } from './pages/tributes/change/change.component'; // Severn Cullis Suzuki 
+import { CatComponent } from './pages/bandcamp/boom/cat/cat.component'; // Yin Yang Cat Boom Tribute
 // ###################################################################################################### Soundcloud
 import { SoundcloudComponent } from './pages/soundcloud/soundcloud.component'; // Sounds Cloud
 import { BringyoufireComponent } from './pages/soundcloud/magic/fantasy/bringyoufire/bringyoufire.component'; // Bring You Fire
@@ -105,16 +106,16 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'mx/tao/data', component: DataComponent }, // Data
 // ######################################################################################################
 //  { path: 'soundcloud', component: SoundcloudComponent }, // SoundCloud
+  {path: 'boom/cat', component: CatComponent },
   { path: 'three', component: ThreeComponent }, // 3 You tell Me!
   { path: 'absolute', component: AbsoluteComponent }, // Absolute
   { path: 'fire', component: BringyoufireComponent }, // Bring You Fire
   { path: 'dragon', component: DragonComponent }, // The Dragon
   { path: 'king', component: MonkingComponent }, // Sun Wukong
   { path: 'will', component: WillpowerComponent }, // the Possession of Will
-  { path: 'bandcamp', component: BandcampComponent },
   { path: 'articles', component: ArticlesComponent },
-//  { path: 'login', component: LoginComponent },
   { path: 'wiki', component: WikiComponent },
+  { path: 'bandcamp', component: BandcampComponent },
   { path: 'bc/a/vot', component: VotComponent }, // Visions of Thor Album and Tracks - HTML  PATH
   { path: 'bc/vot/t/v1', component: Vot1Component }, // Emerge
   { path: 'bc/vot/t/v2', component: Vot2Component }, // Water Horses - Woman Free
@@ -152,6 +153,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'wiki/idea', component: IdeaComponent },
   { path: 'wiki/challenge', component: ChallengeComponent },
   { path: 'wiki/path', component: PathComponent },
+//  { path: 'login', component: LoginComponent },
 //  { path: 'wiki/privacy', component: PrivacyComponent }
 ]
 
@@ -164,6 +166,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     SoundcloudComponent, // Soundcloud
     MixcloudComponent, // Mixcloud
     ChangeComponent, // Tribute to Severn Cullis Suzuki
+    CatComponent, // Yin Yang Tao Tribute - Boom Festival Shamanism - 2016
     RfyinComponent, // Ring of Fire (Yin)
     RfyangComponent, // Ring of Fire (Yang)
     DramonkComponent, // Dragon & Monkey (Hope)
