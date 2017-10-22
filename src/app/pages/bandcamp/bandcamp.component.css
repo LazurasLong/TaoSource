@@ -5,3 +5,20 @@ div {
 .iframe {
     text-align: center;
 }
+
+#banner {
+    background: url("/assets/images/monkey.jpg") no-repeat center;
+    position: relative;
+    background-size: cover;
+    margin-top: -2%;
+    margin-bottom: -12%;
+    padding: 0;
+    color: white;
+  }
+  p {
+      text-align: center;
+      position: relative;
+  }
+  h4 {
+      margin-top: 2%;
+  }

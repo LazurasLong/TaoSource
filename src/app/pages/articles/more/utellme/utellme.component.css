@@ -3,3 +3,9 @@ div {
     font-size: 200%;
     margin-top: 5%;
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
