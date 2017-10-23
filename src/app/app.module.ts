@@ -58,28 +58,108 @@ import { Vot9Component } from './pages/bandcamp/albums/vot/tracks/vot9/vot9.comp
 import { Vot10Component } from './pages/bandcamp/albums/vot/tracks/vot10/vot10.component';
 import { Vot11Component } from './pages/bandcamp/albums/vot/tracks/vot11/vot11.component';
 // ######################################################################################################
-// ######################################################################################################
 import { MwComponent } from './pages/bandcamp/albums/mw/mw.component';// Machine World - Album and Tracks
+import { Mw1Component } from './pages/bandcamp/albums/mw/tracks/mw1/mw1.component'; // Control - Free to Ask
+import { Mw2Component } from './pages/bandcamp/albums/mw/tracks/mw2/mw2.component'; // Control - Free to Ask
 import { Mw3Component } from './pages/bandcamp/albums/mw/tracks/mw3/mw3.component'; // Control - Free to Ask
+import { Mw4Component } from './pages/bandcamp/albums/mw/tracks/mw4/mw4.component'; // Control - Free to Ask
+import { Mw5Component } from './pages/bandcamp/albums/mw/tracks/mw5/mw5.component'; // Control - Free to Ask
+import { Mw6Component } from './pages/bandcamp/albums/mw/tracks/mw6/mw6.component'; // Control - Free to Ask
+import { Mw7Component } from './pages/bandcamp/albums/mw/tracks/mw7/mw7.component'; // Control - Free to Ask
+import { Mw8Component } from './pages/bandcamp/albums/mw/tracks/mw8/mw8.component'; // Control - Free to Ask
+import { Mw9Component } from './pages/bandcamp/albums/mw/tracks/mw9/mw9.component'; // Control - Free to Ask
+import { Mw10Component } from './pages/bandcamp/albums/mw/tracks/mw10/mw10.component'; // Control - Free to Ask
 // ######################################################################################################
 import { StComponent } from './pages/bandcamp/albums/st/st.component'; // Space Trip - Album and Tracks
+import { St1Component } from './pages/bandcamp/albums/st/tracks/st1/st1.component'; // ID - 666
+import { St2Component } from './pages/bandcamp/albums/st/tracks/st2/st2.component'; // ID - 666
+import { St3Component } from './pages/bandcamp/albums/st/tracks/st3/st3.component'; // ID - 666
+import { St4Component } from './pages/bandcamp/albums/st/tracks/st4/st4.component'; // ID - 666
 import { St5Component } from './pages/bandcamp/albums/st/tracks/st5/st5.component'; // ID - 666
+import { St6Component } from './pages/bandcamp/albums/st/tracks/st6/st6.component'; // ID - 666
+import { St7Component } from './pages/bandcamp/albums/st/tracks/st7/st7.component'; // ID - 666
+import { St8Component } from './pages/bandcamp/albums/st/tracks/st8/st8.component'; // ID - 666
+import { St9Component } from './pages/bandcamp/albums/st/tracks/st9/st9.component'; // ID - 666
+import { St10Component } from './pages/bandcamp/albums/st/tracks/st10/st10.component'; // ID - 666
+import { St11Component } from './pages/bandcamp/albums/st/tracks/st11/st11.component'; // ID - 666
+import { St12Component } from './pages/bandcamp/albums/st/tracks/st12/st12.component'; // ID - 666
+import { St13Component } from './pages/bandcamp/albums/st/tracks/st13/st13.component'; // ID - 666
 // ######################################################################################################
 import { SkdComponent } from './pages/bandcamp/albums/skd/skd.component';// Shiva and Kali Dance - Album and Tracks
+import { Skd1Component } from './pages/bandcamp/albums/skd/tracks/skd1/skd1.component';
+import { Skd2Component } from './pages/bandcamp/albums/skd/tracks/skd2/skd2.component';
+import { Skd3Component } from './pages/bandcamp/albums/skd/tracks/skd3/skd3.component';
+import { Skd4Component } from './pages/bandcamp/albums/skd/tracks/skd4/skd4.component';
+import { Skd5Component } from './pages/bandcamp/albums/skd/tracks/skd5/skd5.component';
+import { Skd6Component } from './pages/bandcamp/albums/skd/tracks/skd6/skd6.component';
+import { Skd7Component } from './pages/bandcamp/albums/skd/tracks/skd7/skd7.component';
+import { Skd8Component } from './pages/bandcamp/albums/skd/tracks/skd8/skd8.component';
+import { Skd9Component } from './pages/bandcamp/albums/skd/tracks/skd9/skd9.component';
+import { Skd10Component } from './pages/bandcamp/albums/skd/tracks/skd10/skd10.component';
+import { Skd11Component } from './pages/bandcamp/albums/skd/tracks/skd11/skd11.component';
+import { Skd12Component } from './pages/bandcamp/albums/skd/tracks/skd12/skd12.component';
+import { Skd13Component } from './pages/bandcamp/albums/skd/tracks/skd13/skd13.component';
+import { Skd14Component } from './pages/bandcamp/albums/skd/tracks/skd14/skd14.component';
+import { Skd15Component } from './pages/bandcamp/albums/skd/tracks/skd15/skd15.component';
+import { Skd16Component } from './pages/bandcamp/albums/skd/tracks/skd16/skd16.component';
+import { Skd17Component } from './pages/bandcamp/albums/skd/tracks/skd17/skd17.component';
+import { Skd18Component } from './pages/bandcamp/albums/skd/tracks/skd18/skd18.component';
+import { Skd19Component } from './pages/bandcamp/albums/skd/tracks/skd19/skd19.component';
+import { Skd20Component } from './pages/bandcamp/albums/skd/tracks/skd20/skd20.component';
 // ######################################################################################################
 import { EtComponent } from './pages/bandcamp/albums/et/et.component'; // Eternal Delay - Album and Tracks
+import { Et1Component } from './pages/bandcamp/albums/et/tracks/et1/et1.component';
+import { Et2Component } from './pages/bandcamp/albums/et/tracks/et2/et2.component';
+import { Et3Component } from './pages/bandcamp/albums/et/tracks/et3/et3.component';
+import { Et4Component } from './pages/bandcamp/albums/et/tracks/et4/et4.component';
+import { Et5Component } from './pages/bandcamp/albums/et/tracks/et5/et5.component';
+import { Et6Component } from './pages/bandcamp/albums/et/tracks/et6/et6.component';
+import { Et7Component } from './pages/bandcamp/albums/et/tracks/et7/et7.component';
+import { Et8Component } from './pages/bandcamp/albums/et/tracks/et8/et8.component';
+import { Et9Component } from './pages/bandcamp/albums/et/tracks/et9/et9.component';
+import { Et10Component } from './pages/bandcamp/albums/et/tracks/et10/et10.component';
+import { Et11Component } from './pages/bandcamp/albums/et/tracks/et11/et11.component';
 // ######################################################################################################
 import { NfiComponent } from './pages/bandcamp/albums/nfi/nfi.component'; // Noise Frequency - Impulse - Album and Tracks
+import { Nfi1Component } from './pages/bandcamp/albums/nfi/tracks/nfi1/nfi1.component';
+import { Nfi2Component } from './pages/bandcamp/albums/nfi/tracks/nfi2/nfi2.component';
+import { Nfi3Component } from './pages/bandcamp/albums/nfi/tracks/nfi3/nfi3.component';
 import { Nfi4Component } from './pages/bandcamp/albums/nfi/tracks/nfi4/nfi4.component';
+import { Nfi5Component } from './pages/bandcamp/albums/nfi/tracks/nfi5/nfi5.component';
+import { Nfi6Component } from './pages/bandcamp/albums/nfi/tracks/nfi6/nfi6.component';
+import { Nfi7Component } from './pages/bandcamp/albums/nfi/tracks/nfi7/nfi7.component';
+import { Nfi8Component } from './pages/bandcamp/albums/nfi/tracks/nfi8/nfi8.component';
+import { Nfi9Component } from './pages/bandcamp/albums/nfi/tracks/nfi9/nfi9.component';
+import { Nfi10Component } from './pages/bandcamp/albums/nfi/tracks/nfi10/nfi10.component';
+import { Nfi11Component } from './pages/bandcamp/albums/nfi/tracks/nfi11/nfi11.component';
 // ######################################################################################################
 import { EsComponent } from './pages/bandcamp/albums/es/es.component'; // Emotional Signals - Album and Tracks
 import { Es1Component } from './pages/bandcamp/albums/es/tracks/es1/es1.component'; // We Came in Peace
+import { Es2Component } from './pages/bandcamp/albums/es/tracks/es2/es2.component'; // We Came in Peace
+import { Es3Component } from './pages/bandcamp/albums/es/tracks/es3/es3.component'; // We Came in Peace
+import { Es4Component } from './pages/bandcamp/albums/es/tracks/es4/es4.component'; // We Came in Peace
+import { Es5Component } from './pages/bandcamp/albums/es/tracks/es5/es5.component'; // We Came in Peace
+import { Es6Component } from './pages/bandcamp/albums/es/tracks/es6/es6.component'; // We Came in Peace
+import { Es7Component } from './pages/bandcamp/albums/es/tracks/es7/es7.component'; // We Came in Peace
 import { Es8Component } from './pages/bandcamp/albums/es/tracks/es8/es8.component'; // 
 import { Es9Component } from './pages/bandcamp/albums/es/tracks/es9/es9.component'; // shamanic Visions
 import { Es10Component } from './pages/bandcamp/albums/es/tracks/es10/es10.component'; // In Fun to Care
+import { Es11Component } from './pages/bandcamp/albums/es/tracks/es11/es11.component'; // We Came in Peace
+import { Es12Component } from './pages/bandcamp/albums/es/tracks/es12/es12.component'; // We Came in Peace
+import { Es13Component } from './pages/bandcamp/albums/es/tracks/es13/es13.component'; // We Came in Peace
 // ######################################################################################################
 import { OtComponent } from './pages/bandcamp/albums/ot/ot.component'; // Only Tributes - Album and Tracks
+import { Ot1Component} from './pages/bandcamp/albums/ot/tracks/ot1/ot1.component'; // Lords - Egocentric Will
+import { Ot2Component} from './pages/bandcamp/albums/ot/tracks/ot2/ot2.component'; // Lords - Egocentric Will
+import { Ot3Component} from './pages/bandcamp/albums/ot/tracks/ot3/ot3.component'; // Lords - Egocentric Will
+import { Ot4Component} from './pages/bandcamp/albums/ot/tracks/ot4/ot4.component'; // Lords - Egocentric Will
 import { Ot5Component} from './pages/bandcamp/albums/ot/tracks/ot5/ot5.component'; // Lords - Egocentric Will
+import { Ot6Component} from './pages/bandcamp/albums/ot/tracks/ot6/ot6.component'; // Lords - Egocentric Will
+import { Ot7Component} from './pages/bandcamp/albums/ot/tracks/ot7/ot7.component'; // Lords - Egocentric Will
+import { Ot8Component} from './pages/bandcamp/albums/ot/tracks/ot8/ot8.component'; // Lords - Egocentric Will
+import { Ot9Component} from './pages/bandcamp/albums/ot/tracks/ot9/ot9.component'; // Lords - Egocentric Will
+import { Ot10Component} from './pages/bandcamp/albums/ot/tracks/ot10/ot10.component'; // Lords - Egocentric Will
+import { Ot11Component} from './pages/bandcamp/albums/ot/tracks/ot11/ot11.component'; // Lords - Egocentric Will
 // import { WwccComponent } from './pages/articles/more/wwcc/wwcc.component';
 // import { WwbcComponent } from './pages/articles/more/wwbc/wwbc.component';
 import { WhoweareComponent } from './pages/articles/more/whoweare/whoweare.component';
