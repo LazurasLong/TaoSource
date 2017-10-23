@@ -28,7 +28,7 @@ import { RfyinComponent } from './pages/mixcloud/tao/rfyin/rfyin.component'; // 
 import { RfyangComponent } from './pages/mixcloud/tao/rfyang/rfyang.component'; // Ring of Gire (Yang)
 import { DramonkComponent } from './pages/mixcloud/tao/dramonk/dramonk.component'; // Dragon & Monkey  ( Love )
 import { SolplexComponent } from './pages/mixcloud/tao/solplex/solplex.component'; // Fire (Base)
-import { MonkComponent } from './pages/mixcloud/tao/monk/monk.component'; // Monk (Black Gold)
+import { MonkComponent } from './pages/mixcloud/tao/monk/monk.component'; // (Genius - Monkey Style)
 import { RtComponent } from './pages/mixcloud/tao/rt/rt.component'; // Real Time Shamanic Quest
 import { MissionComponent } from './pages/mixcloud/tao/mission/mission.component'; // World wide target
 import { TaoComponent } from './pages/mixcloud/tao/tao/tao.component'; // Last Warning
@@ -398,6 +398,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     Mw7Component,
     Mw8Component,
     Mw8Component,
+    Mw9Component,
     Mw10Component,
 // ######################################################################################################
     StComponent, // ------------------------------ Album - Space Trip
@@ -412,6 +413,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     St9Component,
     St10Component,
     St12Component,
+    St11Component,
     St13Component,
 // ######################################################################################################
     SkdComponent, // ------------------------------ Album - Shiva & kali dance
@@ -487,6 +489,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     Ot6Component,
     Ot7Component,
     Ot8Component,
+    Ot9Component,
     Ot10Component,
     Ot10Component,
     Ot11Component,
