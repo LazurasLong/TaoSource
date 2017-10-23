@@ -3,3 +3,13 @@ div {
     text-align: center;
     font-size: 190%;
 }
+
+#banner {
+    background: url("/assets/images/pd.jpg") no-repeat center;
+    position: relative;
+    background-size: cover;
+    margin-top: -5%;
+    margin-bottom: -12%;
+    padding: 0;
+    color: white;
+  }

@@ -10,8 +10,7 @@ div {
     background: url("/assets/images/monkey.jpg") no-repeat center;
     position: relative;
     background-size: cover;
-    margin-top: -2%;
-    margin-bottom: -12%;
+    margin-top: -1.5%;
     padding: 0;
     color: white;
   }

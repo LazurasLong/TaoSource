@@ -1,9 +1,17 @@
 div {
     margin-top: 2%;
     text-align: center;
-    font-size: 150%;
+    font-size: 130%;
 }
 
 a {
     animation: none;
 }
+
+#banner {
+    background: url("/assets/images/shadows.jpg") no-repeat center;
+    position: relative;
+    background-size: cover;
+    padding: 0;
+    color: white;
+  }

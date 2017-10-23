@@ -1,6 +1,6 @@
-div {
+#textbox {
     text-align: center;
-    font-size: 200%;
+    font-size: 190%;
     margin-top: 5%;
 }
 
@@ -9,3 +9,14 @@ html, body {
     margin: 0;
 }
 
+
+
+
+#banner {
+    background: url("/assets/images/firering.jpg") no-repeat center;
+    position: relative;
+    background-size: cover;
+    margin-top: -5%;
+    padding: 0;
+    color: white;
+  }
