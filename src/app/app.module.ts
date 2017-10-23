@@ -299,7 +299,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'tao/yin/yang', component: Es4Component },
   { path: 'magnetic/condition/psy/cats', component: Es5Component },
   { path: 'dominated/by/time/ruled/by/desire', component: Es6Component },
-  { path: 'litle/box/universe/intro', component: Es7Component },
+  { path: 'intro/litle/box/universe', component: Es7Component },
   { path: 'little/box/universe', component: Es8Component }, // Little Box - Universe
   { path: 'shamanic/visions', component: Es9Component }, // Shamanic Visions
   { path: 'the/fun/project/is/fun/to/take/care', component: Es10Component }, // Fun to Care
