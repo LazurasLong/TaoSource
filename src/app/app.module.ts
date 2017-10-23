@@ -132,6 +132,7 @@ import { Nfi8Component } from './pages/bandcamp/albums/nfi/tracks/nfi8/nfi8.comp
 import { Nfi9Component } from './pages/bandcamp/albums/nfi/tracks/nfi9/nfi9.component';
 import { Nfi10Component } from './pages/bandcamp/albums/nfi/tracks/nfi10/nfi10.component';
 import { Nfi11Component } from './pages/bandcamp/albums/nfi/tracks/nfi11/nfi11.component';
+import { Nfi12Component } from './pages/bandcamp/albums/nfi/tracks/nfi12/nfi12.component';
 // ######################################################################################################
 import { EsComponent } from './pages/bandcamp/albums/es/es.component'; // Emotional Signals - Album and Tracks
 import { Es1Component } from './pages/bandcamp/albums/es/tracks/es1/es1.component'; // We Came in Peace
@@ -173,7 +174,6 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'who', component: WhoComponent },
   { path: 'about/me/and/you', component: WhoweareComponent },
   { path: 'license', component: LicenseComponent }, // Eternal License
-  { path: 'wiki', component: WikiComponent },
 //  { path: 'articles', component: ArticlesComponent },
 // ######################################################################################################
 //  { path: 'mixcloud', component: MixcloudComponent }, // Mixcloud
@@ -194,7 +194,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'absolute/everything/and/everyone', component: AbsoluteComponent }, // Absolute
   { path: 'fire', component: BringyoufireComponent }, // Bring You Fire
   { path: 'dragon', component: DragonComponent }, // The Dragon
-  { path: 'king', component: MonkingComponent }, // Sun Wukong
+  { path: 'sun/wukong/the/monkey/king', component: MonkingComponent }, // Sun Wukong
   { path: 'possession/of/will', component: WillpowerComponent }, // the Possession of Will
   { path: 'fire/in/my/eyes/metal/in/my/soul', component: MetalsoulComponent },
 // ######################################################################################################
@@ -218,29 +218,111 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'we/are/the/ones', component: Vot11Component }, // track 11
 // ######################################################################################################
   { path: 'machine/world', component: MwComponent },// Machine World Album and Tracks
+  { path: 'storming/plan/enigmatic/war', component: Mw1Component },
+  { path: 'pain/art/illusion/and/expression', component: Mw2Component },
   { path: 'control/free/to/ask', component: Mw3Component }, // Control - Free to Ask
+  { path: 'time/to/live/cache/cleaner', component: Mw4Component },
+  { path: 'panic/luck', component: Mw5Component },
+  { path: 'thunder/with/within/and/without', component: Mw6Component },
+  { path: 'forest/jungle/at/night', component: Mw7Component },
+  { path: 'have/fun/nothing/wrong/with/you/too', component: Mw8Component },
+  { path: 'noise/breaker/lead/the/way', component: Mw9Component },
+  { path: 'strang/groove/noise', component: Mw10Component },
 // ######################################################################################################
   { path: 'space/trip', component: StComponent }, // Space Trip Album and Tracks
+  { path: 'anomaly/disconnected/functions', component: St1Component },
+  { path: 'organized/classic/motions', component: St2Component },
+  { path: 'brave/new/choice/no/heroes', component: St3Component },
+  { path: 'dark/net/mantra/over/flaw', component: St4Component },
   { path: 'id/666', component: St5Component }, // ID - 666
+  { path: 'metamorphose/be/quiet/and/learn', component: St6Component },
+  { path: 'complex/unknown/value', component: St7Component },
+  { path: 'residents/of/love/deep/touch', component: St8Component },
+  { path: 'silnuvano/flush', component: St9Component },
+  { path: 'spiritual/redemption/odicforce', component: St10Component },
+  { path: 'inside/outside', component: St11Component },
+  { path: 'running/out/of/time/no/turning/back', component: St12Component },
+  { path: 'pagan/cult/to/the/sun', component: St13Component },
 // ######################################################################################################
-  { path: 'shiva/and/kali/dance', component: SkdComponent },
+  { path: 'shiva/and/kali/dance', component: SkdComponent }, // Shiva and Kali Dance 
+  { path: 'discipline/no/escape', component: Skd1Component }, // Shiva and Kali Dance 
+  { path: 'hard/work/deep/concentration', component: Skd2Component },
+  { path: 'united/colors/of/skeleton/grow/your/skills', component: Skd3Component },
+  { path: 'air/trip/fly/to/me', component: Skd4Component },
+  { path: 'yellow/energy/burning/box', component: Skd5Component },
+  { path: 'underwater/into/the/sky', component: Skd6Component },
+  { path: 'drive/flow/crazy/ghost/train', component: Skd7Component },
+  { path: 'first/contact/path/of/shields', component: Skd8Component },
+  { path: 'do/not/deny/i/am/the/one', component: Skd9Component },
+  { path: 'healing/correction/body/and/mind', component: Skd10Component },
+  { path: 'conneted/to/you', component: Skd11Component },
+  { path: 'delay/expectative', component: Skd12Component },
+  { path: 'future/cosmic/attraction', component: Skd13Component },
+  { path: 'call/me/karma', component: Skd14Component },
+  { path: 'care/not/focus', component: Skd15Component },
+  { path: 'neurotic/path', component: Skd16Component },
+  { path: 'you/dare/suck/my/sax', component: Skd17Component },
+  { path: 'my/dream/boom/festival', component: Skd18Component },
+  { path: 'human/paradox/new/world', component: Skd19Component },
+  { path: 'terms/of/living/love/or/die', component: Skd20Component },
 // ######################################################################################################
-  { path: 'eternal/delay', component: EtComponent }, // Eternal Delay
+  { path: 'respect/spiritual/life', component: EtComponent }, // Eternal Delay
+  { path: 'organic/fields/all/energy/all/soul', component: Et1Component },
+  { path: 'remember/why/you/are/here', component: Et2Component },
+  { path: 'show/us/some/respect/warining', component: Et3Component },
+  { path: 'human/test/sent', component: Et4Component },
+  { path: 'flow/into/darkness/feels/like/water', component: Et5Component },
+  { path: 'light/interception/sensitive/and/obscure', component: Et6Component },
+  { path: 'you/dont/believe/in/what/you/say', component: Et8Component },
+  { path: 'wait/madness/is/no/good', component: Et9Component },
+  { path: 'welcome/to/yourself/i/am/your/conscience', component: Et10Component },
+  { path: 'ladies/and/gentleman/move/on', component: Et11Component },
 // ######################################################################################################
   { path: 'noise/frequency/impulse', component: NfiComponent }, // Noise Frequency Album 
-  { path: 'not/bad/wrong', component: Nfi4Component },
-// ######################################################################################################
+  { path: 'bass/drop/blend', component: Nfi1Component },
+  { path: 'between/us/image/and/sound', component: Nfi2Component },
+  { path: 'dimensional/party/bit/parity', component: Nfi3Component },
+  { path: 'not/bad/wrong', component: Nfi4Component }, // not bad - Wrong
+  { path: 'failure/people/dont/care', component: Nfi5Component },
+  { path: 'fuck/politic/sex/is/fun/vs/fuck/sex/politic/is/fun', component: Nfi6Component },
+  { path: 'extreme/flow/go/deep/into/spiritual/life', component: Nfi7Component },
+  { path: 'i/know/myself/i/am/a/free/men', component: Nfi8Component },
+  { path: 'minimal/life/another/planet', component: Nfi9Component },
+  { path: 'time/code/stealth/mode', component: Nfi10Component },
+  { path: 'just/a/technical/skill/set', component: Nfi11Component },
+  { path: 'body/answer/common/sense/is/not/intelligence', component: Nfi12Component },
+  // ######################################################################################################
   { path: 'emotional/signals', component: EsComponent }, // Emotional Signals Album and Tracks
   { path: 'we/came/in/peace', component: Es1Component }, // We Came in Peace
+  { path: 'just/another/open/door', component: Es2Component },
+  { path: 'bigger/or/equal/to/zero', component: Es3Component },
+  { path: 'tao/yin/yang', component: Es4Component },
+  { path: 'magnetic/condition/psy/cats', component: Es5Component },
+  { path: 'dominated/by/time/ruled/by/desire', component: Es6Component },
+  { path: 'litle/box/universe/intro', component: Es7Component },
   { path: 'little/box/universe', component: Es8Component }, // Little Box - Universe
   { path: 'shamanic/visions', component: Es9Component }, // Shamanic Visions
   { path: 'the/fun/project/is/fun/to/take/care', component: Es10Component }, // Fun to Care
+  { path: 'social/tool/kit/world/wide/conscience/cleaner', component: Es11Component },
+  { path: 'hacking/into/the/error/festival/patch', component: Es12Component },
+  { path: 'trust/the/constant/loop', component: Es13Component },
 // ######################################################################################################
   { path: 'only/tributes', component: OtComponent }, // Only Tributes Album and Tracks
-  { path: 'lords/egocentric/will', component: Ot5Component }, // Lords - Egocentric Will
+  { path: 'cats/like/to/dance/dogs/like/to/watch', component: Ot1Component }, // Dogs and Cats
+//  { path: 'emerge/internal/upgrade', component: Ot2Component }, // Lords - Egocentric Will
+  { path: 'bruce/lee/advice', component: Ot3Component }, // Bruce Lee
+  { path: 'galactic/passion/dragon/fire', component: Ot4Component }, // FCP
+  { path: 'lords/egocentric/will', component: Ot5Component }, // Lord or the Rings
+  { path: 'matrix/no/limits', component: Ot6Component }, // Lords - Egocentric Will
+//  { path: 'V - euclidean Space', component: Ot7Component }, // euclidean space
+  { path: 'two/sides/one/force', component: Ot8Component }, // two sides one force ( star wars )
+  { path: 'devil/spell/me/and/you', component: Ot9Component }, // Lords - Egocentric Will
+  { path: 'vital/manipulation/become/mad', component: Ot10Component }, // Lords - Egocentric Will
+  { path: 'parallel/wish/the/mirror', component: Ot11Component }, // Lords - Egocentric Will
 //  { path: 'articles/wwcc', component: WwccComponent },
 //  { path: 'articles/wwbc', component: WwbcComponent },
   { path: 'tao', component: UtellmeComponent },
+  { path: 'wiki', component: WikiComponent },
   { path: 'wiki/intro', component: IntroComponent },
   { path: 'wiki/firststeps', component: FirststepsComponent },
   { path: 'wiki/coreconcepts', component: CoreconceptsComponent },
@@ -257,6 +339,19 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     HomeComponent,
     LicenseComponent,
     WhoComponent,
+    ArticlesComponent,
+    WikiComponent,
+    WhoweareComponent,
+    UtellmeComponent,
+    IntroComponent,
+    FirststepsComponent,
+    CoreconceptsComponent,
+    IdeaComponent,
+    ChallengeComponent,
+    PathComponent,
+//    PrivacyComponent
+//    LoginComponent,
+// ######################################################################################################
     SoundcloudComponent, // Soundcloud
     MixcloudComponent, // Mixcloud
     ChangeComponent, // Tribute to Severn Cullis Suzuki
@@ -277,10 +372,9 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     MonkingComponent, // Sun Wukong
     WillpowerComponent, // The possession of Wlll
     MetalsoulComponent,
+// ######################################################################################################
     BandcampComponent,
-    ArticlesComponent,
-    WikiComponent,
-//    LoginComponent,
+// ######################################################################################################
     VotComponent, // ------------------------------ Album - Visions of Thor - My Son
     Vot1Component, // Track 1 - Visions of Thor
     Vot2Component, // Tracks 2 - Visions of Thor
@@ -293,32 +387,112 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     Vot9Component, // Track 9 - Visions of Thor
     Vot10Component, // Track 10 - Visions of Thor
     Vot11Component, // Track 11 - Visions of Thor
+// ######################################################################################################
     MwComponent, // ------------------------------ Album - Machine World
+    Mw1Component,
+    Mw2Component,
     Mw3Component, // Control - Free to Ask
+    Mw4Component,
+    Mw5Component,
+    Mw6Component,
+    Mw7Component,
+    Mw8Component,
+    Mw8Component,
+    Mw10Component,
+// ######################################################################################################
     StComponent, // ------------------------------ Album - Space Trip
+    St1Component,
+    St2Component,
+    St3Component,
+    St4Component,
     St5Component, // Track 5 - ID 666
+    St6Component,
+    St7Component,
+    St8Component,
+    St9Component,
+    St10Component,
+    St12Component,
+    St13Component,
+// ######################################################################################################
     SkdComponent, // ------------------------------ Album - Shiva & kali dance
+    Skd1Component,
+    Skd2Component,
+    Skd3Component,
+    Skd4Component,
+    Skd5Component,
+    Skd6Component,
+    Skd7Component,
+    Skd8Component,
+    Skd9Component,
+    Skd10Component,
+    Skd11Component,
+    Skd12Component,
+    Skd13Component,
+    Skd14Component,
+    Skd15Component,
+    Skd16Component,
+    Skd17Component,
+    Skd18Component,
+    Skd19Component,
+    Skd20Component,
+// ######################################################################################################
     EtComponent, // ------------------------------  Album - Eternal Delay
+    Et1Component,
+    Et2Component,
+    Et3Component,
+    Et4Component,
+    Et5Component,
+    Et6Component,
+    Et7Component,
+    Et8Component,
+    Et9Component,
+    Et10Component,
+    Et11Component,
+// ######################################################################################################
     NfiComponent, // ------------------------------ Album - Noise Frequency
+    Nfi1Component,
+    Nfi2Component,
+    Nfi3Component,
     Nfi4Component, // Not Bad - Wrong
+    Nfi5Component,
+    Nfi6Component,
+    Nfi7Component,
+    Nfi8Component,
+    Nfi9Component,
+    Nfi10Component,
+    Nfi11Component,
+    Nfi12Component,
+// ######################################################################################################
     EsComponent, // ------------------------------ Album - Emotional Signals
     Es1Component, // we came in peace - trace zone
+    Es2Component,
+    Es3Component,
+    Es4Component,
+    Es5Component,
+    Es6Component,
+    Es7Component,
     Es8Component, // Little Box - Universe
     Es9Component, // Shamanic Visions
     Es10Component, // Fun to Care
-    OtComponent, // ------------------------------ Album - Only Tributes
+    Es11Component,
+    Es12Component,
+    Es13Component,
+// ######################################################################################################
+    OtComponent, // ------------------------------ Album - Only Tribut
+    Ot1Component,
+    Ot2Component,
+    Ot3Component,
+    Ot4Component,
     Ot5Component, // Lords - Egocentric Will
+    Ot6Component,
+    Ot7Component,
+    Ot8Component,
+    Ot10Component,
+    Ot10Component,
+    Ot11Component,
 //    WwccComponent,
 //    WwbcComponent,
-    WhoweareComponent,
-    UtellmeComponent,
-    IntroComponent,
-    FirststepsComponent,
-    CoreconceptsComponent,
-    IdeaComponent,
-    ChallengeComponent,
-    PathComponent,
-//    PrivacyComponent
+
   ],
   imports: [
     BrowserModule,
