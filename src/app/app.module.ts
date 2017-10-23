@@ -21,6 +21,7 @@ import { AbsoluteComponent} from './pages/articles/more/utellme/absolute/absolut
 import { DragonComponent } from './pages/soundcloud/path/shields/dragon/dragon.component'; // The Dragon
 import { MonkingComponent } from './pages/soundcloud/magic/fantasy/monking/monking.component'; // Sun Wukong
 import { WillpowerComponent } from './pages/soundcloud/path/shields/willpower/willpower.component'; // The Possession of Will
+import { MetalsoulComponent } from './pages/soundcloud/path/shields/metalsoul/metalsoul.component'; // Metal Soul - Fire Eyes
 // ###################################################################################################### Mixcloud
 import { MixcloudComponent } from './pages/mixcloud/mixcloud.component'; // // MixCloud
 import { RfyinComponent } from './pages/mixcloud/tao/rfyin/rfyin.component'; // Ring of Fire (Yin)
@@ -83,7 +84,6 @@ import { Ot5Component} from './pages/bandcamp/albums/ot/tracks/ot5/ot5.component
 // import { WwbcComponent } from './pages/articles/more/wwbc/wwbc.component';
 import { WhoweareComponent } from './pages/articles/more/whoweare/whoweare.component';
 import { UtellmeComponent } from './pages/articles/more/utellme/utellme.component';
-
 // import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
 
 
@@ -106,16 +106,17 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'real/time', component: RtComponent }, // Real Time Shamanic Quest
   { path: 'mission/world/wide/target', component: MissionComponent }, // World wide Target
   { path: 'last/warning/tao/touch', component: TaoComponent }, // Last Warning
-  { path: 'mx/tao/data', component: DataComponent }, // Data
+  { path: 'data/objects/and/functions', component: DataComponent }, // Data
 // ######################################################################################################
 //  { path: 'soundcloud', component: SoundcloudComponent }, // SoundCloud
-  {path: 'boom/cat', component: CatComponent },
-  { path: 'three', component: ThreeComponent }, // 3 You tell Me!
-  { path: 'absolute', component: AbsoluteComponent }, // Absolute
+  {path: 'boom/cat', component: CatComponent }, // Black Cat & White Cat
+  { path: 'three/you/tell/me', component: ThreeComponent }, // 3 You tell Me!
+  { path: 'absolute/everything/and/everyone', component: AbsoluteComponent }, // Absolute
   { path: 'fire', component: BringyoufireComponent }, // Bring You Fire
   { path: 'dragon', component: DragonComponent }, // The Dragon
   { path: 'king', component: MonkingComponent }, // Sun Wukong
   { path: 'possession/of/will', component: WillpowerComponent }, // the Possession of Will
+  { path: 'fire/in/my/eyes/metal/in/my/soul', component: MetalsoulComponent },
 // ######################################################################################################
 // ######################################################################################################
 // ######################################################################################################
@@ -126,15 +127,15 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'visions/of/thor', component: VotComponent }, // Visions of Thor Album and Tracks
   { path: 'emerge/internal/upgrade', component: Vot1Component }, // Emerge
   { path: 'water/horses/woman/free', component: Vot2Component }, // Water Horses - Woman Free
-  { path: 'bc/vot/t/v3', component: Vot3Component }, // Pain vs Love
+  { path: 'pain/vs/love', component: Vot3Component }, // Pain vs Love
   { path: 'black/birds/red/eyes', component: Vot4Component }, // Black Birds
-  { path: 'bc/vot/t/v5', component: Vot5Component }, // Summer Night
-  { path: 'bc/vot/t/v6', component: Vot6Component }, //
-  { path: 'bc/vot/t/v7', component: Vot7Component }, // track 7
-  { path: 'bc/vot/t/v8', component: Vot8Component }, // track 8
-  { path: 'bc/vot/t/v9', component: Vot9Component }, // track 9
-  { path: 'bc/vot/t/v10', component: Vot10Component }, // track 10
-  { path: 'bc/vot/t/v11', component: Vot11Component }, // track 11
+  { path: 'burned/in/the/hands/of/wind', component: Vot5Component }, // burned in the hand of wind
+  { path: 'summer/time/rock/and/roll', component: Vot6Component }, // Summer Night
+  { path: 'v/euclidean/space', component: Vot7Component }, // V - euclidean space
+  { path: 'invisible/frequency/you/can/change', component: Vot8Component }, // track 8
+  { path: 'ma6nata/evil/inside', component: Vot9Component }, // track 9
+  { path: 'shake/my/snakes', component: Vot10Component }, // track 10
+  { path: 'we/are/the/ones', component: Vot11Component }, // track 11
 // ######################################################################################################
   { path: 'machine/world', component: MwComponent },// Machine World Album and Tracks
   { path: 'control/free/to/ask', component: Mw3Component }, // Control - Free to Ask
@@ -144,8 +145,9 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
 // ######################################################################################################
   { path: 'shiva/and/kali/dance', component: SkdComponent },
 // ######################################################################################################
-  { path: 'eternal/delay', component: EtComponent }, // Noise Frequency Album 
-  { path: 'noise/frequency/impulse', component: NfiComponent }, 
+  { path: 'eternal/delay', component: EtComponent }, // Eternal Delay
+// ######################################################################################################
+  { path: 'noise/frequency/impulse', component: NfiComponent }, // Noise Frequency Album 
   { path: 'not/bad/wrong', component: Nfi4Component },
 // ######################################################################################################
   { path: 'emotional/signals', component: EsComponent }, // Emotional Signals Album and Tracks
@@ -194,11 +196,12 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     DragonComponent, // The Dragon
     MonkingComponent, // Sun Wukong
     WillpowerComponent, // The possession of Wlll
+    MetalsoulComponent,
     BandcampComponent,
     ArticlesComponent,
     WikiComponent,
 //    LoginComponent,
-    VotComponent, // Album - Visions of Thor - My Son
+    VotComponent, // ------------------------------ Album - Visions of Thor - My Son
     Vot1Component, // Track 1 - Visions of Thor
     Vot2Component, // Tracks 2 - Visions of Thor
     Vot3Component, // Track 3 - Visions of Thor
@@ -210,20 +213,20 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     Vot9Component, // Track 9 - Visions of Thor
     Vot10Component, // Track 10 - Visions of Thor
     Vot11Component, // Track 11 - Visions of Thor
-    MwComponent, // Album - Machine World
+    MwComponent, // ------------------------------ Album - Machine World
     Mw3Component, // Control - Free to Ask
-    StComponent, // Album - Space Trip
+    StComponent, // ------------------------------ Album - Space Trip
     St5Component, // Track 5 - ID 666
-    SkdComponent,
-    EtComponent,
-    NfiComponent, // Album - Noise Frequency
+    SkdComponent, // ------------------------------ Album - Shiva & kali dance
+    EtComponent, // ------------------------------  Album - Eternal Delay
+    NfiComponent, // ------------------------------ Album - Noise Frequency
     Nfi4Component, // Not Bad - Wrong
-    EsComponent, // Album - Emotional Signals
+    EsComponent, // ------------------------------ Album - Emotional Signals
     Es1Component, // we came in peace - trace zone
+    Es8Component, // Little Box - Universe
     Es9Component, // Shamanic Visions
     Es10Component, // Fun to Care
-    Es8Component, // Little Box - Universe
-    OtComponent, // Album - Only Tributes
+    OtComponent, // ------------------------------ Album - Only Tributes
     Ot5Component, // Lords - Egocentric Will
 //    WwccComponent,
 //    WwbcComponent,
