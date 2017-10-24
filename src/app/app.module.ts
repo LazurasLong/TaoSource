@@ -266,13 +266,14 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'human/paradox/new/world', component: Skd19Component },
   { path: 'terms/of/living/love/or/die', component: Skd20Component },
 // ######################################################################################################
-  { path: 'respect/spiritual/life', component: EtComponent }, // Eternal Delay
-  { path: 'organic/fields/all/energy/all/soul', component: Et1Component },
-  { path: 'remember/why/you/are/here', component: Et2Component },
-  { path: 'show/us/some/respect/warining', component: Et3Component },
-  { path: 'human/test/sent', component: Et4Component },
-  { path: 'flow/into/darkness/feels/like/water', component: Et5Component },
-  { path: 'light/interception/sensitive/and/obscure', component: Et6Component },
+  { path: 'eternal/delay', component: EtComponent }, // Eternal Delay
+  { path: 'respect/spiritual/life', component: Et1Component },
+  { path: 'organic/fields/all/energy/all/soul', component: Et2Component },
+  { path: 'remember/why/you/are/here', component: Et3Component },
+  { path: 'show/us/some/respect/warining', component: Et4Component },
+  { path: 'human/test/sent', component: Et5Component },
+  { path: 'flow/into/darkness/feels/like/water', component: Et6Component },
+  { path: 'light/interception/sensitive/and/obscure', component: Et7Component },
   { path: 'you/dont/believe/in/what/you/say', component: Et8Component },
   { path: 'wait/madness/is/no/good', component: Et9Component },
   { path: 'welcome/to/yourself/i/am/your/conscience', component: Et10Component },
