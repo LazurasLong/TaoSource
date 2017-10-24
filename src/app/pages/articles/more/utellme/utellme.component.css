@@ -1,7 +1,6 @@
 #textbox {
     text-align: center;
     font-size: 250%;
-    margin: -1.5%;
     color: greenyellow;
 }
 
@@ -9,7 +8,8 @@
 background: url("/assets/images/wukong.jpg") no-repeat center;
 position: relative;
 background-size: cover;
+margin-top: -1.5%;
+margin-bottom: -12%;
 padding: 0;
-margin-top:0;
+color: white;
 }
-
