@@ -15,6 +15,7 @@ import { ChangeComponent } from './pages/tributes/change/change.component'; // S
 import { CatComponent } from './pages/bandcamp/boom/cat/cat.component'; // Yin Yang Cat Boom Tribute
 // ###################################################################################################### Soundcloud
 import { SoundcloudComponent } from './pages/soundcloud/soundcloud.component'; // Sounds Cloud
+import { BusinessComponent } from './pages/soundcloud/magic/fantasy/business/business.component';
 import { BringyoufireComponent } from './pages/soundcloud/magic/fantasy/bringyoufire/bringyoufire.component'; // Bring You Fire
 import { ThreeComponent } from './pages/articles/more/utellme/three/three.component'; // 3 - You Tell Me
 import { AbsoluteComponent} from './pages/articles/more/utellme/absolute/absolute.component'; // Absolute
@@ -189,7 +190,8 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'data/objects/and/functions', component: DataComponent }, // Data
 // ######################################################################################################
 //  { path: 'soundcloud', component: SoundcloudComponent }, // SoundCloud
-  {path: 'boom/cat', component: CatComponent }, // Black Cat & White Cat
+  { path: 'lets/make/business', component: BusinessComponent },
+  { path: 'boom/cat', component: CatComponent }, // Black Cat & White Cat
   { path: 'three/you/tell/me', component: ThreeComponent }, // 3 You tell Me!
   { path: 'absolute/everything/and/everyone', component: AbsoluteComponent }, // Absolute
   { path: 'fire', component: BringyoufireComponent }, // Bring You Fire
@@ -217,7 +219,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'shake/my/snakes', component: Vot10Component }, // track 10
   { path: 'we/are/the/ones', component: Vot11Component }, // track 11
 // ######################################################################################################
-  { path: 'machine/world', component: MwComponent },// Machine World Album and Tracks
+  { path: 'machine/world', component: MwComponent }, // Machine World Album and Tracks
   { path: 'storming/plan/enigmatic/war', component: Mw1Component },
   { path: 'pain/art/illusion/and/expression', component: Mw2Component },
   { path: 'control/free/to/ask', component: Mw3Component }, // Control - Free to Ask
@@ -354,6 +356,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
 //    LoginComponent,
 // ######################################################################################################
     SoundcloudComponent, // Soundcloud
+    BusinessComponent,
     MixcloudComponent, // Mixcloud
     ChangeComponent, // Tribute to Severn Cullis Suzuki
     CatComponent, // Yin Yang Tao Tribute - Boom Festival Shamanism - 2016
