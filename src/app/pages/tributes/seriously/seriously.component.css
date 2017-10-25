@@ -1,0 +1,11 @@
+
+#banner {
+    background: url("/assets/images/ser.png") no-repeat center center fixed;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    color: white;
+  }

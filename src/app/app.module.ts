@@ -13,6 +13,7 @@ import { WhoComponent } from './pages/who/who.component'; // Who We Are
 // ###################################################################################################### Political Tributes
 import { ChangeComponent } from './pages/tributes/change/change.component'; // Severn Cullis Suzuki 
 import { CatComponent } from './pages/bandcamp/boom/cat/cat.component'; // Yin Yang Cat Boom Tribute
+import { SeriouslyComponent } from './pages/tributes/seriously/seriously.component';
 // ###################################################################################################### Soundcloud
 import { SoundcloudComponent } from './pages/soundcloud/soundcloud.component'; // Sounds Cloud
 import { BusinessComponent } from './pages/soundcloud/magic/fantasy/business/business.component';
@@ -191,6 +192,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
 // ######################################################################################################
 //  { path: 'soundcloud', component: SoundcloudComponent }, // SoundCloud
   { path: 'lets/make/business', component: BusinessComponent },
+  { path: 'dont/take/us/seriously/we/are/having/fun', component: SeriouslyComponent },
   { path: 'boom/cat', component: CatComponent }, // Black Cat & White Cat
   { path: 'three/you/tell/me', component: ThreeComponent }, // 3 You tell Me!
   { path: 'absolute/everything/and/everyone', component: AbsoluteComponent }, // Absolute
@@ -357,7 +359,9 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
 // ######################################################################################################
     SoundcloudComponent, // Soundcloud
     BusinessComponent,
+// ######################################################################################################
     MixcloudComponent, // Mixcloud
+    SeriouslyComponent,
     ChangeComponent, // Tribute to Severn Cullis Suzuki
     CatComponent, // Yin Yang Tao Tribute - Boom Festival Shamanism - 2016
     RfyinComponent, // Ring of Fire (Yin)
