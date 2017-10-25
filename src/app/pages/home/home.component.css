@@ -9,8 +9,11 @@ a {
 }
 
 #banner {
-    background: url("/assets/images/shadows.jpg") no-repeat center;
+    background: url("/assets/images/shadows.jpg") no-repeat center center fixed;
     position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     padding: 0;
     color: white;
