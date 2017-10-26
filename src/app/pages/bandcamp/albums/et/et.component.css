@@ -1,13 +1,30 @@
 .container {
-    margin: 0;
+    height: 100%;
+    /* Set up proportionate scaling */
+    min-width: 100%;
+    min-height: 100%;
+    /* Set up positioning */
+    position: relative;
 }
 
 .row {
-    margin: 2;
-}
+    height: 100%;
+    /* Set up proportionate scaling */
+    min-width: 100%;
+    min-height: 100%;
+    /* Set up positioning */
+    position: relative;
+
+    }
 
 .text-box {
-    margin-top: -1.5%;
-    width: 700px;
+    height: 100%;
+    /* Set up proportionate scaling */
+    min-width: 100%;
+    min-height: 100%;
+    /* Set up positioning */
+    position: relative;
+    top: 1.5%;
+    left: 0;
     text-align: justify;
-}
+    }
