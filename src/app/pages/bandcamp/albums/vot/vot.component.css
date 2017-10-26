@@ -1,3 +1,13 @@
+.container {
+    margin: 0;
+}
+
+.row {
+    margin: 2;
+}
+
 .text-box {
+    margin-top: -1.5%;
+    width: 700px;
     text-align: justify;
 }

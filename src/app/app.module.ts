@@ -73,19 +73,19 @@ import { Mw9Component } from './pages/bandcamp/albums/mw/tracks/mw9/mw9.componen
 import { Mw10Component } from './pages/bandcamp/albums/mw/tracks/mw10/mw10.component'; // Control - Free to Ask
 // ######################################################################################################
 import { StComponent } from './pages/bandcamp/albums/st/st.component'; // Space Trip - Album and Tracks
-import { St1Component } from './pages/bandcamp/albums/st/tracks/st1/st1.component'; // ID - 666
-import { St2Component } from './pages/bandcamp/albums/st/tracks/st2/st2.component'; // ID - 666
-import { St3Component } from './pages/bandcamp/albums/st/tracks/st3/st3.component'; // ID - 666
-import { St4Component } from './pages/bandcamp/albums/st/tracks/st4/st4.component'; // ID - 666
-import { St5Component } from './pages/bandcamp/albums/st/tracks/st5/st5.component'; // ID - 666
-import { St6Component } from './pages/bandcamp/albums/st/tracks/st6/st6.component'; // ID - 666
-import { St7Component } from './pages/bandcamp/albums/st/tracks/st7/st7.component'; // ID - 666
-import { St8Component } from './pages/bandcamp/albums/st/tracks/st8/st8.component'; // ID - 666
-import { St9Component } from './pages/bandcamp/albums/st/tracks/st9/st9.component'; // ID - 666
-import { St10Component } from './pages/bandcamp/albums/st/tracks/st10/st10.component'; // ID - 666
-import { St11Component } from './pages/bandcamp/albums/st/tracks/st11/st11.component'; // ID - 666
-import { St12Component } from './pages/bandcamp/albums/st/tracks/st12/st12.component'; // ID - 666
-import { St13Component } from './pages/bandcamp/albums/st/tracks/st13/st13.component'; // ID - 666
+import { St1Component } from './pages/bandcamp/albums/st/tracks/st1/st1.component'; // anomaly - disconnected function
+import { St2Component } from './pages/bandcamp/albums/st/tracks/st2/st2.component';
+import { St3Component } from './pages/bandcamp/albums/st/tracks/st3/st3.component';
+import { St4Component } from './pages/bandcamp/albums/st/tracks/st4/st4.component';
+import { St5Component } from './pages/bandcamp/albums/st/tracks/st5/st5.component';
+import { St6Component } from './pages/bandcamp/albums/st/tracks/st6/st6.component';
+import { St7Component } from './pages/bandcamp/albums/st/tracks/st7/st7.component';
+import { St8Component } from './pages/bandcamp/albums/st/tracks/st8/st8.component';
+import { St9Component } from './pages/bandcamp/albums/st/tracks/st9/st9.component';
+import { St10Component } from './pages/bandcamp/albums/st/tracks/st10/st10.component';
+import { St11Component } from './pages/bandcamp/albums/st/tracks/st11/st11.component';
+import { St12Component } from './pages/bandcamp/albums/st/tracks/st12/st12.component';
+import { St13Component } from './pages/bandcamp/albums/st/tracks/st13/st13.component';
 // ######################################################################################################
 import { SkdComponent } from './pages/bandcamp/albums/skd/skd.component';// Shiva and Kali Dance - Album and Tracks
 import { Skd1Component } from './pages/bandcamp/albums/skd/tracks/skd1/skd1.component';
@@ -167,6 +167,7 @@ import { Ot11Component} from './pages/bandcamp/albums/ot/tracks/ot11/ot11.compon
 // import { WwbcComponent } from './pages/articles/more/wwbc/wwbc.component';
 import { WhoweareComponent } from './pages/articles/more/whoweare/whoweare.component';
 import { UtellmeComponent } from './pages/articles/more/utellme/utellme.component';
+import { WaterbloodComponent } from './pages/articles/more/waterblood/waterblood.component';
 // import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
 
 
@@ -177,6 +178,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'about/me/and/you', component: WhoweareComponent },
   { path: 'license', component: LicenseComponent }, // Eternal License
 //  { path: 'articles', component: ArticlesComponent },
+  { path: 'water/vs/blood', component: WaterbloodComponent },
 // ######################################################################################################
 //  { path: 'mixcloud', component: MixcloudComponent }, // Mixcloud
   { path: 'we/must/change/our/ways', component: ChangeComponent }, // Tribute - Severn Cullis Suzuki
@@ -344,6 +346,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     HomeComponent,
     LicenseComponent,
     WhoComponent,
+    WaterbloodComponent,
     ArticlesComponent,
     WikiComponent,
     WhoweareComponent,
@@ -501,6 +504,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     Ot10Component,
     Ot10Component,
     Ot11Component,
+    WaterbloodComponent,
 //    WwccComponent,
 //    WwbcComponent,
 
