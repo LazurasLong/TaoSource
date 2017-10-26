@@ -5,3 +5,8 @@
     height: 100%;
     border: none;
 }
+
+a {
+    animation: none;
+    text-decoration: none;
+}
