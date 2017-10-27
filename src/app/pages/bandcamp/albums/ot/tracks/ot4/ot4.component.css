@@ -1,0 +1,14 @@
+
+#banner {
+    background: url("/assets/images/dragonfire.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    /* Set up proportionate scaling */
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: -1.3%;
+      
+    /* Set up positioning */
+    position: relative;
+    left: 0;
+    }
