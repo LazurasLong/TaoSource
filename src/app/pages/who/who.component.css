@@ -10,11 +10,10 @@ div {
     /* Set up proportionate scaling */
     min-width: 100%;
     min-height: 100%;
-    margin-top: -2.3%;
+    margin-top: -1.3%;
       
     /* Set up positioning */
     position: relative;
-    top: 1.5%;
     left: 0;
     }
   

@@ -1,4 +1,7 @@
 .text-box {
-    width: 94%; 
-    height: 150px;
+    text-align: justify;   
+}
+
+.container {
+    text-align: left;
 }
