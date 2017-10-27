@@ -164,10 +164,32 @@ import { Ot9Component} from './pages/bandcamp/albums/ot/tracks/ot9/ot9.component
 import { Ot10Component} from './pages/bandcamp/albums/ot/tracks/ot10/ot10.component'; // Lords - Egocentric Will
 import { Ot11Component} from './pages/bandcamp/albums/ot/tracks/ot11/ot11.component'; // Lords - Egocentric Will
 // import { WwccComponent } from './pages/articles/more/wwcc/wwcc.component';
-// import { WwbcComponent } from './pages/articles/more/wwbc/wwbc.component';
 import { WhoweareComponent } from './pages/articles/more/whoweare/whoweare.component';
 import { UtellmeComponent } from './pages/articles/more/utellme/utellme.component';
 import { WaterbloodComponent } from './pages/articles/more/waterblood/waterblood.component';
+// import { WwbcComponent } from './pages/articles/more/wwbc/wwbc.component';
+import { PathshieldsComponent } from './pages/articles/more/pathshields/pathshields.component';
+import { BecauseweloveComponent } from './pages/soundcloud/path/shields/becausewelove/becausewelove.component';
+import { DarkwarriorComponent } from './pages/soundcloud/path/shields/darkwarrior/darkwarrior.component';
+import { MoneynopowerComponent } from './pages/soundcloud/path/shields/moneynopower/moneynopower.component';
+import { ExpressionNatureComponent } from './pages/soundcloud/path/shields/expression-nature/expression-nature.component';
+import { HipnoticDanceComponent } from './pages/soundcloud/path/shields/hipnotic-dance/hipnotic-dance.component';
+import { FirstMinutesComponent } from './pages/soundcloud/path/shields/first-minutes/first-minutes.component';
+import { SheNeedHeCreateComponent } from './pages/soundcloud/path/shields/she-need-he-create/she-need-he-create.component';
+import { IlusionMythComponent } from './pages/soundcloud/path/shields/ilusion-myth/ilusion-myth.component';
+import { DeepThoughtsComponent } from './pages/soundcloud/path/shields/deep-thoughts/deep-thoughts.component';
+import { DoDComponent } from './pages/soundcloud/path/shields/do-d/do-d.component';
+import { AgainstTheGreedComponent } from './pages/soundcloud/path/shields/against-the-greed/against-the-greed.component';
+import { DigitalPerspectiveComponent } from './pages/soundcloud/path/shields/digital-perspective/digital-perspective.component';
+import { SixtyNineComponent } from './pages/soundcloud/path/shields/sixty-nine/sixty-nine.component';
+import { ICanFeelComponent } from './pages/soundcloud/path/shields/ican-feel/ican-feel.component';
+import { UnionPointComponent } from './pages/soundcloud/path/shields/union-point/union-point.component';
+import { WeAreToolsComponent } from './pages/soundcloud/path/shields/we-are-tools/we-are-tools.component';
+import { EternalMastersComponent } from './pages/soundcloud/path/shields/eternal-masters/eternal-masters.component';
+import { WorstMusicComponent } from './pages/soundcloud/path/shields/worst-music/worst-music.component';
+import { UniverseComponent } from './pages/soundcloud/path/shields/universe/universe.component';
+import { BoobooComponent } from './pages/soundcloud/path/shields/booboo/booboo.component';
+import { DoItComponent } from './pages/soundcloud/path/shields/do-it/do-it.component';
 // import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
 
 
@@ -179,6 +201,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'license', component: LicenseComponent }, // Eternal License
 //  { path: 'articles', component: ArticlesComponent },
   { path: 'water/vs/blood', component: WaterbloodComponent },
+  { path: 'path/of/shields', component: PathshieldsComponent },
 // ######################################################################################################
 //  { path: 'mixcloud', component: MixcloudComponent }, // Mixcloud
   { path: 'we/must/change/our/ways', component: ChangeComponent }, // Tribute - Severn Cullis Suzuki
@@ -203,6 +226,27 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'sun/wukong/the/monkey/king', component: MonkingComponent }, // Sun Wukong
   { path: 'possession/of/will', component: WillpowerComponent }, // the Possession of Will
   { path: 'fire/in/my/eyes/metal/in/my/soul', component: MetalsoulComponent },
+  { path: 'because/we/love', component: BecauseweloveComponent },
+  { path: 'dark/warrior', component: DarkwarriorComponent },
+  { path: 'money/is/no/power', component: MoneynopowerComponent },
+  { path: 'expression/nature', component: ExpressionNatureComponent },
+  { path: 'hipnotic/dance', component: HipnoticDanceComponent },
+  { path: 'the/first/three/minutes', component: FirstMinutesComponent },
+  { path: 'she/need/he/create', component: SheNeedHeCreateComponent }, 
+  { path: 'myth/illusions/memories', component: IlusionMythComponent }, 
+  { path: 'deep/thoughts', component: DeepThoughtsComponent },
+  { path: 'd/o/d', component: DoDComponent },
+  { path: 'against/the/greed', component: AgainstTheGreedComponent },
+  { path: 'digital/perspective', component: DigitalPerspectiveComponent },
+  { path: 'sixty/nine', component: SixtyNineComponent },
+  { path: 'i/can/feel/i/have/a/body', component: ICanFeelComponent },
+  { path: 'we/are/tools/objects/of/expression', component: WeAreToolsComponent },
+  { path: 'eternal/masters/of/my/heart', component: EternalMastersComponent },
+  { path: 'not/the/worst/music/in/the/world', component: WorstMusicComponent },
+  { path: 'feel/the/night/feel/the/universe', component: UniverseComponent },
+  { path: 'union/point/synchrozined', component: UnionPointComponent },
+  { path: 'boo/the/condition/of/illusion', component:  BoobooComponent },
+  { path: 'lets/do/it', component: DoItComponent },
 // ######################################################################################################
 // ######################################################################################################
 // ######################################################################################################
@@ -357,6 +401,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     IdeaComponent,
     ChallengeComponent,
     PathComponent,
+    PathshieldsComponent,
 //    PrivacyComponent
 //    LoginComponent,
 // ######################################################################################################
@@ -505,6 +550,28 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     Ot10Component,
     Ot11Component,
     WaterbloodComponent,
+    PathshieldsComponent,
+    BecauseweloveComponent,
+    DarkwarriorComponent,
+    MoneynopowerComponent,
+    ExpressionNatureComponent,
+    HipnoticDanceComponent,
+    FirstMinutesComponent,
+    SheNeedHeCreateComponent,
+    IlusionMythComponent,
+    DeepThoughtsComponent,
+    DoDComponent,
+    AgainstTheGreedComponent,
+    DigitalPerspectiveComponent,
+    SixtyNineComponent,
+    ICanFeelComponent,
+    UnionPointComponent,
+    WeAreToolsComponent,
+    EternalMastersComponent,
+    WorstMusicComponent,
+    UniverseComponent,
+    BoobooComponent,
+    DoItComponent,
 //    WwccComponent,
 //    WwbcComponent,
 
