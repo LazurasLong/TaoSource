@@ -14,8 +14,7 @@
     min-height: 100%;
     /* Set up positioning */
     position: relative;
-
-    }
+}
 
 .text-box {
     height: 100%;
@@ -27,4 +26,5 @@
     top: 1.5%;
     left: 0;
     text-align: justify;
-    }
+    font-size: 150%;
+}

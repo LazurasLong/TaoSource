@@ -190,6 +190,10 @@ import { WorstMusicComponent } from './pages/soundcloud/path/shields/worst-music
 import { UniverseComponent } from './pages/soundcloud/path/shields/universe/universe.component';
 import { BoobooComponent } from './pages/soundcloud/path/shields/booboo/booboo.component';
 import { DoItComponent } from './pages/soundcloud/path/shields/do-it/do-it.component';
+import { MysonComponent } from './pages/bandcamp/albums/vot/myson/myson.component';
+import { ShivaKaliDanceImageComponent } from './pages/bandcamp/albums/skd/shiva-kali-dance-image/shiva-kali-dance-image.component';
+import { WaterBloodComponent } from './pages/soundcloud/magic/fantasy/water-blood/water-blood.component';
+import { WaterBloodImageComponent } from './pages/soundcloud/magic/fantasy/water-blood-image/water-blood-image.component';
 // import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
 
 
@@ -200,7 +204,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'about/me/and/you', component: WhoweareComponent },
   { path: 'license', component: LicenseComponent }, // Eternal License
 //  { path: 'articles', component: ArticlesComponent },
-  { path: 'water/vs/blood', component: WaterbloodComponent },
+//  { path: 'water/vs/blood', component: WaterbloodComponent },
   { path: 'path/of/shields', component: PathshieldsComponent },
 // ######################################################################################################
 //  { path: 'mixcloud', component: MixcloudComponent }, // Mixcloud
@@ -217,6 +221,8 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
 // ######################################################################################################
 //  { path: 'soundcloud', component: SoundcloudComponent }, // SoundCloud
   { path: 'lets/make/business', component: BusinessComponent },
+//  { path: 'water/blood', component: WaterBloodComponent },
+  { path: 'water/blood/path', component: WaterBloodImageComponent }, 
   { path: 'dont/take/us/seriously/we/are/having/fun', component: SeriouslyComponent },
   { path: 'boom/cat', component: CatComponent }, // Black Cat & White Cat
   { path: 'three/you/tell/me', component: ThreeComponent }, // 3 You tell Me!
@@ -255,6 +261,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
 // ######################################################################################################
 // ######################################################################################################
   { path: 'visions/of/thor', component: VotComponent }, // Visions of Thor Album and Tracks
+  { path: 'my/son', component: MysonComponent },
   { path: 'emerge/internal/upgrade', component: Vot1Component }, // Emerge
   { path: 'water/horses/woman/free', component: Vot2Component }, // Water Horses - Woman Free
   { path: 'pain/vs/love', component: Vot3Component }, // Pain vs Love
@@ -294,6 +301,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'running/out/of/time/no/turning/back', component: St12Component },
   { path: 'pagan/cult/to/the/sun', component: St13Component },
 // ######################################################################################################
+  { path: 'shiva/kali', component: ShivaKaliDanceImageComponent }, 
   { path: 'shiva/and/kali/dance', component: SkdComponent }, // Shiva and Kali Dance 
   { path: 'discipline/no/escape', component: Skd1Component }, // Shiva and Kali Dance 
   { path: 'hard/work/deep/concentration', component: Skd2Component },
@@ -572,6 +580,10 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     UniverseComponent,
     BoobooComponent,
     DoItComponent,
+    MysonComponent,
+    ShivaKaliDanceImageComponent,
+    WaterBloodComponent,
+    WaterBloodImageComponent,
 //    WwccComponent,
 //    WwbcComponent,
 
