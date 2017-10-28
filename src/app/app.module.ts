@@ -12,7 +12,7 @@ import { LicenseComponent } from './pages/license/license.component'; // Eternal
 import { WhoComponent } from './pages/who/who.component'; // Who We Are
 // ###################################################################################################### Political Tributes
 import { ChangeComponent } from './pages/tributes/change/change.component'; // Severn Cullis Suzuki 
-import { CatComponent } from './pages/bandcamp/boom/cat/cat.component'; // Yin Yang Cat Boom Tribute
+import { CatComponent } from './pages/soundcloud/boom/cat/cat.component'; // Yin Yang Cat Boom Tribute
 import { SeriouslyComponent } from './pages/tributes/seriously/seriously.component';
 // ###################################################################################################### Soundcloud
 import { SoundcloudComponent } from './pages/soundcloud/soundcloud.component'; // Sounds Cloud
@@ -192,8 +192,8 @@ import { BoobooComponent } from './pages/soundcloud/path/shields/booboo/booboo.c
 import { DoItComponent } from './pages/soundcloud/path/shields/do-it/do-it.component';
 import { MysonComponent } from './pages/bandcamp/albums/vot/myson/myson.component';
 import { ShivaKaliDanceImageComponent } from './pages/bandcamp/albums/skd/shiva-kali-dance-image/shiva-kali-dance-image.component';
-import { WaterBloodComponent } from './pages/soundcloud/magic/fantasy/water-blood/water-blood.component';
 import { WaterBloodImageComponent } from './pages/soundcloud/magic/fantasy/water-blood-image/water-blood-image.component';
+import { MysticPortalWeAreOneComponent } from './pages/soundcloud/boom/mystic-portal-we-are-one/mystic-portal-we-are-one.component';
 // import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
 
 
@@ -225,6 +225,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'water/blood/path', component: WaterBloodImageComponent }, 
   { path: 'dont/take/us/seriously/we/are/having/fun', component: SeriouslyComponent },
   { path: 'boom/cat', component: CatComponent }, // Black Cat & White Cat
+  { path: 'mystic/portal/we/are/one', component: MysticPortalWeAreOneComponent },
   { path: 'three/you/tell/me', component: ThreeComponent }, // 3 You tell Me!
   { path: 'absolute/everything/and/everyone', component: AbsoluteComponent }, // Absolute
   { path: 'fire', component: BringyoufireComponent }, // Bring You Fire
@@ -582,8 +583,8 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     DoItComponent,
     MysonComponent,
     ShivaKaliDanceImageComponent,
-    WaterBloodComponent,
     WaterBloodImageComponent,
+    MysticPortalWeAreOneComponent,
 //    WwccComponent,
 //    WwbcComponent,
 

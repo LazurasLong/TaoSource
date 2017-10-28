@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { WaterBloodComponent } from './water-blood.component';
+import { MysticPortalWeAreOneComponent } from './mystic-portal-we-are-one.component';
 
-describe('WaterBloodComponent', () => {
-  let component: WaterBloodComponent;
-  let fixture: ComponentFixture<WaterBloodComponent>;
+describe('MysticPortalWeAreOneComponent', () => {
+  let component: MysticPortalWeAreOneComponent;
+  let fixture: ComponentFixture<MysticPortalWeAreOneComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ WaterBloodComponent ]
+      declarations: [ MysticPortalWeAreOneComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(WaterBloodComponent);
+    fixture = TestBed.createComponent(MysticPortalWeAreOneComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
