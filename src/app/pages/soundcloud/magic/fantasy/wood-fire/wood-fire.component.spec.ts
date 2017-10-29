@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { WwbcComponent } from './wwbc.component';
+import { WoodFireComponent } from './wood-fire.component';
 
-describe('WwbcComponent', () => {
-  let component: WwbcComponent;
-  let fixture: ComponentFixture<WwbcComponent>;
+describe('WoodFireComponent', () => {
+  let component: WoodFireComponent;
+  let fixture: ComponentFixture<WoodFireComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ WwbcComponent ]
+      declarations: [ WoodFireComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(WwbcComponent);
+    fixture = TestBed.createComponent(WoodFireComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

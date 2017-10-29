@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { WwccComponent } from './wwcc.component';
+import { TaurosComponent } from './tauros.component';
 
-describe('WwccComponent', () => {
-  let component: WwccComponent;
-  let fixture: ComponentFixture<WwccComponent>;
+describe('TaurosComponent', () => {
+  let component: TaurosComponent;
+  let fixture: ComponentFixture<TaurosComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ WwccComponent ]
+      declarations: [ TaurosComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(WwccComponent);
+    fixture = TestBed.createComponent(TaurosComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

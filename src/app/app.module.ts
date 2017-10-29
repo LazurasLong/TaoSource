@@ -163,11 +163,9 @@ import { Ot8Component} from './pages/bandcamp/albums/ot/tracks/ot8/ot8.component
 import { Ot9Component} from './pages/bandcamp/albums/ot/tracks/ot9/ot9.component'; // Lords - Egocentric Will
 import { Ot10Component} from './pages/bandcamp/albums/ot/tracks/ot10/ot10.component'; // Lords - Egocentric Will
 import { Ot11Component} from './pages/bandcamp/albums/ot/tracks/ot11/ot11.component'; // Lords - Egocentric Will
-// import { WwccComponent } from './pages/articles/more/wwcc/wwcc.component';
 import { WhoweareComponent } from './pages/articles/more/whoweare/whoweare.component';
 import { UtellmeComponent } from './pages/articles/more/utellme/utellme.component';
 import { WaterbloodComponent } from './pages/articles/more/waterblood/waterblood.component';
-// import { WwbcComponent } from './pages/articles/more/wwbc/wwbc.component';
 import { PathshieldsComponent } from './pages/articles/more/pathshields/pathshields.component';
 import { BecauseweloveComponent } from './pages/soundcloud/path/shields/becausewelove/becausewelove.component';
 import { DarkwarriorComponent } from './pages/soundcloud/path/shields/darkwarrior/darkwarrior.component';
@@ -193,10 +191,10 @@ import { DoItComponent } from './pages/soundcloud/path/shields/do-it/do-it.compo
 import { MysonComponent } from './pages/bandcamp/albums/vot/myson/myson.component';
 import { ShivaKaliDanceImageComponent } from './pages/bandcamp/albums/skd/shiva-kali-dance-image/shiva-kali-dance-image.component';
 import { WaterBloodImageComponent } from './pages/soundcloud/magic/fantasy/water-blood-image/water-blood-image.component';
-import { MysticPortalWeAreOneComponent } from './pages/soundcloud/boom/mystic-portal-we-are-one/mystic-portal-we-are-one.component';
 import { OscarFmComponent } from './pages/mystic/oscar-fm/oscar-fm.component';
-// import { MysticCompatibilityComponent } from './pages/mixcloud/tao/mystic-compatibility/mystic-compatibility.component';
 import { MysticPortalComponent } from './pages/mystic/oscar-fm/mystic-portal/mystic-portal.component';
+import { TaurosComponent } from './pages/bandcamp/albums/nfi/tauros/tauros.component';
+import { WoodFireComponent } from './pages/soundcloud/magic/fantasy/wood-fire/wood-fire.component';
 // import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
 
 
@@ -205,9 +203,9 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'home', component: HomeComponent },
   { path: 'who', component: WhoComponent },
   { path: 'oscar/fm', component: OscarFmComponent },
-  { path: 'mystic/portal/we/are/one', component: MysticPortalWeAreOneComponent},
-//  { path: 'mystic/compatibility', component: MysticCompatibilityComponent },
+  { path: 'tauros', component: TaurosComponent },
   { path: 'about/me/and/you', component: WhoweareComponent },
+  { path: 'you/are/the/wood/i/am/the/fire', component: WoodFireComponent },
   { path: 'license', component: LicenseComponent }, // Eternal License
 //  { path: 'articles', component: ArticlesComponent },
 //  { path: 'water/vs/blood', component: WaterbloodComponent },
@@ -385,8 +383,6 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'devil/spell/me/and/you', component: Ot9Component }, // Lords - Egocentric Will
   { path: 'vital/manipulation/become/mad', component: Ot10Component }, // Lords - Egocentric Will
   { path: 'parallel/wish/the/mirror', component: Ot11Component }, // Lords - Egocentric Will
-//  { path: 'articles/wwcc', component: WwccComponent },
-//  { path: 'articles/wwbc', component: WwbcComponent },
   { path: 'tao', component: UtellmeComponent },
   { path: 'wiki', component: WikiComponent },
   { path: 'wiki/intro', component: IntroComponent },
@@ -590,12 +586,10 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     MysonComponent,
     ShivaKaliDanceImageComponent,
     WaterBloodImageComponent,
-    MysticPortalWeAreOneComponent,
     OscarFmComponent,
-//    MysticCompatibilityComponent,
     MysticPortalComponent,
-//    WwccComponent,
-//    WwbcComponent,
+    TaurosComponent,
+    WoodFireComponent,
 
   ],
   imports: [
