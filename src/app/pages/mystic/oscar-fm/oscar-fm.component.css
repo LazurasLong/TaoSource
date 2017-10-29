@@ -1,0 +1,20 @@
+container {
+    margin-top: -3.7%;
+    margin-left: 0;
+    background-color: black;
+}
+
+row {
+    margin-left: 0;
+    top: 0; 
+}
+row2 {
+    margin-top: 20%; 
+}
+.clearfix {
+    overflow: auto;
+}
+
+col-sm-4 {
+    text-align: justify;
+}

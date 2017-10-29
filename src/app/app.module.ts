@@ -194,6 +194,9 @@ import { MysonComponent } from './pages/bandcamp/albums/vot/myson/myson.componen
 import { ShivaKaliDanceImageComponent } from './pages/bandcamp/albums/skd/shiva-kali-dance-image/shiva-kali-dance-image.component';
 import { WaterBloodImageComponent } from './pages/soundcloud/magic/fantasy/water-blood-image/water-blood-image.component';
 import { MysticPortalWeAreOneComponent } from './pages/soundcloud/boom/mystic-portal-we-are-one/mystic-portal-we-are-one.component';
+import { OscarFmComponent } from './pages/mystic/oscar-fm/oscar-fm.component';
+// import { MysticCompatibilityComponent } from './pages/mixcloud/tao/mystic-compatibility/mystic-compatibility.component';
+import { MysticPortalComponent } from './pages/mystic/oscar-fm/mystic-portal/mystic-portal.component';
 // import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
 
 
@@ -201,6 +204,9 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: '', redirectTo: '/home', pathMatch: 'full'},
   { path: 'home', component: HomeComponent },
   { path: 'who', component: WhoComponent },
+  { path: 'oscar/fm', component: OscarFmComponent },
+  { path: 'mystic/portal/we/are/one', component: MysticPortalWeAreOneComponent},
+//  { path: 'mystic/compatibility', component: MysticCompatibilityComponent },
   { path: 'about/me/and/you', component: WhoweareComponent },
   { path: 'license', component: LicenseComponent }, // Eternal License
 //  { path: 'articles', component: ArticlesComponent },
@@ -225,7 +231,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'water/blood/path', component: WaterBloodImageComponent }, 
   { path: 'dont/take/us/seriously/we/are/having/fun', component: SeriouslyComponent },
   { path: 'boom/cat', component: CatComponent }, // Black Cat & White Cat
-  { path: 'mystic/portal/we/are/one', component: MysticPortalWeAreOneComponent },
+  { path: 'mystic/portal', component: MysticPortalComponent },
   { path: 'three/you/tell/me', component: ThreeComponent }, // 3 You tell Me!
   { path: 'absolute/everything/and/everyone', component: AbsoluteComponent }, // Absolute
   { path: 'fire', component: BringyoufireComponent }, // Bring You Fire
@@ -585,6 +591,9 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     ShivaKaliDanceImageComponent,
     WaterBloodImageComponent,
     MysticPortalWeAreOneComponent,
+    OscarFmComponent,
+//    MysticCompatibilityComponent,
+    MysticPortalComponent,
 //    WwccComponent,
 //    WwbcComponent,
 
