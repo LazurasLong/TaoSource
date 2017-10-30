@@ -1,12 +1,11 @@
 
 
 a {
-    animation: none;
     text-decoration: none;
 }
 
 .navbar {
-    position: fixed; /* Set the navbar to fixed position */
+    position: relative; /* Set the navbar to fixed position */
     bottom: 0; /* Position the navbar at the bottom of the page */
     width: 100%; /* Full width */
 }
@@ -16,6 +15,4 @@ a {
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
 }
-
