@@ -217,7 +217,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'ring/of/fire/yang', component: RfyangComponent }, // Tao Ring of Fire (Yang)
   { path: 'eternal/fance/of/love/tao', component: DramonkComponent }, // Dragon & Monkey ( Hope )
   { path: 'firebase/solar/plexus', component: SolplexComponent }, // Firebase (Solar Plexus)
-  { path: 'genius/monkey/style', component: MonkComponent }, // Monk (Black Gold)
+  { path: 'black/gold', component: MonkComponent }, // Monk (Black Gold)
   { path: 'real/time', component: RtComponent }, // Real Time Shamanic Quest
   { path: 'mission/world/wide/target', component: MissionComponent }, // World wide Target
   { path: 'last/warning/tao/touch', component: TaoComponent }, // Last Warning
