@@ -11,7 +11,7 @@ import { HomeComponent } from './pages/home/home.component'; // Visions
 import { LicenseComponent } from './pages/license/license.component'; // Eternal License
 import { WhoComponent } from './pages/who/who.component'; // Who We Are
 // ###################################################################################################### Political Tributes
-import { ChangeComponent } from './pages/tributes/change/change.component'; // Severn Cullis Suzuki 
+import { ChangeComponent } from './pages/tributes/change/change.component'; // Severn Cullis Suzuki
 import { CatComponent } from './pages/soundcloud/boom/cat/cat.component'; // Yin Yang Cat Boom Tribute
 import { SeriouslyComponent } from './pages/tributes/seriously/seriously.component';
 // ###################################################################################################### Soundcloud
@@ -144,7 +144,7 @@ import { Es4Component } from './pages/bandcamp/albums/es/tracks/es4/es4.componen
 import { Es5Component } from './pages/bandcamp/albums/es/tracks/es5/es5.component'; // We Came in Peace
 import { Es6Component } from './pages/bandcamp/albums/es/tracks/es6/es6.component'; // We Came in Peace
 import { Es7Component } from './pages/bandcamp/albums/es/tracks/es7/es7.component'; // We Came in Peace
-import { Es8Component } from './pages/bandcamp/albums/es/tracks/es8/es8.component'; // 
+import { Es8Component } from './pages/bandcamp/albums/es/tracks/es8/es8.component'; //
 import { Es9Component } from './pages/bandcamp/albums/es/tracks/es9/es9.component'; // shamanic Visions
 import { Es10Component } from './pages/bandcamp/albums/es/tracks/es10/es10.component'; // In Fun to Care
 import { Es11Component } from './pages/bandcamp/albums/es/tracks/es11/es11.component'; // We Came in Peace
@@ -195,6 +195,7 @@ import { OscarFmComponent } from './pages/mystic/oscar-fm/oscar-fm.component';
 import { MysticPortalComponent } from './pages/mystic/oscar-fm/mystic-portal/mystic-portal.component';
 import { TaurosComponent } from './pages/bandcamp/albums/nfi/tauros/tauros.component';
 import { WoodFireComponent } from './pages/soundcloud/magic/fantasy/wood-fire/wood-fire.component';
+import { FragmentsComponent } from './pages/soundcloud/boom/fragments/fragments.component';
 // import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
 
 
@@ -226,8 +227,9 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
 //  { path: 'soundcloud', component: SoundcloudComponent }, // SoundCloud
   { path: 'lets/make/business', component: BusinessComponent },
 //  { path: 'water/blood', component: WaterBloodComponent },
-  { path: 'water/blood/path', component: WaterBloodImageComponent }, 
+  { path: 'water/blood/path', component: WaterBloodImageComponent },
   { path: 'dont/take/us/seriously/we/are/having/fun', component: SeriouslyComponent },
+  { path: 'fragments/you/need/forgotten/past', component: FragmentsComponent },
   { path: 'boom/cat', component: CatComponent }, // Black Cat & White Cat
   { path: 'mystic/portal', component: MysticPortalComponent },
   { path: 'three/you/tell/me', component: ThreeComponent }, // 3 You tell Me!
@@ -243,8 +245,8 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'expression/nature', component: ExpressionNatureComponent },
   { path: 'hipnotic/dance', component: HipnoticDanceComponent },
   { path: 'the/first/three/minutes', component: FirstMinutesComponent },
-  { path: 'she/need/he/create', component: SheNeedHeCreateComponent }, 
-  { path: 'myth/illusions/memories', component: IlusionMythComponent }, 
+  { path: 'she/need/he/create', component: SheNeedHeCreateComponent },
+  { path: 'myth/illusions/memories', component: IlusionMythComponent },
   { path: 'deep/thoughts', component: DeepThoughtsComponent },
   { path: 'd/o/d', component: DoDComponent },
   { path: 'against/the/greed', component: AgainstTheGreedComponent },
@@ -306,9 +308,9 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'running/out/of/time/no/turning/back', component: St12Component },
   { path: 'pagan/cult/to/the/sun', component: St13Component },
 // ######################################################################################################
-  { path: 'shiva/kali', component: ShivaKaliDanceImageComponent }, 
-  { path: 'shiva/and/kali/dance', component: SkdComponent }, // Shiva and Kali Dance 
-  { path: 'discipline/no/escape', component: Skd1Component }, // Shiva and Kali Dance 
+  { path: 'shiva/kali', component: ShivaKaliDanceImageComponent },
+  { path: 'shiva/and/kali/dance', component: SkdComponent }, // Shiva and Kali Dance
+  { path: 'discipline/no/escape', component: Skd1Component }, // Shiva and Kali Dance
   { path: 'hard/work/deep/concentration', component: Skd2Component },
   { path: 'united/colors/of/skeleton/grow/your/skills', component: Skd3Component },
   { path: 'air/trip/fly/to/me', component: Skd4Component },
@@ -342,7 +344,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'welcome/to/yourself/i/am/your/conscience', component: Et10Component },
   { path: 'ladies/and/gentleman/move/on', component: Et11Component },
 // ######################################################################################################
-  { path: 'noise/frequency/impulse', component: NfiComponent }, // Noise Frequency Album 
+  { path: 'noise/frequency/impulse', component: NfiComponent }, // Noise Frequency Album
   { path: 'bass/drop/blend', component: Nfi1Component },
   { path: 'between/us/image/and/sound', component: Nfi2Component },
   { path: 'dimensional/party/bit/parity', component: Nfi3Component },
@@ -590,6 +592,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     MysticPortalComponent,
     TaurosComponent,
     WoodFireComponent,
+    FragmentsComponent,
 
   ],
   imports: [

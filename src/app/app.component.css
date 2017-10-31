@@ -8,11 +8,21 @@ a {
     position: relative; /* Set the navbar to fixed position */
     bottom: 0; /* Position the navbar at the bottom of the page */
     width: 100%; /* Full width */
+    height: 1%;
 }
 .navbar a {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+}
+
+.nav-tabs {
+  background-color: black;
+  padding: 2px;
+  text-align: left;
+}
+
+.tab {
+  background-color: blue;
 }
