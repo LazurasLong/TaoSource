@@ -18,8 +18,8 @@ import { SeriouslyComponent } from './pages/tributes/seriously/seriously.compone
 import { SoundcloudComponent } from './pages/soundcloud/soundcloud.component'; // Sounds Cloud
 import { BusinessComponent } from './pages/soundcloud/magic/fantasy/business/business.component';
 import { BringyoufireComponent } from './pages/soundcloud/magic/fantasy/bringyoufire/bringyoufire.component'; // Bring You Fire
-import { ThreeComponent } from './pages/articles/more/utellme/three/three.component'; // 3 - You Tell Me
-import { AbsoluteComponent} from './pages/articles/more/utellme/absolute/absolute.component'; // Absolute
+import { ThreeComponent } from './pages/soundcloud/path/shields/utellme/three/three.component'; // 3 - You Tell Me
+import { AbsoluteComponent} from './pages/soundcloud/path/shields/utellme/absolute/absolute.component'; // Absolute
 import { DragonComponent } from './pages/soundcloud/path/shields/dragon/dragon.component'; // The Dragon
 import { MonkingComponent } from './pages/soundcloud/magic/fantasy/monking/monking.component'; // Sun Wukong
 import { WillpowerComponent } from './pages/soundcloud/path/shields/willpower/willpower.component'; // The Possession of Will
@@ -36,7 +36,7 @@ import { MissionComponent } from './pages/mixcloud/tao/mission/mission.component
 import { TaoComponent } from './pages/mixcloud/tao/tao/tao.component'; // Last Warning
 import { DataComponent } from './pages/mixcloud/tao/data/data.component'; // Data
 // ######################################################################################################
-import { ArticlesComponent } from './pages/articles/articles.component';
+// import { ArticlesComponent } from './pages/articles/articles.component';
 // ######################################################################################################
 import { WikiComponent } from './pages/wiki/wiki.component';
 import { IntroComponent } from './pages/wiki/intro/intro.component';
@@ -163,10 +163,9 @@ import { Ot8Component} from './pages/bandcamp/albums/ot/tracks/ot8/ot8.component
 import { Ot9Component} from './pages/bandcamp/albums/ot/tracks/ot9/ot9.component'; // Lords - Egocentric Will
 import { Ot10Component} from './pages/bandcamp/albums/ot/tracks/ot10/ot10.component'; // Lords - Egocentric Will
 import { Ot11Component} from './pages/bandcamp/albums/ot/tracks/ot11/ot11.component'; // Lords - Egocentric Will
-import { WhoweareComponent } from './pages/articles/more/whoweare/whoweare.component';
-import { UtellmeComponent } from './pages/articles/more/utellme/utellme.component';
-import { WaterbloodComponent } from './pages/articles/more/waterblood/waterblood.component';
-import { PathshieldsComponent } from './pages/articles/more/pathshields/pathshields.component';
+import { WhoweareComponent } from './pages/who/whoweare/whoweare.component';
+import { UtellmeComponent } from './pages/soundcloud/path/shields/utellme/utellme.component';
+import { PathshieldsComponent } from './pages/soundcloud/path/shields/pathshields/pathshields.component';
 import { BecauseweloveComponent } from './pages/soundcloud/path/shields/becausewelove/becausewelove.component';
 import { DarkwarriorComponent } from './pages/soundcloud/path/shields/darkwarrior/darkwarrior.component';
 import { MoneynopowerComponent } from './pages/soundcloud/path/shields/moneynopower/moneynopower.component';
@@ -192,7 +191,7 @@ import { MysonComponent } from './pages/bandcamp/albums/vot/myson/myson.componen
 import { ShivaKaliDanceImageComponent } from './pages/bandcamp/albums/skd/shiva-kali-dance-image/shiva-kali-dance-image.component';
 import { WaterBloodImageComponent } from './pages/soundcloud/magic/fantasy/water-blood-image/water-blood-image.component';
 import { OscarFmComponent } from './pages/mystic/oscar-fm/oscar-fm.component';
-import { MysticPortalComponent } from './pages/mystic/oscar-fm/mystic-portal/mystic-portal.component';
+import { MysticPortalComponent } from './pages/soundcloud/boom/mystic-portal/mystic-portal.component';
 import { TaurosComponent } from './pages/bandcamp/albums/nfi/tauros/tauros.component';
 import { WoodFireComponent } from './pages/soundcloud/magic/fantasy/wood-fire/wood-fire.component';
 import { FragmentsComponent } from './pages/soundcloud/boom/fragments/fragments.component';
@@ -403,8 +402,6 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     HomeComponent,
     LicenseComponent,
     WhoComponent,
-    WaterbloodComponent,
-    ArticlesComponent,
     WikiComponent,
     WhoweareComponent,
     UtellmeComponent,
@@ -562,7 +559,6 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     Ot10Component,
     Ot10Component,
     Ot11Component,
-    WaterbloodComponent,
     PathshieldsComponent,
     BecauseweloveComponent,
     DarkwarriorComponent,
