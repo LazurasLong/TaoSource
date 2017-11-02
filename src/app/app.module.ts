@@ -195,6 +195,7 @@ import { MysticPortalComponent } from './pages/soundcloud/boom/mystic-portal/mys
 import { TaurosComponent } from './pages/bandcamp/albums/nfi/tauros/tauros.component';
 import { WoodFireComponent } from './pages/soundcloud/magic/fantasy/wood-fire/wood-fire.component';
 import { FragmentsComponent } from './pages/soundcloud/boom/fragments/fragments.component';
+import { SimplicityComponent } from './pages/soundcloud/signals/simplicity/simplicity.component';
 // import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
 
 
@@ -210,6 +211,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
 //  { path: 'articles', component: ArticlesComponent },
 //  { path: 'water/vs/blood', component: WaterbloodComponent },
   { path: 'path/of/shields', component: PathshieldsComponent },
+  { path: 'simplicity', component: SimplicityComponent },
 // ######################################################################################################
 //  { path: 'mixcloud', component: MixcloudComponent }, // Mixcloud
   { path: 'we/must/change/our/ways', component: ChangeComponent }, // Tribute - Severn Cullis Suzuki
@@ -589,6 +591,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     TaurosComponent,
     WoodFireComponent,
     FragmentsComponent,
+    SimplicityComponent,
 
   ],
   imports: [
