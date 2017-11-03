@@ -210,8 +210,8 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'license', component: LicenseComponent }, // Eternal License
 //  { path: 'articles', component: ArticlesComponent },
 //  { path: 'water/vs/blood', component: WaterbloodComponent },
-  { path: 'path/of/shields', component: PathshieldsComponent },
-  { path: 'simplicity', component: SimplicityComponent },
+  { path: 'path/of/shields', component: PathshieldsComponent }, // path of shields ( image )
+  { path: 'simplicity', component: SimplicityComponent }, // simplicity ( signals of time )
 // ######################################################################################################
 //  { path: 'mixcloud', component: MixcloudComponent }, // Mixcloud
   { path: 'we/must/change/our/ways', component: ChangeComponent }, // Tribute - Severn Cullis Suzuki
@@ -226,8 +226,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'data/objects/and/functions', component: DataComponent }, // Data
 // ######################################################################################################
 //  { path: 'soundcloud', component: SoundcloudComponent }, // SoundCloud
-  { path: 'lets/make/business', component: BusinessComponent },
-//  { path: 'water/blood', component: WaterBloodComponent },
+  { path: 'lets/make/business', component: BusinessComponent }, // lets make business ( magic of fantasy )
   { path: 'water/blood/path', component: WaterBloodImageComponent },
   { path: 'dont/take/us/seriously/we/are/having/fun', component: SeriouslyComponent },
   { path: 'fragments/you/need/forgotten/past', component: FragmentsComponent },
