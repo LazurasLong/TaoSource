@@ -1,19 +1,25 @@
 #textbox {
     text-align: center;
-    font-size: 250%;
     color: greenyellow;
 }
 
 #banner {
 background: url("/assets/images/wukong.jpg") no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
-    /* Set up proportionate scaling */
-    min-width: 100%;
-    min-height: 100%;
-    margin-top: 0%;
-      
-    /* Set up positioning */
-    position: relative;
-    left: 0;
-    }
+  background-size: cover;
+  height: 100%;
+  /* Set up proportionate scaling */
+  min-width: 100%;
+  min-height: 100%;
+  margin-top: 0%;
+
+  /* Set up positioning */
+  position: relative;
+  left: 0;
+  }
+
+  h4 {
+    color: greenyellow;
+  }
+#yellow {
+  color: greenyellow;
+}

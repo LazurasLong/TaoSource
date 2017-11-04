@@ -1,19 +1,25 @@
-div {
-    text-align: center;
-    font-size: 190%;
-}
 
 #banner {
-    background: url("/assets/images/pd.jpg") no-repeat center center fixed;
-    background-size: cover;
-    height: 100%;
-    /* Set up proportionate scaling */
-    min-width: 100%;
-    min-height: 100%;
-    margin-top: 0%;
-      
-    /* Set up positioning */
-    position: relative;
-    left: 0;
-    }
-  
+  background: url("/assets/images/pd.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  /* Set up proportionate scaling */
+  min-width: 100%;
+  min-height: 100%;
+  margin-top: 0;
+
+  /* Set up positioning */
+  position: relative;
+  left: 0;
+  }
+
+.text-box {
+    text-align: center;
+    font-size: 220%;
+}
+
+p {
+  margin-top: 5px;
+  padding-right: 2px;
+
+}
