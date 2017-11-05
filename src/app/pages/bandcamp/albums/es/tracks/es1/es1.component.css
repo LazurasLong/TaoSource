@@ -1,0 +1,16 @@
+.flex-container {
+  padding: 0;
+  margin-left: 2%;
+  list-style: none;
+  display: block;
+  align-items: left;
+  justify-content: center;
+}
+row {
+  width: 50%;
+}
+.flex-item {
+  padding: 5px;
+  text-align: left;
+}
+

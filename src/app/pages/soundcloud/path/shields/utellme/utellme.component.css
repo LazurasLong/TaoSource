@@ -6,7 +6,6 @@
 #banner {
 background: url("/assets/images/wukong.jpg") no-repeat center center fixed;
   background-size: cover;
-  height: 100%;
   /* Set up proportionate scaling */
   min-width: 100%;
   min-height: 100%;
@@ -22,4 +21,12 @@ background: url("/assets/images/wukong.jpg") no-repeat center center fixed;
   }
 #yellow {
   color: greenyellow;
+}
+
+img {
+  position: relative;
+}
+
+p {
+  font-size: 150%;
 }

@@ -196,6 +196,30 @@ import { TaurosComponent } from './pages/bandcamp/albums/nfi/tauros/tauros.compo
 import { WoodFireComponent } from './pages/soundcloud/magic/fantasy/wood-fire/wood-fire.component';
 import { FragmentsComponent } from './pages/soundcloud/boom/fragments/fragments.component';
 import { SimplicityComponent } from './pages/soundcloud/signals/simplicity/simplicity.component';
+import { DanceOfLoveComponent } from './pages/love/dance-of-love/dance-of-love.component';
+import { LetsTalkAboutLoveComponent } from './pages/mixcloud/tao/lets-talk-about-love/lets-talk-about-love.component';
+import { IAmMusicPerfectBombComponent } from './pages/mixcloud/tao/iam-music-perfect-bomb/iam-music-perfect-bomb.component';
+import { LetsMakeChangeWeAllNeedComponent } from './pages/mixcloud/tao/lets-make-change-we-all-need/lets-make-change-we-all-need.component';
+import { MagicTouchInTheShadowsComponent } from './pages/mixcloud/tao/magic-touch-in-the-shadows/magic-touch-in-the-shadows.component';
+import { OurTryNotOurChoiceComponent } from './pages/mixcloud/tao/our-try-not-our-choice/our-try-not-our-choice.component';
+import { OurEternalLicenseComponent } from './pages/mixcloud/tao/our-eternal-license/our-eternal-license.component';
+import { TheChallengeComponent } from './pages/mixcloud/tao/the-challenge/the-challenge.component';
+import { PrinceOfDarknessComponent } from './pages/mixcloud/tao/prince-of-darkness/prince-of-darkness.component';
+import { AreYouEvilComponent } from './pages/mixcloud/tao/are-you-evil/are-you-evil.component';
+import { IWantYouYouWantMeComponent } from './pages/mixcloud/tao/iwant-you-you-want-me/iwant-you-you-want-me.component';
+import { IWantYouSoBadComponent } from './pages/mixcloud/tao/iwant-you-so-bad/iwant-you-so-bad.component';
+import { DevelopingunKnownCodeComponent } from './pages/mixcloud/tao/developingun-known-code/developingun-known-code.component';
+import { IWantToShowYouSomethingComponent } from './pages/mixcloud/tao/i-want-to-show-you-something/i-want-to-show-you-something.component';
+import { ShareYourVisionsBeSymbolComponent } from './pages/mixcloud/tao/share-your-visions-be-symbol/share-your-visions-be-symbol.component';
+import { WeDontNeedSecurityButFunctionalityComponent } from './pages/mixcloud/tao/we-dont-need-security-but-functionality/we-dont-need-security-but-functionality.component';
+import { AllAboutUsComponent } from './pages/soundcloud/magic/fantasy/all-about-us/all-about-us.component';
+import { PsyJungleComponent } from './pages/mixcloud/tao/psy-jungle/psy-jungle.component';
+import { LetsDiveIntoTheWorldofJavaScriptComponent } from './pages/mixcloud/tao/lets-dive-into-the-worldof-java-script/lets-dive-into-the-worldof-java-script.component';
+import { TropicalIgnitionMasterComponent } from './pages/mixcloud/tao/tropical-ignition-master/tropical-ignition-master.component';
+import { WeWillSoonComponent } from './pages/mixcloud/tao/we-will-soon/we-will-soon.component';
+import { YouBlowMyMindComponent } from './pages/mixcloud/tao/you-blow-my-mind/you-blow-my-mind.component';
+import { MysticTheoriesCultComponent } from './pages/mixcloud/tao/mystic-theories-cult/mystic-theories-cult.component';
+import { CareUsAndWeWillCareYouComponent } from './pages/mixcloud/tao/care-us-and-we-will-care-you/care-us-and-we-will-care-you.component';
 // import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
 
 
@@ -215,11 +239,34 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
 // ######################################################################################################
 //  { path: 'mixcloud', component: MixcloudComponent }, // Mixcloud
   { path: 'we/must/change/our/ways', component: ChangeComponent }, // Tribute - Severn Cullis Suzuki
+  { path: 'lets/talk/about/love', component: LetsTalkAboutLoveComponent },
+  { path: 'our/try/not/our/choice', component: OurTryNotOurChoiceComponent },
+  { path: 'our/eternal/license', component: OurEternalLicenseComponent },
+  { path: 'the/challenge', component: TheChallengeComponent },
+  { path: 'are/you/evil', component: AreYouEvilComponent },
+  { path: 'share/your/visions/be/symbol/of/our/experience', component: ShareYourVisionsBeSymbolComponent },
+  { path: 'i/want/to/show/you/something', component: IWantToShowYouSomethingComponent },
+  { path: 'developing/unknown/code', component: DevelopingunKnownCodeComponent },
+  { path: 'prince/of/darkness', component: PrinceOfDarknessComponent },
+  { path: 'magic/touch/in/the/shadows', component: MagicTouchInTheShadowsComponent },
+  { path: 'lets/make/the/change/we/all/need', component: LetsMakeChangeWeAllNeedComponent },
+  { path: 'i/am/music/the/perfect/bomb', component: IAmMusicPerfectBombComponent },
+  { path: 'i/want/you/so/bad', component: IWantYouSoBadComponent },
+  { path: 'psy/jungle', component: PsyJungleComponent },
+  { path: 'you/blow/my/mind', component: YouBlowMyMindComponent },
+  { path: 'we/will/soon', component: WeWillSoonComponent },
+  { path: 'tropical/ignition/master', component: TropicalIgnitionMasterComponent },
+  { path: 'lets/dive/into/the/world/of/javascript', component: LetsDiveIntoTheWorldofJavaScriptComponent },
+  { path: 'it/is/all/about/us', component: AllAboutUsComponent },
+  { path: 'we/dont/need/security/but/functionality', component: WeDontNeedSecurityButFunctionalityComponent },
+  { path: 'i/want/you/you/want/me', component: IWantYouYouWantMeComponent },
   { path: 'ring/of/fire/yin', component: RfyinComponent }, // Tao Ring of Fire (Yin)
   { path: 'ring/of/fire/yang', component: RfyangComponent }, // Tao Ring of Fire (Yang)
   { path: 'eternal/fance/of/love/tao', component: DramonkComponent }, // Dragon & Monkey ( Hope )
   { path: 'firebase/solar/plexus', component: SolplexComponent }, // Firebase (Solar Plexus)
   { path: 'black/gold', component: MonkComponent }, // Monk (Black Gold)
+  { path: 'dance/of/love', component: DanceOfLoveComponent },
+  { path: 'care/us/and/we/will/care/you', component: CareUsAndWeWillCareYouComponent },
   { path: 'real/time', component: RtComponent }, // Real Time Shamanic Quest
   { path: 'mission/world/wide/target', component: MissionComponent }, // World wide Target
   { path: 'last/warning/tao/touch', component: TaoComponent }, // Last Warning
@@ -232,6 +279,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'fragments/you/need/forgotten/past', component: FragmentsComponent },
   { path: 'boom/cat', component: CatComponent }, // Black Cat & White Cat
   { path: 'mystic/portal', component: MysticPortalComponent },
+  { path: 'mystic/theories/cult/to/the/self/identification', component: MysticTheoriesCultComponent },
   { path: 'three/you/tell/me', component: ThreeComponent }, // 3 You tell Me!
   { path: 'absolute/everything/and/everyone', component: AbsoluteComponent }, // Absolute
   { path: 'fire', component: BringyoufireComponent }, // Bring You Fire
@@ -335,7 +383,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'respect/spiritual/life', component: Et1Component },
   { path: 'organic/fields/all/energy/all/soul', component: Et2Component },
   { path: 'remember/why/you/are/here', component: Et3Component },
-  { path: 'show/us/some/respect/warining', component: Et4Component },
+  { path: 'show/us/some/respect/warning', component: Et4Component },
   { path: 'human/test/sent', component: Et5Component },
   { path: 'flow/into/darkness/feels/like/water', component: Et6Component },
   { path: 'light/interception/sensitive/and/obscure', component: Et7Component },
@@ -591,6 +639,30 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     WoodFireComponent,
     FragmentsComponent,
     SimplicityComponent,
+    DanceOfLoveComponent,
+    LetsTalkAboutLoveComponent,
+    IAmMusicPerfectBombComponent,
+    LetsMakeChangeWeAllNeedComponent,
+    MagicTouchInTheShadowsComponent,
+    OurTryNotOurChoiceComponent,
+    OurEternalLicenseComponent,
+    TheChallengeComponent,
+    PrinceOfDarknessComponent,
+    AreYouEvilComponent,
+    IWantYouYouWantMeComponent,
+    IWantYouSoBadComponent,
+    DevelopingunKnownCodeComponent,
+    IWantToShowYouSomethingComponent,
+    ShareYourVisionsBeSymbolComponent,
+    WeDontNeedSecurityButFunctionalityComponent,
+    AllAboutUsComponent,
+    PsyJungleComponent,
+    LetsDiveIntoTheWorldofJavaScriptComponent,
+    TropicalIgnitionMasterComponent,
+    WeWillSoonComponent,
+    YouBlowMyMindComponent,
+    MysticTheoriesCultComponent,
+    CareUsAndWeWillCareYouComponent,
 
   ],
   imports: [
