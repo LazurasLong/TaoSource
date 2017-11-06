@@ -1,13 +1,5 @@
-th {
-    width: 1000%;
-    position: relative;
+
+#readme {
+    text-align: center;
 }
-table {
-    width: 100%;
-    height: 100%;
-}
-.readme {
-    width: 100%;
-    height: 50%;
-    margin-left: 2px;
-}
+

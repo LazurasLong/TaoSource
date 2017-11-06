@@ -1,0 +1,16 @@
+.container {
+  text-align: left;
+}
+
+.row {
+  text-align: left;
+}
+
+.col-sm-6 {
+  text-align: left;
+  min-width: 10%;
+}
+
+img {
+  margin-left: 5px;
+}
