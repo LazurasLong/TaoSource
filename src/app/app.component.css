@@ -6,9 +6,10 @@ a {
 
 .navbar {
     position: relative; /* Set the navbar to fixed position */
-    bottom: 0; /* Position the navbar at the bottom of the page */
-    width: 100%; /* Full width */
-    height: 1%;
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center
 }
 .navbar a {
     float: left;
@@ -25,4 +26,17 @@ a {
 
 .tab {
   background-color: blue;
+}
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+  }
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }

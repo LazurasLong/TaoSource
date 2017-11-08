@@ -1,5 +1,4 @@
 div {
-
     text-align: center;
     font-size: 130%;
 }
@@ -20,4 +19,9 @@ margin-top: 0;
 /* Set up positioning */
 position: relative;
 left: 0;
+}
+
+p{
+  padding: 3%;
+  padding-top: 2%;
 }
