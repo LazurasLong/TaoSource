@@ -1,9 +1,11 @@
-.text-box {
-  font-size: 130%;
-  text-align: justify;
+#main {
+  text-align: center;
+  margin-top: 5%;
 }
 
-text-box p {
-  padding: 3%;
-  padding-top: 2%;
+#text-box {
+  width: 59%;
+  margin-left: 25%;
+  text-align: justify;
+  font-size: 120%;
 }

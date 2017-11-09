@@ -1,23 +1,11 @@
-.container {
+#main {
+  text-align: center;
+  margin-top: 5%;
+}
 
-          /* Set up positioning */
-          position: relative;
-      }
-
-      .row {
-          height: 100%;
-          /* Set up proportionate scaling */
-          min-width: 100%;
-          min-height: 100%;
-          /* Set up positioning */
-          position: relative;
-      }
-
-      .text-box {
-          margin-left: 10px;
-          /* Set up positioning */
-          position: relative;
-          left: 0;
-          text-align: justify;
-          font-size: 150%;
-      }
+#text-box {
+  width: 59%;
+  margin-left: 25%;
+  text-align: justify;
+  font-size: 120%;
+}

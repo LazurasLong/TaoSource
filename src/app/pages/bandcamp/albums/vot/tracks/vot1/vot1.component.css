@@ -1,7 +1,10 @@
-.text-box {
-    text-align: justify;   
+#main {
+  text-align: center;
+  margin-top: 5%;
 }
 
-.container {
-    text-align: left;
+#text-box {
+  text-align: justify;
+  margin-left: 25%;
+  width: 50%;
 }
