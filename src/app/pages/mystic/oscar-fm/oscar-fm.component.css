@@ -1,19 +1,15 @@
-container {
-    margin-left: 0;
-    background-color: black;
-}
-
-row {
-    margin-left: 0;
-    top: 0;
-}
-row2 {
-    margin-top: 20%;
-}
-.clearfix {
-    overflow: auto;
-}
-
-col-sm-4 {
-    text-align: justify;
-}
+#main {
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  #text-box {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 120%;
+  }
+  
+  img {
+      text-align: center;
+  }

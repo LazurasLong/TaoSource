@@ -1,9 +1,5 @@
-th {
-    width: 100%;
-}
-table {
-    width: 100%;
-}
-.readme {
+#player {
     text-align: center;
-}
+    margin-top: 2%;
+  }
+  

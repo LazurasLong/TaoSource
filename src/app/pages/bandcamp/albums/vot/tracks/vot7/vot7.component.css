@@ -2,3 +2,8 @@
   text-align: center;
   margin-top: 5%;
 }
+
+#bt {
+  display: block;
+  font-size: 120%;
+}

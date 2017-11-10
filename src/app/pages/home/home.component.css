@@ -1,6 +1,6 @@
 div {
     text-align: center;
-    font-size: 130%;
+    font-size: 120%;
 }
 
 a {
@@ -22,6 +22,6 @@ left: 0;
 }
 
 p{
-  padding: 3%;
-  padding-top: 2%;
+  padding: 1%;
+  padding-top: 0.5%;
 }

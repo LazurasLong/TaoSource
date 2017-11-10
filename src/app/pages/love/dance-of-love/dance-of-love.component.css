@@ -1,6 +1,6 @@
 #box-text {
   text-align: center;
-  font-size: 150%;
+  font-size: 120%;
 }
 
 #box-text p {
@@ -9,5 +9,9 @@
 }
 
 #frame {
+  text-align: center;
+}
+
+#image {
   text-align: center;
 }

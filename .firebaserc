@@ -1,9 +1,5 @@
 {
   "projects": {
-    "default": "world-cleaner"
-  }
-}
-    "default": "world-cleaner",
-    "worldcleaner": "world-cleaner"
+    "staging": "world-cleaner"
   }
 }

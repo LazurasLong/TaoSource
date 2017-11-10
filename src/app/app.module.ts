@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, Provider } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { APP_BASE_HREF } from '@angular/common';
 import { RouterModule, Routes, Route, provideRoutes } from '@angular/router';
 import { HashLocationStrategy, Location, LocationStrategy } from '@angular/common';
 // import { RecaptchaModule } from 'ng-recaptcha';
@@ -220,11 +221,13 @@ import { WeWillSoonComponent } from './pages/mixcloud/tao/we-will-soon/we-will-s
 import { YouBlowMyMindComponent } from './pages/mixcloud/tao/you-blow-my-mind/you-blow-my-mind.component';
 import { MysticTheoriesCultComponent } from './pages/mixcloud/tao/mystic-theories-cult/mystic-theories-cult.component';
 import { CareUsAndWeWillCareYouComponent } from './pages/mixcloud/tao/care-us-and-we-will-care-you/care-us-and-we-will-care-you.component';
+import { ErrorComponent } from './pages/sys/error/error.component';
 // import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
 
 
 const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: '', redirectTo: '/home', pathMatch: 'full'},
+//  { path: '*', component: ErrorComponent },
   { path: 'home', component: HomeComponent },
   { path: 'who', component: WhoComponent },
   { path: 'oscar/fm', component: OscarFmComponent },
@@ -663,6 +666,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     YouBlowMyMindComponent,
     MysticTheoriesCultComponent,
     CareUsAndWeWillCareYouComponent,
+    ErrorComponent,
 
   ],
   imports: [

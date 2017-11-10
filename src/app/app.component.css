@@ -40,3 +40,7 @@ a {
   float: none;
   vertical-align: top;
 }
+
+#image {
+  text-align: center;
+}

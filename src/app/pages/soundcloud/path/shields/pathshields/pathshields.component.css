@@ -1,9 +1,3 @@
-.textbox {
-    text-align: center;
-    font-size: 250%;
-    color: greenyellow;
-}
-
 #banner {
     background: url("/assets/images/path.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -19,6 +13,7 @@
 
 #main {
     margin-left: 0%;
+    font-size: 200%;
     text-align: center;
     display: -webkit-flex; /* Safari */
     display: flex;
@@ -27,9 +22,9 @@
 #main div {
     text-align: center;
     font-size: 100%;
-    -webkit-columns: 210px 3; /* Chrome, Safari, Opera */
-    -moz-columns: 210px 3; /* Firefox */
-    columns: 140px 3;
+    -webkit-columns: 110px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 110px 3; /* Firefox */
+    columns: 120px 3;
     -webkit-flex: 1;  /* Safari 6.1+ */
     -ms-flex: 1;  /* IE 10 */
     flex: 1;

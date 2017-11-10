@@ -1,19 +1,4 @@
-th {
-    width: 50%;
-    position: relative;
-}
-table {
-    width: 100%;
-    margin-top: -1.3%;
-}
-.readme {
-    text-align: center;
-    width: 100;
-    height: 100%;
-    margin-top: -1.3%;
-}
-
-th2 {
-    width: 50%;
-    position: fixed;
+#player {
+text-align: center;
+margin-top: 2%;
 }

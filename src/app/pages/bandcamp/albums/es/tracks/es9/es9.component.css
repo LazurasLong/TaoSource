@@ -1,4 +1,10 @@
 #main {
   text-align: center;
-  margin-top: 5%;
+  margin-top: 2%;
+}
+#text-box {
+  width: 50%;
+  margin-left: 25%;
+  text-align: justify;
+  font-size: 120%;
 }
