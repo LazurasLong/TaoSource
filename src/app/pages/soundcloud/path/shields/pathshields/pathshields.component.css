@@ -7,13 +7,14 @@
     min-height: 100%;
 
     /* Set up positioning */
-    position: relative;
+    position: fixed;
     left: 0;
 }
 
 #main {
     margin-left: 0%;
-    font-size: 200%;
+    margin-top: 1%;
+    font-size: 150%;
     text-align: center;
     display: -webkit-flex; /* Safari */
     display: flex;
