@@ -13,12 +13,6 @@
 
 .readme {
     text-align: center;
-    margin-top: 25%;
-}
-
-button {
-    background-color: black;
-    color: lightgreen;
-    font-size: 18px;
-    padding:10px;
+    margin-top: 20%;
+    font-size: 150%;
 }
