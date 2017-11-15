@@ -1,11 +1,18 @@
 #main {
+  width: 100%;
+  min-width: 25%;
   text-align: center;
-  margin-top: 2%;
 }
 
 #text-box {
-  width: 40%;
-  margin-left: 30%;
+  widows: 95%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
   text-align: justify;
   font-size: 120%;
+}
+
+#sell {
+  text-align: center;
 }

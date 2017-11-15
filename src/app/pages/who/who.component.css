@@ -14,8 +14,10 @@
   }
 
 .text-box {
-    text-align: center;
-    font-size: 220%;
+  width: 100%;
+  min-width: 25%;
+  text-align: center;
+  font-size: 220%;
 }
 
 p {

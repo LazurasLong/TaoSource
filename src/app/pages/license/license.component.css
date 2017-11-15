@@ -7,8 +7,8 @@ p {
   text-align: center;
 }
 #text-box {
-  width: 45%;
-  margin-left: 27%;
+  width: 100%;
+  min-width: 25%;
   text-align: center;
   font-size: 120%;
 }
