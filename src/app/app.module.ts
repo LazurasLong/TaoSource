@@ -16,7 +16,7 @@ import { ChangeComponent } from './pages/tributes/change/change.component'; // S
 import { CatComponent } from './pages/soundcloud/boom/cat/cat.component'; // Yin Yang Cat Boom Tribute
 import { SeriouslyComponent } from './pages/tributes/seriously/seriously.component';
 // ###################################################################################################### Soundcloud
-import { SoundcloudComponent } from './pages/soundcloud/soundcloud.component'; // Sounds Cloud
+// import { SoundcloudComponent } from './pages/soundcloud/soundcloud.component'; // Sounds Cloud
 import { BusinessComponent } from './pages/soundcloud/magic/fantasy/business/business.component';
 import { BringyoufireComponent } from './pages/soundcloud/magic/fantasy/bringyoufire/bringyoufire.component'; // Bring You Fire
 import { ThreeComponent } from './pages/soundcloud/path/shields/utellme/three/three.component'; // 3 - You Tell Me
@@ -26,7 +26,7 @@ import { MonkingComponent } from './pages/soundcloud/magic/fantasy/monking/monki
 import { WillpowerComponent } from './pages/soundcloud/path/shields/willpower/willpower.component'; // The Possession of Will
 import { MetalsoulComponent } from './pages/soundcloud/path/shields/metalsoul/metalsoul.component'; // Metal Soul - Fire Eyes
 // ###################################################################################################### Mixcloud
-import { MixcloudComponent } from './pages/mixcloud/mixcloud.component'; // // MixCloud
+// import { MixcloudComponent } from './pages/mixcloud/mixcloud.component'; // // MixCloud
 import { RfyinComponent } from './pages/mixcloud/tao/rfyin/rfyin.component'; // Ring of Fire (Yin)
 import { RfyangComponent } from './pages/mixcloud/tao/rfyang/rfyang.component'; // Ring of Gire (Yang)
 import { DramonkComponent } from './pages/mixcloud/tao/dramonk/dramonk.component'; // Dragon & Monkey  ( Love )
@@ -467,10 +467,10 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
 //    PrivacyComponent
 //    LoginComponent,
 // ######################################################################################################
-    SoundcloudComponent, // Soundcloud
+//    SoundcloudComponent, // Soundcloud
     BusinessComponent,
 // ######################################################################################################
-    MixcloudComponent, // Mixcloud
+//    MixcloudComponent, // Mixcloud
     SeriouslyComponent,
     ChangeComponent, // Tribute to Severn Cullis Suzuki
     CatComponent, // Yin Yang Tao Tribute - Boom Festival Shamanism - 2016
