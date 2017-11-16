@@ -9,7 +9,7 @@ a {
 
 #banner {
 background: url("/assets/images/shadows.jpg") no-repeat center center fixed;
-background-size: auto;
+background-size: cover;
 height: 100%;
 /* Set up proportionate scaling */
 min-width: 100%;
@@ -17,7 +17,7 @@ min-height: 100%;
 margin-top: 0;
 
 /* Set up positioning */
-position: fixed;
+position: relative;
 left: 0;
 }
 

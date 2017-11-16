@@ -1,4 +1,75 @@
 #main {
+  width: 100%;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 2%;
+}
+
+#textarea {
+  min-width: 20%;
+  margin-right: 0.2%;
+  margin-left: 4%;
+  text-align: center;
+}
+
+#all2center {
+  width: 100%;
+  float: none;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  min-width: 25px;
+}
+
+.navbar {
+  position: relative; /* Set the navbar to fixed position */
+  float:center;
+  margin:0 auto;
+  display: flex;
+  text-align: center
+}
+.navbar a {
+  float: center;
+  display: flex;
+  color: #f2f2f2;
+  background-color: black;
+  text-align: center;
+}
+
+.nav-tabs {
+background-color: black;
+padding: 2px;
+text-align: center;
+}
+
+.tab {
+ background-color: blue;
+}
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+      display: flex;
+      float: none;
+      vertical-align: top;
+  }
+}
+.navbar .navbar-nav {
+  display: flex;
+  float: none;
+  vertical-align: top;
+}
+
+#mainly {
+  text-align: center;
+  display: flex;
+  float: none;
+}
+
+#mainlyOne {
+  text-align: center;
+  display: flex;
+  float: none;
 }
