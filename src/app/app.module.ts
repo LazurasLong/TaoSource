@@ -221,7 +221,8 @@ import { WeWillSoonComponent } from './pages/mixcloud/tao/we-will-soon/we-will-s
 import { YouBlowMyMindComponent } from './pages/mixcloud/tao/you-blow-my-mind/you-blow-my-mind.component';
 import { MysticTheoriesCultComponent } from './pages/mixcloud/tao/mystic-theories-cult/mystic-theories-cult.component';
 import { CareUsAndWeWillCareYouComponent } from './pages/mixcloud/tao/care-us-and-we-will-care-you/care-us-and-we-will-care-you.component';
-import { ErrorComponent } from './pages/sys/error/error.component';
+// import { EmotionalSignalsComponent } from './pages/bandcamp/albums/es/emotional-signals/emotional-signals.component';
+// import { ErrorComponent } from './pages/sys/error/error.component';
 // import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
 
 
@@ -666,7 +667,8 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     YouBlowMyMindComponent,
     MysticTheoriesCultComponent,
     CareUsAndWeWillCareYouComponent,
-    ErrorComponent,
+//    EmotionalSignalsComponent,
+//    ErrorComponent,
 
   ],
   imports: [
