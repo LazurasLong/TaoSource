@@ -1,17 +1,11 @@
-#box-text {
-  text-align: center;
-  font-size: 150%;
-}
-
-#box-text p {
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-#frame {
-  text-align: center;
-}
 #player {
   text-align: center;
-  margin-top: 5%;
+  margin-top: 2%;
+}
+#text-box {
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  text-align: center;
+  font-size: 120%;
 }
