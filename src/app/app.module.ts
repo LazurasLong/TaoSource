@@ -188,12 +188,9 @@ import { WorstMusicComponent } from './pages/soundcloud/path/shields/worst-music
 import { UniverseComponent } from './pages/soundcloud/path/shields/universe/universe.component';
 import { BoobooComponent } from './pages/soundcloud/path/shields/booboo/booboo.component';
 import { DoItComponent } from './pages/soundcloud/path/shields/do-it/do-it.component';
-import { MysonComponent } from './pages/bandcamp/albums/vot/myson/myson.component';
-import { ShivaKaliDanceImageComponent } from './pages/bandcamp/albums/skd/shiva-kali-dance-image/shiva-kali-dance-image.component';
 import { WaterBloodImageComponent } from './pages/soundcloud/magic/fantasy/water-blood-image/water-blood-image.component';
 import { OscarFmComponent } from './pages/mystic/oscar-fm/oscar-fm.component';
 import { MysticPortalComponent } from './pages/soundcloud/boom/mystic-portal/mystic-portal.component';
-import { TaurosComponent } from './pages/bandcamp/albums/nfi/tauros/tauros.component';
 import { WoodFireComponent } from './pages/soundcloud/magic/fantasy/wood-fire/wood-fire.component';
 import { FragmentsComponent } from './pages/soundcloud/boom/fragments/fragments.component';
 import { SimplicityComponent } from './pages/soundcloud/signals/simplicity/simplicity.component';
@@ -232,7 +229,6 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'home', component: HomeComponent },
   { path: 'who', component: WhoComponent },
   { path: 'oscar/fm', component: OscarFmComponent },
-  { path: 'tauros', component: TaurosComponent },
   { path: 'about/me/and/you', component: WhoweareComponent },
   { path: 'you/are/the/wood/i/am/the/fire', component: WoodFireComponent },
   { path: 'license', component: LicenseComponent }, // Eternal License
@@ -320,7 +316,6 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
 // ######################################################################################################
 // ######################################################################################################
   { path: 'visions/of/thor', component: VotComponent }, // Visions of Thor Album and Tracks
-  { path: 'my/son', component: MysonComponent },
   { path: 'emerge/internal/upgrade', component: Vot1Component }, // Emerge
   { path: 'water/horses/woman/free', component: Vot2Component }, // Water Horses - Woman Free
   { path: 'pain/vs/love', component: Vot3Component }, // Pain vs Love
@@ -360,7 +355,6 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'running/out/of/time/no/turning/back', component: St12Component },
   { path: 'pagan/cult/to/the/sun', component: St13Component },
 // ######################################################################################################
-  { path: 'shiva/kali', component: ShivaKaliDanceImageComponent },
   { path: 'shiva/and/kali/dance', component: SkdComponent }, // Shiva and Kali Dance
   { path: 'discipline/no/escape', component: Skd1Component }, // Shiva and Kali Dance
   { path: 'hard/work/deep/concentration', component: Skd2Component },
@@ -634,12 +628,9 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     UniverseComponent,
     BoobooComponent,
     DoItComponent,
-    MysonComponent,
-    ShivaKaliDanceImageComponent,
     WaterBloodImageComponent,
     OscarFmComponent,
     MysticPortalComponent,
-    TaurosComponent,
     WoodFireComponent,
     FragmentsComponent,
     SimplicityComponent,
