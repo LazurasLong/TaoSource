@@ -219,13 +219,13 @@ import { YouBlowMyMindComponent } from './pages/mixcloud/tao/you-blow-my-mind/yo
 import { MysticTheoriesCultComponent } from './pages/mixcloud/tao/mystic-theories-cult/mystic-theories-cult.component';
 import { CareUsAndWeWillCareYouComponent } from './pages/mixcloud/tao/care-us-and-we-will-care-you/care-us-and-we-will-care-you.component';
 // import { EmotionalSignalsComponent } from './pages/bandcamp/albums/es/emotional-signals/emotional-signals.component';
-// import { ErrorComponent } from './pages/sys/error/error.component';
+import { ErrorComponent } from './pages/sys/error/error.component';
 // import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
 
 
 const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: '', redirectTo: '/home', pathMatch: 'full'},
-//  { path: '*', component: ErrorComponent },
+  { path: '*', component: ErrorComponent },
   { path: 'home', component: HomeComponent },
   { path: 'who', component: WhoComponent },
   { path: 'oscar/fm', component: OscarFmComponent },
@@ -659,7 +659,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     MysticTheoriesCultComponent,
     CareUsAndWeWillCareYouComponent,
 //    EmotionalSignalsComponent,
-//    ErrorComponent,
+    ErrorComponent,
 
   ],
   imports: [
@@ -671,7 +671,12 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
       { enableTracing: false }
     )
   ],
-  providers: [Location, {provide: LocationStrategy, useClass: HashLocationStrategy}],
+  providers: [Location, 
+    {
+      provide: LocationStrategy,
+      useClass: HashLocationStrategy,
+      useValue: '<%= APP_BASE %>'
+    }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
