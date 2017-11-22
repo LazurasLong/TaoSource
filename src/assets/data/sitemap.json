@@ -1,13 +1,39 @@
 {
-	"tao": {
-		"music": {
-			"bandcamp": {
-				"VisionsOfThor":"tracks",
-					"details": [
-						
-					]
-				}
-			}
+	"OdicforceSounds": {
+		"home": {
+			"title":"OdicforceSounds Visions",
+			"Address":"http://odicforcesounds.com/#/home",
+			"index":"/home"
+		},
+		"License": { // You Are Included In this Eternal License!
+			"title":"OdicforceSounds Eternal License",
+			"Address":"http://odicforcesounds.com/#/license",
+			"index":"/license"
+		},
+		"Tao":{
+			"title":"Tao",
+			"Address":"http://odicforcesounds.com/#/tao",
+			"index":"/tao"
+		},
+		"Who":{
+			"title":"Who We Are",
+			"Address":"http://odicforcesounds.com/#/who",
+			"index":"/tao"
+		},
+		"YinYang": {
+			"title":"OdicforceSounds Yin Yang Tribute",
+			"Address":"http://odicforcesounds.com/#/yin/yang",
+			"index":"/yin/yang"
+		},
+		"Oscar FM": {
+			"title":"Oscar FM",
+			"Address":"http://odicforcesounds.com/#/oscar/fm",
+			"index":"/oscar/fm"
+		},
+		"Love":{
+			"title":"Eternal Dance of Love",
+			"Address":"http://odicforcesounds.com/#/dance/of/love",
+			"index":"/dance/of/love"
 		}
 	}
 }
