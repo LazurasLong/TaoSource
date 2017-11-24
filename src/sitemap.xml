@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://odicforcesounds.com</loc>
+    </url>
+    <url>
+        <loc>https://odicforcesounds.com/#/tao</loc>
+    </url>
+    <url>
+        <loc>https://odicforcesounds.com/#/home</loc>
+    </url>
+    <url>
+        <loc>https://odicforcesounds.com/#/who</loc>
+    </url>
+    <url>
+        <loc>https://odicforcesounds.com/#/oscar/fm</loc>
+    </url>
+    <url>
+        <loc>https://odicforcesounds.com/#/yin/yang</loc>
+    </url>
+    <url>
+        <loc>https://odicforcesounds.com/#/love</loc>
+    </url>
+</urlset>
+</sitemap>
