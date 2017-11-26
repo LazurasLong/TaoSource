@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/odicforcesounds
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://odicforcesounds.com
+  * I am odicforcesounds (https://keybase.io/odicforcesounds) on keybase.
+  * I have a public key with fingerprint 8FAB 09C4 85F1 F879 13B7  04A7 FAE0 90AC EF42 F13E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01012c09bc0102429f7bc24193dcf758dcbe78960cf552f3aa0ddaaa482d0ea0403a0a",
+      "fingerprint": "8fab09c485f1f87913b704a7fae090acef42f13e",
+      "host": "keybase.io",
+      "key_id": "fae090acef42f13e",
+      "kid": "01012c09bc0102429f7bc24193dcf758dcbe78960cf552f3aa0ddaaa482d0ea0403a0a",
+      "uid": "68dbbf78d2436dbf9a5de601d641d419",
+      "username": "odicforcesounds"
+    },
+    "service": {
+      "hostname": "odicforcesounds.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1511525931,
+  "expire_in": 157680000,
+  "prev": "a1166c21a7233ad7b8e1b9a71aca13b331b36f439511ab7c2ad23d6770af37f2",
+  "seqno": 32,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMIpAnicrZJZSBVRGMevlqWm1kOkQZENlpRi58w+Fyp66CEiSm0BjW5nznIdl5nb
+zNxrpRKaoFJIG0nZ+iIZLRZFGRUZVg9CKRhF0CIRZNFOBflQZ6TefOy8nO3//53v
++87XnzkplJ60pODhq7tDsxNJA31d8VBZTlZBnWA6ZIcQrhOq6PhEqwn1/EiVRYSw
+ACCAIgaGiflKlEWDaSYWZWhIBDNN0Qk2qaYbKsBMUUQmIQQIQQjJukgARUAGEgJI
+KBSYZUepG3Mt2+dYnSETGFjWFQaZrhlQMjUgI40hCgyAMGWyyKBEubHC8QIHD85E
+Hi2yHH7GN5Hx8CbQ/+e44+M4VSemyTSdiLKkEpMZSCFUBZCoMiScGgg96tqohnK1
+QyzMHBdTz4nbxBMaCgV+mbAwDeobJDSxsAg7NZwUcx3fwU41F1T4fswLBwB/Ryxw
+1FIz8pcVMS2b8KpyR4K6nuXYQhhyJfatAA4VCBVRMSRYKNDtMculEStQKJqqAz6C
+d2iCIxGEqopFiDRRkhDRTJ1C00AaRBjxf5EkaEoqkyWDA5GpYRERUSKqpgHEJI2J
+QpDdNtsRwpLI40RRzvSsqI38uEuFhrt3Nk8OJaWHpqQkB+0WSk+b8a8J20pSQ93u
+rPxnzaX5u/1Y89DNVlC9EJ3Yl2KUj5xtHBpsS21s7S8dmvtjanfv/MLkjPQzoD5v
+2s+9+bdv3Lo6e3nW6/eZK+KPR7boTbc+VXYeett6tf260Zs99mZk1akHY6Nk3sDx
+FwUV4cRaq33ux+k5STPWj/UsmP61f//bnZUtvw5eOxAtzql5vnRgZseHrN/Zeavj
+m14Xf7l/rO5C7obcvI1fKlKfTN1fX/v5UVQvWbQ3peXd4UtXMnurlvX07ctIKxud
+032yrCtr8dfzR8vfz1rTdD5nz8yLT/M2f5tSZO8qL+4wOkv7jXPD8eZ1StvqtXby
+vZcrkdjz7eTW07WXhwc/Xs9oP9L3/dIftfBEuA==
+=OT95
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/odicforcesounds
+
+==================================================================
