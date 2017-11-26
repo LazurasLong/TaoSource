@@ -1,25 +1,29 @@
 ==================================================================
-https://keybase.io/odicforcesounds
+https://keybase.io/i00nsu
 --------------------------------------------------------------------
 
 I hereby claim:
 
   * I am an admin of https://odicforcesounds.com
-  * I am odicforcesounds (https://keybase.io/odicforcesounds) on keybase.
-  * I have a public key with fingerprint 8FAB 09C4 85F1 F879 13B7  04A7 FAE0 90AC EF42 F13E
+  * I am i00nsu (https://keybase.io/i00nsu) on keybase.
+  * I have a public key ASAe0S3ryOkWdYACE_ZK8QuJ28bOADWeEhY_jQM_Y3-LsQo
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "01012c09bc0102429f7bc24193dcf758dcbe78960cf552f3aa0ddaaa482d0ea0403a0a",
-      "fingerprint": "8fab09c485f1f87913b704a7fae090acef42f13e",
+      "eldest_kid": "0101b39314474d219741b41c65489c448f251ab2671a7aa5dcc63877a582e25c7d7a0a",
       "host": "keybase.io",
-      "key_id": "fae090acef42f13e",
-      "kid": "01012c09bc0102429f7bc24193dcf758dcbe78960cf552f3aa0ddaaa482d0ea0403a0a",
-      "uid": "68dbbf78d2436dbf9a5de601d641d419",
-      "username": "odicforcesounds"
+      "kid": "01201ed12debc8e91675800213f64af10b89dbc6ce00359e12163f8d033f637f8bb10a",
+      "uid": "a9e60baac6161ec33f548179f5ea5e19",
+      "username": "i00nsu"
+    },
+    "merkle_root": {
+      "ctime": 1511693644,
+      "hash": "d33ad2736db83c6a4041d0cbb3988e95d7bbd8819fc81ae17f95fd69796474d3787824c5dd02b9f81fc72a1eb015b44e38b92da52b059d293a2ed3885c13fcd1",
+      "hash_meta": "66e9e67a69117ca862cb99a24a4a86bf5059c0f2c0b9f6399a2d6e8aaa5fa95e",
+      "seqno": 1749801
     },
     "service": {
       "hostname": "odicforcesounds.com",
@@ -28,41 +32,24 @@ To do so, I am signing this object:
     "type": "web_service_binding",
     "version": 1
   },
-  "ctime": 1511525931,
-  "expire_in": 157680000,
-  "prev": "a1166c21a7233ad7b8e1b9a71aca13b331b36f439511ab7c2ad23d6770af37f2",
-  "seqno": 32,
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1511692397,
+  "expire_in": 504576000,
+  "prev": "b4e248af8ece3f0865ef6a11c4064777790d3e0d464e39ee52f912429e06bbed",
+  "seqno": 5,
   "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.76
-Comment: https://keybase.io/crypto
-
-yMIpAnicrZJZSBVRGMevlqWm1kOkQZENlpRi58w+Fyp66CEiSm0BjW5nznIdl5nb
-zNxrpRKaoFJIG0nZ+iIZLRZFGRUZVg9CKRhF0CIRZNFOBflQZ6TefOy8nO3//53v
-+87XnzkplJ60pODhq7tDsxNJA31d8VBZTlZBnWA6ZIcQrhOq6PhEqwn1/EiVRYSw
-ACCAIgaGiflKlEWDaSYWZWhIBDNN0Qk2qaYbKsBMUUQmIQQIQQjJukgARUAGEgJI
-KBSYZUepG3Mt2+dYnSETGFjWFQaZrhlQMjUgI40hCgyAMGWyyKBEubHC8QIHD85E
-Hi2yHH7GN5Hx8CbQ/+e44+M4VSemyTSdiLKkEpMZSCFUBZCoMiScGgg96tqohnK1
-QyzMHBdTz4nbxBMaCgV+mbAwDeobJDSxsAg7NZwUcx3fwU41F1T4fswLBwB/Ryxw
-1FIz8pcVMS2b8KpyR4K6nuXYQhhyJfatAA4VCBVRMSRYKNDtMculEStQKJqqAz6C
-d2iCIxGEqopFiDRRkhDRTJ1C00AaRBjxf5EkaEoqkyWDA5GpYRERUSKqpgHEJI2J
-QpDdNtsRwpLI40RRzvSsqI38uEuFhrt3Nk8OJaWHpqQkB+0WSk+b8a8J20pSQ93u
-rPxnzaX5u/1Y89DNVlC9EJ3Yl2KUj5xtHBpsS21s7S8dmvtjanfv/MLkjPQzoD5v
-2s+9+bdv3Lo6e3nW6/eZK+KPR7boTbc+VXYeett6tf260Zs99mZk1akHY6Nk3sDx
-FwUV4cRaq33ux+k5STPWj/UsmP61f//bnZUtvw5eOxAtzql5vnRgZseHrN/Zeavj
-m14Xf7l/rO5C7obcvI1fKlKfTN1fX/v5UVQvWbQ3peXd4UtXMnurlvX07ctIKxud
-032yrCtr8dfzR8vfz1rTdD5nz8yLT/M2f5tSZO8qL+4wOkv7jXPD8eZ1StvqtXby
-vZcrkdjz7eTW07WXhwc/Xs9oP9L3/dIftfBEuA==
-=OT95
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgHtEt68jpFnWAAhP2SvELidvGzgA1nhIWP40DP2N/i7EKp3BheWxvYWTFA0l7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYjM5MzE0NDc0ZDIxOTc0MWI0MWM2NTQ4OWM0NDhmMjUxYWIyNjcxYTdhYTVkY2M2Mzg3N2E1ODJlMjVjN2Q3YTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMWVkMTJkZWJjOGU5MTY3NTgwMDIxM2Y2NGFmMTBiODlkYmM2Y2UwMDM1OWUxMjE2M2Y4ZDAzM2Y2MzdmOGJiMTBhIiwidWlkIjoiYTllNjBiYWFjNjE2MWVjMzNmNTQ4MTc5ZjVlYTVlMTkiLCJ1c2VybmFtZSI6ImkwMG5zdSJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxMTY5MzY0NCwiaGFzaCI6ImQzM2FkMjczNmRiODNjNmE0MDQxZDBjYmIzOTg4ZTk1ZDdiYmQ4ODE5ZmM4MWFlMTdmOTVmZDY5Nzk2NDc0ZDM3ODc4MjRjNWRkMDJiOWY4MWZjNzJhMWViMDE1YjQ0ZTM4YjkyZGE1MmIwNTlkMjkzYTJlZDM4ODVjMTNmY2QxIiwiaGFzaF9tZXRhIjoiNjZlOWU2N2E2OTExN2NhODYyY2I5OWEyNGE0YTg2YmY1MDU5YzBmMmMwYjlmNjM5OWEyZDZlOGFhYTVmYTk1ZSIsInNlcW5vIjoxNzQ5ODAxfSwic2VydmljZSI6eyJob3N0bmFtZSI6Im9kaWNmb3JjZXNvdW5kcy5jb20iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zMyJ9LCJjdGltZSI6MTUxMTY5MjM5NywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiJiNGUyNDhhZjhlY2UzZjA4NjVlZjZhMTFjNDA2NDc3Nzc5MGQzZTBkNDY0ZTM5ZWU1MmY5MTI0MjllMDZiYmVkIiwic2Vxbm8iOjUsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAhDMohSLgsELigU65laWyzg6vuaoADtK1tbXAX/89yutInmA24r9C4W3XyVNwYnG6E42Kv28uzZwX0xn+dfJjAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHvbglbmB8wVOdjGkh6xhGhvExicljpzFnaV77R7E7R3o3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/odicforcesounds
+View my publicly-auditable identity here: https://keybase.io/i00nsu
 
 ==================================================================
