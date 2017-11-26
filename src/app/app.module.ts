@@ -12,220 +12,227 @@ import { HomeComponent } from './pages/home/home.component'; // Visions
 import { LicenseComponent } from './pages/license/license.component'; // Eternal License
 import { WhoComponent } from './pages/who/who.component'; // Who We Are
 // ###################################################################################################### Political Tributes
-import { ChangeComponent } from './pages/tributes/change/change.component'; // Severn Cullis Suzuki
-import { CatComponent } from './pages/soundcloud/boom/cat/cat.component'; // Yin Yang Cat Boom Tribute
-import { SeriouslyComponent } from './pages/tributes/seriously/seriously.component';
-// ###################################################################################################### Soundcloud
-// import { SoundcloudComponent } from './pages/soundcloud/soundcloud.component'; // Sounds Cloud
-import { BusinessComponent } from './pages/soundcloud/magic/fantasy/business/business.component';
-import { BringyoufireComponent } from './pages/soundcloud/magic/fantasy/bringyoufire/bringyoufire.component'; // Bring You Fire
-import { ThreeComponent } from './pages/soundcloud/path/shields/utellme/three/three.component'; // 3 - You Tell Me
-import { AbsoluteComponent} from './pages/soundcloud/path/shields/utellme/absolute/absolute.component'; // Absolute
-import { DragonComponent } from './pages/soundcloud/path/shields/dragon/dragon.component'; // The Dragon
-import { MonkingComponent } from './pages/soundcloud/magic/fantasy/monking/monking.component'; // Sun Wukong
-import { WillpowerComponent } from './pages/soundcloud/path/shields/willpower/willpower.component'; // The Possession of Will
-import { MetalsoulComponent } from './pages/soundcloud/path/shields/metalsoul/metalsoul.component'; // Metal Soul - Fire Eyes
-// ###################################################################################################### Mixcloud
-// import { MixcloudComponent } from './pages/mixcloud/mixcloud.component'; // // MixCloud
-import { RfyinComponent } from './pages/mixcloud/tao/rfyin/rfyin.component'; // Ring of Fire (Yin)
-import { RfyangComponent } from './pages/mixcloud/tao/rfyang/rfyang.component'; // Ring of Gire (Yang)
-import { DramonkComponent } from './pages/mixcloud/tao/dramonk/dramonk.component'; // Dragon & Monkey  ( Love )
-import { SolplexComponent } from './pages/mixcloud/tao/solplex/solplex.component'; // Fire (Base)
-import { MonkComponent } from './pages/mixcloud/tao/monk/monk.component'; // (Genius - Monkey Style)
-import { RtComponent } from './pages/mixcloud/tao/rt/rt.component'; // Real Time Shamanic Quest
-import { MissionComponent } from './pages/mixcloud/tao/mission/mission.component'; // World wide target
-import { TaoComponent } from './pages/mixcloud/tao/tao/tao.component'; // Last Warning
-import { DataComponent } from './pages/mixcloud/tao/data/data.component'; // Data
+import { ChangeComponent } from './pages/yinyang/tributes/change/change.component'; // Severn Cullis Suzuki
+import { CatComponent } from './pages/yinyang/soundcloud/boom/cat/cat.component'; // Yin Yang Cat Boom Tribute
+import { SeriouslyComponent } from './pages/yinyang/tributes/seriously/seriously.component';
+// ###################################################################################################### yinyang/soundcloud
+// import { yinyang/soundcloudComponent } from './pages/yinyang/soundcloud/yinyang/soundcloud.component'; // Sounds Cloud
+import { BusinessComponent } from './pages/yinyang/soundcloud/magic/fantasy/business/business.component';
+import { BringyoufireComponent } from './pages/yinyang/soundcloud/magic/fantasy/bringyoufire/bringyoufire.component'; // Bring You Fire
+import { ThreeComponent } from './pages/yinyang/soundcloud/path/shields/utellme/three/three.component'; // 3 - You Tell Me
+import { AbsoluteComponent} from './pages/yinyang/soundcloud/path/shields/utellme/absolute/absolute.component'; // Absolute
+import { DragonComponent } from './pages/yinyang/soundcloud/path/shields/dragon/dragon.component'; // The Dragon
+import { MonkingComponent } from './pages/yinyang/soundcloud/magic/fantasy/monking/monking.component'; // Sun Wukong
+import { WillpowerComponent } from './pages/yinyang/soundcloud/path/shields/willpower/willpower.component'; // The Possession of Will
+import { MetalsoulComponent } from './pages/yinyang/soundcloud/path/shields/metalsoul/metalsoul.component'; // Metal Soul - Fire Eyes
+// ###################################################################################################### yinyang/mixcloud
+// import { yinyang/mixcloudComponent } from './pages/yinyang/mixcloud/yinyang/mixcloud.component'; // // yinyang/mixcloud
+import { RfyinComponent } from './pages/yinyang/mixcloud/tao/rfyin/rfyin.component'; // Ring of Fire (Yin)
+import { RfyangComponent } from './pages/yinyang/mixcloud/tao/rfyang/rfyang.component'; // Ring of Gire (Yang)
+import { DramonkComponent } from './pages/yinyang/mixcloud/tao/dramonk/dramonk.component'; // Dragon & Monkey  ( Love )
+import { SolplexComponent } from './pages/yinyang/mixcloud/tao/solplex/solplex.component'; // Fire (Base)
+import { MonkComponent } from './pages/yinyang/mixcloud/tao/monk/monk.component'; // (Genius - Monkey Style)
+import { RtComponent } from './pages/yinyang/mixcloud/tao/rt/rt.component'; // Real Time Shamanic Quest
+import { MissionComponent } from './pages/yinyang/mixcloud/tao/mission/mission.component'; // World wide target
+import { TaoComponent } from './pages/yinyang/mixcloud/tao/tao/tao.component'; // Last Warning
+import { DataComponent } from './pages/yinyang/mixcloud/tao/data/data.component'; // Data
 // ######################################################################################################
 // import { ArticlesComponent } from './pages/articles/articles.component';
 // ######################################################################################################
-import { WikiComponent } from './pages/wiki/wiki.component';
-import { IntroComponent } from './pages/wiki/intro/intro.component';
-import { FirststepsComponent } from './pages/wiki/firststeps/firststeps.component';
-import { CoreconceptsComponent } from './pages/wiki/coreconcepts/coreconcepts.component';
-import { IdeaComponent } from './pages/wiki/idea/idea.component';
-import { ChallengeComponent } from './pages/wiki/challenge/challenge.component';
-import { PathComponent } from './pages/wiki/path/path.component';
-// ###################################################################################################### BandCamp
-import { BandcampComponent } from './pages/bandcamp/bandcamp.component';
-import { VotComponent } from './pages/bandcamp/albums/vot/vot.component'; // Visions of Thor - Album and Tracks
-import { Vot1Component } from './pages/bandcamp/albums/vot/tracks/vot1/vot1.component';
-import { Vot2Component } from './pages/bandcamp/albums/vot/tracks/vot2/vot2.component';
-import { Vot3Component } from './pages/bandcamp/albums/vot/tracks/vot3/vot3.component';
-import { Vot4Component } from './pages/bandcamp/albums/vot/tracks/vot4/vot4.component';
-import { Vot5Component } from './pages/bandcamp/albums/vot/tracks/vot5/vot5.component';
-import { Vot6Component } from './pages/bandcamp/albums/vot/tracks/vot6/vot6.component';
-import { Vot7Component } from './pages/bandcamp/albums/vot/tracks/vot7/vot7.component';
-import { Vot8Component } from './pages/bandcamp/albums/vot/tracks/vot8/vot8.component';
-import { Vot9Component } from './pages/bandcamp/albums/vot/tracks/vot9/vot9.component';
-import { Vot10Component } from './pages/bandcamp/albums/vot/tracks/vot10/vot10.component';
-import { Vot11Component } from './pages/bandcamp/albums/vot/tracks/vot11/vot11.component';
+import { WikiComponent } from './pages/license/wiki/wiki.component';
+import { IntroComponent } from './pages/license/wiki/intro/intro.component';
+import { FirststepsComponent } from './pages/license/wiki/firststeps/firststeps.component';
+import { CoreconceptsComponent } from './pages/license/wiki/coreconcepts/coreconcepts.component';
+import { IdeaComponent } from './pages/license/wiki/idea/idea.component';
+import { ChallengeComponent } from './pages/license/wiki/challenge/challenge.component';
+import { PathComponent } from './pages/license/wiki/path/path.component';
+// ###################################################################################################### yinyang
+import { BandcampComponent } from './pages/yinyang/bandcamp.component';
+import { VotComponent } from './pages/yinyang/albums/vot/vot.component'; // Visions of Thor - Album and Tracks
+import { Vot1Component } from './pages/yinyang/albums/vot/tracks/vot1/vot1.component';
+import { Vot2Component } from './pages/yinyang/albums/vot/tracks/vot2/vot2.component';
+import { Vot3Component } from './pages/yinyang/albums/vot/tracks/vot3/vot3.component';
+import { Vot4Component } from './pages/yinyang/albums/vot/tracks/vot4/vot4.component';
+import { Vot5Component } from './pages/yinyang/albums/vot/tracks/vot5/vot5.component';
+import { Vot6Component } from './pages/yinyang/albums/vot/tracks/vot6/vot6.component';
+import { Vot7Component } from './pages/yinyang/albums/vot/tracks/vot7/vot7.component';
+import { Vot8Component } from './pages/yinyang/albums/vot/tracks/vot8/vot8.component';
+import { Vot9Component } from './pages/yinyang/albums/vot/tracks/vot9/vot9.component';
+import { Vot10Component } from './pages/yinyang/albums/vot/tracks/vot10/vot10.component';
+import { Vot11Component } from './pages/yinyang/albums/vot/tracks/vot11/vot11.component';
 // ######################################################################################################
-import { MwComponent } from './pages/bandcamp/albums/mw/mw.component';// Machine World - Album and Tracks
-import { Mw1Component } from './pages/bandcamp/albums/mw/tracks/mw1/mw1.component'; // Control - Free to Ask
-import { Mw2Component } from './pages/bandcamp/albums/mw/tracks/mw2/mw2.component'; // Control - Free to Ask
-import { Mw3Component } from './pages/bandcamp/albums/mw/tracks/mw3/mw3.component'; // Control - Free to Ask
-import { Mw4Component } from './pages/bandcamp/albums/mw/tracks/mw4/mw4.component'; // Control - Free to Ask
-import { Mw5Component } from './pages/bandcamp/albums/mw/tracks/mw5/mw5.component'; // Control - Free to Ask
-import { Mw6Component } from './pages/bandcamp/albums/mw/tracks/mw6/mw6.component'; // Control - Free to Ask
-import { Mw7Component } from './pages/bandcamp/albums/mw/tracks/mw7/mw7.component'; // Control - Free to Ask
-import { Mw8Component } from './pages/bandcamp/albums/mw/tracks/mw8/mw8.component'; // Control - Free to Ask
-import { Mw9Component } from './pages/bandcamp/albums/mw/tracks/mw9/mw9.component'; // Control - Free to Ask
-import { Mw10Component } from './pages/bandcamp/albums/mw/tracks/mw10/mw10.component'; // Control - Free to Ask
+import { MwComponent } from './pages/yinyang/albums/mw/mw.component';// Machine World - Album and Tracks
+import { Mw1Component } from './pages/yinyang/albums/mw/tracks/mw1/mw1.component'; // Control - Free to Ask
+import { Mw2Component } from './pages/yinyang/albums/mw/tracks/mw2/mw2.component'; // Control - Free to Ask
+import { Mw3Component } from './pages/yinyang/albums/mw/tracks/mw3/mw3.component'; // Control - Free to Ask
+import { Mw4Component } from './pages/yinyang/albums/mw/tracks/mw4/mw4.component'; // Control - Free to Ask
+import { Mw5Component } from './pages/yinyang/albums/mw/tracks/mw5/mw5.component'; // Control - Free to Ask
+import { Mw6Component } from './pages/yinyang/albums/mw/tracks/mw6/mw6.component'; // Control - Free to Ask
+import { Mw7Component } from './pages/yinyang/albums/mw/tracks/mw7/mw7.component'; // Control - Free to Ask
+import { Mw8Component } from './pages/yinyang/albums/mw/tracks/mw8/mw8.component'; // Control - Free to Ask
+import { Mw9Component } from './pages/yinyang/albums/mw/tracks/mw9/mw9.component'; // Control - Free to Ask
+import { Mw10Component } from './pages/yinyang/albums/mw/tracks/mw10/mw10.component'; // Control - Free to Ask
 // ######################################################################################################
-import { StComponent } from './pages/bandcamp/albums/st/st.component'; // Space Trip - Album and Tracks
-import { St1Component } from './pages/bandcamp/albums/st/tracks/st1/st1.component'; // anomaly - disconnected function
-import { St2Component } from './pages/bandcamp/albums/st/tracks/st2/st2.component';
-import { St3Component } from './pages/bandcamp/albums/st/tracks/st3/st3.component';
-import { St4Component } from './pages/bandcamp/albums/st/tracks/st4/st4.component';
-import { St5Component } from './pages/bandcamp/albums/st/tracks/st5/st5.component';
-import { St6Component } from './pages/bandcamp/albums/st/tracks/st6/st6.component';
-import { St7Component } from './pages/bandcamp/albums/st/tracks/st7/st7.component';
-import { St8Component } from './pages/bandcamp/albums/st/tracks/st8/st8.component';
-import { St9Component } from './pages/bandcamp/albums/st/tracks/st9/st9.component';
-import { St10Component } from './pages/bandcamp/albums/st/tracks/st10/st10.component';
-import { St11Component } from './pages/bandcamp/albums/st/tracks/st11/st11.component';
-import { St12Component } from './pages/bandcamp/albums/st/tracks/st12/st12.component';
-import { St13Component } from './pages/bandcamp/albums/st/tracks/st13/st13.component';
+import { StComponent } from './pages/yinyang/albums/st/st.component'; // Space Trip - Album and Tracks
+import { St1Component } from './pages/yinyang/albums/st/tracks/st1/st1.component'; // anomaly - disconnected function
+import { St2Component } from './pages/yinyang/albums/st/tracks/st2/st2.component';
+import { St3Component } from './pages/yinyang/albums/st/tracks/st3/st3.component';
+import { St4Component } from './pages/yinyang/albums/st/tracks/st4/st4.component';
+import { St5Component } from './pages/yinyang/albums/st/tracks/st5/st5.component';
+import { St6Component } from './pages/yinyang/albums/st/tracks/st6/st6.component';
+import { St7Component } from './pages/yinyang/albums/st/tracks/st7/st7.component';
+import { St8Component } from './pages/yinyang/albums/st/tracks/st8/st8.component';
+import { St9Component } from './pages/yinyang/albums/st/tracks/st9/st9.component';
+import { St10Component } from './pages/yinyang/albums/st/tracks/st10/st10.component';
+import { St11Component } from './pages/yinyang/albums/st/tracks/st11/st11.component';
+import { St12Component } from './pages/yinyang/albums/st/tracks/st12/st12.component';
+import { St13Component } from './pages/yinyang/albums/st/tracks/st13/st13.component';
 // ######################################################################################################
-import { SkdComponent } from './pages/bandcamp/albums/skd/skd.component';// Shiva and Kali Dance - Album and Tracks
-import { Skd1Component } from './pages/bandcamp/albums/skd/tracks/skd1/skd1.component';
-import { Skd2Component } from './pages/bandcamp/albums/skd/tracks/skd2/skd2.component';
-import { Skd3Component } from './pages/bandcamp/albums/skd/tracks/skd3/skd3.component';
-import { Skd4Component } from './pages/bandcamp/albums/skd/tracks/skd4/skd4.component';
-import { Skd5Component } from './pages/bandcamp/albums/skd/tracks/skd5/skd5.component';
-import { Skd6Component } from './pages/bandcamp/albums/skd/tracks/skd6/skd6.component';
-import { Skd7Component } from './pages/bandcamp/albums/skd/tracks/skd7/skd7.component';
-import { Skd8Component } from './pages/bandcamp/albums/skd/tracks/skd8/skd8.component';
-import { Skd9Component } from './pages/bandcamp/albums/skd/tracks/skd9/skd9.component';
-import { Skd10Component } from './pages/bandcamp/albums/skd/tracks/skd10/skd10.component';
-import { Skd11Component } from './pages/bandcamp/albums/skd/tracks/skd11/skd11.component';
-import { Skd12Component } from './pages/bandcamp/albums/skd/tracks/skd12/skd12.component';
-import { Skd13Component } from './pages/bandcamp/albums/skd/tracks/skd13/skd13.component';
-import { Skd14Component } from './pages/bandcamp/albums/skd/tracks/skd14/skd14.component';
-import { Skd15Component } from './pages/bandcamp/albums/skd/tracks/skd15/skd15.component';
-import { Skd16Component } from './pages/bandcamp/albums/skd/tracks/skd16/skd16.component';
-import { Skd17Component } from './pages/bandcamp/albums/skd/tracks/skd17/skd17.component';
-import { Skd18Component } from './pages/bandcamp/albums/skd/tracks/skd18/skd18.component';
-import { Skd19Component } from './pages/bandcamp/albums/skd/tracks/skd19/skd19.component';
-import { Skd20Component } from './pages/bandcamp/albums/skd/tracks/skd20/skd20.component';
+import { SkdComponent } from './pages/yinyang/albums/skd/skd.component';// Shiva and Kali Dance - Album and Tracks
+import { Skd1Component } from './pages/yinyang/albums/skd/tracks/skd1/skd1.component';
+import { Skd2Component } from './pages/yinyang/albums/skd/tracks/skd2/skd2.component';
+import { Skd3Component } from './pages/yinyang/albums/skd/tracks/skd3/skd3.component';
+import { Skd4Component } from './pages/yinyang/albums/skd/tracks/skd4/skd4.component';
+import { Skd5Component } from './pages/yinyang/albums/skd/tracks/skd5/skd5.component';
+import { Skd6Component } from './pages/yinyang/albums/skd/tracks/skd6/skd6.component';
+import { Skd7Component } from './pages/yinyang/albums/skd/tracks/skd7/skd7.component';
+import { Skd8Component } from './pages/yinyang/albums/skd/tracks/skd8/skd8.component';
+import { Skd9Component } from './pages/yinyang/albums/skd/tracks/skd9/skd9.component';
+import { Skd10Component } from './pages/yinyang/albums/skd/tracks/skd10/skd10.component';
+import { Skd11Component } from './pages/yinyang/albums/skd/tracks/skd11/skd11.component';
+import { Skd12Component } from './pages/yinyang/albums/skd/tracks/skd12/skd12.component';
+import { Skd13Component } from './pages/yinyang/albums/skd/tracks/skd13/skd13.component';
+import { Skd14Component } from './pages/yinyang/albums/skd/tracks/skd14/skd14.component';
+import { Skd15Component } from './pages/yinyang/albums/skd/tracks/skd15/skd15.component';
+import { Skd16Component } from './pages/yinyang/albums/skd/tracks/skd16/skd16.component';
+import { Skd17Component } from './pages/yinyang/albums/skd/tracks/skd17/skd17.component';
+import { Skd18Component } from './pages/yinyang/albums/skd/tracks/skd18/skd18.component';
+import { Skd19Component } from './pages/yinyang/albums/skd/tracks/skd19/skd19.component';
+import { Skd20Component } from './pages/yinyang/albums/skd/tracks/skd20/skd20.component';
 // ######################################################################################################
-import { EtComponent } from './pages/bandcamp/albums/et/et.component'; // Eternal Delay - Album and Tracks
-import { Et1Component } from './pages/bandcamp/albums/et/tracks/et1/et1.component';
-import { Et2Component } from './pages/bandcamp/albums/et/tracks/et2/et2.component';
-import { Et3Component } from './pages/bandcamp/albums/et/tracks/et3/et3.component';
-import { Et4Component } from './pages/bandcamp/albums/et/tracks/et4/et4.component';
-import { Et5Component } from './pages/bandcamp/albums/et/tracks/et5/et5.component';
-import { Et6Component } from './pages/bandcamp/albums/et/tracks/et6/et6.component';
-import { Et7Component } from './pages/bandcamp/albums/et/tracks/et7/et7.component';
-import { Et8Component } from './pages/bandcamp/albums/et/tracks/et8/et8.component';
-import { Et9Component } from './pages/bandcamp/albums/et/tracks/et9/et9.component';
-import { Et10Component } from './pages/bandcamp/albums/et/tracks/et10/et10.component';
-import { Et11Component } from './pages/bandcamp/albums/et/tracks/et11/et11.component';
+import { EtComponent } from './pages/yinyang/albums/et/et.component'; // Eternal Delay - Album and Tracks
+import { Et1Component } from './pages/yinyang/albums/et/tracks/et1/et1.component';
+import { Et2Component } from './pages/yinyang/albums/et/tracks/et2/et2.component';
+import { Et3Component } from './pages/yinyang/albums/et/tracks/et3/et3.component';
+import { Et4Component } from './pages/yinyang/albums/et/tracks/et4/et4.component';
+import { Et5Component } from './pages/yinyang/albums/et/tracks/et5/et5.component';
+import { Et6Component } from './pages/yinyang/albums/et/tracks/et6/et6.component';
+import { Et7Component } from './pages/yinyang/albums/et/tracks/et7/et7.component';
+import { Et8Component } from './pages/yinyang/albums/et/tracks/et8/et8.component';
+import { Et9Component } from './pages/yinyang/albums/et/tracks/et9/et9.component';
+import { Et10Component } from './pages/yinyang/albums/et/tracks/et10/et10.component';
+import { Et11Component } from './pages/yinyang/albums/et/tracks/et11/et11.component';
 // ######################################################################################################
-import { NfiComponent } from './pages/bandcamp/albums/nfi/nfi.component'; // Noise Frequency - Impulse - Album and Tracks
-import { Nfi1Component } from './pages/bandcamp/albums/nfi/tracks/nfi1/nfi1.component';
-import { Nfi2Component } from './pages/bandcamp/albums/nfi/tracks/nfi2/nfi2.component';
-import { Nfi3Component } from './pages/bandcamp/albums/nfi/tracks/nfi3/nfi3.component';
-import { Nfi4Component } from './pages/bandcamp/albums/nfi/tracks/nfi4/nfi4.component';
-import { Nfi5Component } from './pages/bandcamp/albums/nfi/tracks/nfi5/nfi5.component';
-import { Nfi6Component } from './pages/bandcamp/albums/nfi/tracks/nfi6/nfi6.component';
-import { Nfi7Component } from './pages/bandcamp/albums/nfi/tracks/nfi7/nfi7.component';
-import { Nfi8Component } from './pages/bandcamp/albums/nfi/tracks/nfi8/nfi8.component';
-import { Nfi9Component } from './pages/bandcamp/albums/nfi/tracks/nfi9/nfi9.component';
-import { Nfi10Component } from './pages/bandcamp/albums/nfi/tracks/nfi10/nfi10.component';
-import { Nfi11Component } from './pages/bandcamp/albums/nfi/tracks/nfi11/nfi11.component';
-import { Nfi12Component } from './pages/bandcamp/albums/nfi/tracks/nfi12/nfi12.component';
+import { NfiComponent } from './pages/yinyang/albums/nfi/nfi.component'; // Noise Frequency - Impulse - Album and Tracks
+import { Nfi1Component } from './pages/yinyang/albums/nfi/tracks/nfi1/nfi1.component';
+import { Nfi2Component } from './pages/yinyang/albums/nfi/tracks/nfi2/nfi2.component';
+import { Nfi3Component } from './pages/yinyang/albums/nfi/tracks/nfi3/nfi3.component';
+import { Nfi4Component } from './pages/yinyang/albums/nfi/tracks/nfi4/nfi4.component';
+import { Nfi5Component } from './pages/yinyang/albums/nfi/tracks/nfi5/nfi5.component';
+import { Nfi6Component } from './pages/yinyang/albums/nfi/tracks/nfi6/nfi6.component';
+import { Nfi7Component } from './pages/yinyang/albums/nfi/tracks/nfi7/nfi7.component';
+import { Nfi8Component } from './pages/yinyang/albums/nfi/tracks/nfi8/nfi8.component';
+import { Nfi9Component } from './pages/yinyang/albums/nfi/tracks/nfi9/nfi9.component';
+import { Nfi10Component } from './pages/yinyang/albums/nfi/tracks/nfi10/nfi10.component';
+import { Nfi11Component } from './pages/yinyang/albums/nfi/tracks/nfi11/nfi11.component';
+import { Nfi12Component } from './pages/yinyang/albums/nfi/tracks/nfi12/nfi12.component';
 // ######################################################################################################
-import { EsComponent } from './pages/bandcamp/albums/es/es.component'; // Emotional Signals - Album and Tracks
-import { Es1Component } from './pages/bandcamp/albums/es/tracks/es1/es1.component'; // We Came in Peace
-import { Es2Component } from './pages/bandcamp/albums/es/tracks/es2/es2.component'; // We Came in Peace
-import { Es3Component } from './pages/bandcamp/albums/es/tracks/es3/es3.component'; // We Came in Peace
-import { Es4Component } from './pages/bandcamp/albums/es/tracks/es4/es4.component'; // We Came in Peace
-import { Es5Component } from './pages/bandcamp/albums/es/tracks/es5/es5.component'; // We Came in Peace
-import { Es6Component } from './pages/bandcamp/albums/es/tracks/es6/es6.component'; // We Came in Peace
-import { Es7Component } from './pages/bandcamp/albums/es/tracks/es7/es7.component'; // We Came in Peace
-import { Es8Component } from './pages/bandcamp/albums/es/tracks/es8/es8.component'; //
-import { Es9Component } from './pages/bandcamp/albums/es/tracks/es9/es9.component'; // shamanic Visions
-import { Es10Component } from './pages/bandcamp/albums/es/tracks/es10/es10.component'; // In Fun to Care
-import { Es11Component } from './pages/bandcamp/albums/es/tracks/es11/es11.component'; // We Came in Peace
-import { Es12Component } from './pages/bandcamp/albums/es/tracks/es12/es12.component'; // We Came in Peace
-import { Es13Component } from './pages/bandcamp/albums/es/tracks/es13/es13.component'; // We Came in Peace
+import { EsComponent } from './pages/yinyang/albums/es/es.component'; // Emotional Signals - Album and Tracks
+import { Es1Component } from './pages/yinyang/albums/es/tracks/es1/es1.component'; // We Came in Peace
+import { Es2Component } from './pages/yinyang/albums/es/tracks/es2/es2.component'; // We Came in Peace
+import { Es3Component } from './pages/yinyang/albums/es/tracks/es3/es3.component'; // We Came in Peace
+import { Es4Component } from './pages/yinyang/albums/es/tracks/es4/es4.component'; // We Came in Peace
+import { Es5Component } from './pages/yinyang/albums/es/tracks/es5/es5.component'; // We Came in Peace
+import { Es6Component } from './pages/yinyang/albums/es/tracks/es6/es6.component'; // We Came in Peace
+import { Es7Component } from './pages/yinyang/albums/es/tracks/es7/es7.component'; // We Came in Peace
+import { Es8Component } from './pages/yinyang/albums/es/tracks/es8/es8.component'; //
+import { Es9Component } from './pages/yinyang/albums/es/tracks/es9/es9.component'; // shamanic Visions
+import { Es10Component } from './pages/yinyang/albums/es/tracks/es10/es10.component'; // In Fun to Care
+import { Es11Component } from './pages/yinyang/albums/es/tracks/es11/es11.component'; // We Came in Peace
+import { Es12Component } from './pages/yinyang/albums/es/tracks/es12/es12.component'; // We Came in Peace
+import { Es13Component } from './pages/yinyang/albums/es/tracks/es13/es13.component'; // We Came in Peace
 // ######################################################################################################
-import { OtComponent } from './pages/bandcamp/albums/ot/ot.component'; // Only Tributes - Album and Tracks
-import { Ot1Component} from './pages/bandcamp/albums/ot/tracks/ot1/ot1.component'; // Lords - Egocentric Will
-import { Ot2Component} from './pages/bandcamp/albums/ot/tracks/ot2/ot2.component'; // Lords - Egocentric Will
-import { Ot3Component} from './pages/bandcamp/albums/ot/tracks/ot3/ot3.component'; // Lords - Egocentric Will
-import { Ot4Component} from './pages/bandcamp/albums/ot/tracks/ot4/ot4.component'; // Lords - Egocentric Will
-import { Ot5Component} from './pages/bandcamp/albums/ot/tracks/ot5/ot5.component'; // Lords - Egocentric Will
-import { Ot6Component} from './pages/bandcamp/albums/ot/tracks/ot6/ot6.component'; // Lords - Egocentric Will
-import { Ot7Component} from './pages/bandcamp/albums/ot/tracks/ot7/ot7.component'; // Lords - Egocentric Will
-import { Ot8Component} from './pages/bandcamp/albums/ot/tracks/ot8/ot8.component'; // Lords - Egocentric Will
-import { Ot9Component} from './pages/bandcamp/albums/ot/tracks/ot9/ot9.component'; // Lords - Egocentric Will
-import { Ot10Component} from './pages/bandcamp/albums/ot/tracks/ot10/ot10.component'; // Lords - Egocentric Will
-import { Ot11Component} from './pages/bandcamp/albums/ot/tracks/ot11/ot11.component'; // Lords - Egocentric Will
+import { OtComponent } from './pages/yinyang/albums/ot/ot.component'; // Only Tributes - Album and Tracks
+import { Ot1Component} from './pages/yinyang/albums/ot/tracks/ot1/ot1.component'; // Lords - Egocentric Will
+import { Ot2Component} from './pages/yinyang/albums/ot/tracks/ot2/ot2.component'; // Lords - Egocentric Will
+import { Ot3Component} from './pages/yinyang/albums/ot/tracks/ot3/ot3.component'; // Lords - Egocentric Will
+import { Ot4Component} from './pages/yinyang/albums/ot/tracks/ot4/ot4.component'; // Lords - Egocentric Will
+import { Ot5Component} from './pages/yinyang/albums/ot/tracks/ot5/ot5.component'; // Lords - Egocentric Will
+import { Ot6Component} from './pages/yinyang/albums/ot/tracks/ot6/ot6.component'; // Lords - Egocentric Will
+import { Ot7Component} from './pages/yinyang/albums/ot/tracks/ot7/ot7.component'; // Lords - Egocentric Will
+import { Ot8Component} from './pages/yinyang/albums/ot/tracks/ot8/ot8.component'; // Lords - Egocentric Will
+import { Ot9Component} from './pages/yinyang/albums/ot/tracks/ot9/ot9.component'; // Lords - Egocentric Will
+import { Ot10Component} from './pages/yinyang/albums/ot/tracks/ot10/ot10.component'; // Lords - Egocentric Will
+import { Ot11Component} from './pages/yinyang/albums/ot/tracks/ot11/ot11.component'; // Lords - Egocentric Will
 import { WhoweareComponent } from './pages/who/whoweare/whoweare.component';
-import { UtellmeComponent } from './pages/soundcloud/path/shields/utellme/utellme.component';
-import { PathshieldsComponent } from './pages/soundcloud/path/shields/pathshields/pathshields.component';
-import { BecauseweloveComponent } from './pages/soundcloud/path/shields/becausewelove/becausewelove.component';
-import { DarkwarriorComponent } from './pages/soundcloud/path/shields/darkwarrior/darkwarrior.component';
-import { MoneynopowerComponent } from './pages/soundcloud/path/shields/moneynopower/moneynopower.component';
-import { ExpressionNatureComponent } from './pages/soundcloud/path/shields/expression-nature/expression-nature.component';
-import { HipnoticDanceComponent } from './pages/soundcloud/path/shields/hipnotic-dance/hipnotic-dance.component';
-import { FirstMinutesComponent } from './pages/soundcloud/path/shields/first-minutes/first-minutes.component';
-import { SheNeedHeCreateComponent } from './pages/soundcloud/path/shields/she-need-he-create/she-need-he-create.component';
-import { IlusionMythComponent } from './pages/soundcloud/path/shields/ilusion-myth/ilusion-myth.component';
-import { DeepThoughtsComponent } from './pages/soundcloud/path/shields/deep-thoughts/deep-thoughts.component';
-import { DoDComponent } from './pages/soundcloud/path/shields/do-d/do-d.component';
-import { AgainstTheGreedComponent } from './pages/soundcloud/path/shields/against-the-greed/against-the-greed.component';
-import { DigitalPerspectiveComponent } from './pages/soundcloud/path/shields/digital-perspective/digital-perspective.component';
-import { SixtyNineComponent } from './pages/soundcloud/path/shields/sixty-nine/sixty-nine.component';
-import { ICanFeelComponent } from './pages/soundcloud/path/shields/ican-feel/ican-feel.component';
-import { UnionPointComponent } from './pages/soundcloud/path/shields/union-point/union-point.component';
-import { WeAreToolsComponent } from './pages/soundcloud/path/shields/we-are-tools/we-are-tools.component';
-import { EternalMastersComponent } from './pages/soundcloud/path/shields/eternal-masters/eternal-masters.component';
-import { WorstMusicComponent } from './pages/soundcloud/path/shields/worst-music/worst-music.component';
-import { UniverseComponent } from './pages/soundcloud/path/shields/universe/universe.component';
-import { BoobooComponent } from './pages/soundcloud/path/shields/booboo/booboo.component';
-import { DoItComponent } from './pages/soundcloud/path/shields/do-it/do-it.component';
-import { WaterBloodImageComponent } from './pages/soundcloud/magic/fantasy/water-blood-image/water-blood-image.component';
+import { UtellmeComponent } from './pages/yinyang/soundcloud/path/shields/utellme/utellme.component';
+import { PathshieldsComponent } from './pages/yinyang/soundcloud/path/shields/pathshields/pathshields.component';
+import { BecauseweloveComponent } from './pages/yinyang/soundcloud/path/shields/becausewelove/becausewelove.component';
+import { DarkwarriorComponent } from './pages/yinyang/soundcloud/path/shields/darkwarrior/darkwarrior.component';
+import { MoneynopowerComponent } from './pages/yinyang/soundcloud/path/shields/moneynopower/moneynopower.component';
+import { ExpressionNatureComponent } from './pages/yinyang/soundcloud/path/shields/expression-nature/expression-nature.component';
+import { HipnoticDanceComponent } from './pages/yinyang/soundcloud/path/shields/hipnotic-dance/hipnotic-dance.component';
+import { FirstMinutesComponent } from './pages/yinyang/soundcloud/path/shields/first-minutes/first-minutes.component';
+import { SheNeedHeCreateComponent } from './pages/yinyang/soundcloud/path/shields/she-need-he-create/she-need-he-create.component';
+import { IlusionMythComponent } from './pages/yinyang/soundcloud/path/shields/ilusion-myth/ilusion-myth.component';
+import { DeepThoughtsComponent } from './pages/yinyang/soundcloud/path/shields/deep-thoughts/deep-thoughts.component';
+import { DoDComponent } from './pages/yinyang/soundcloud/path/shields/do-d/do-d.component';
+import { AgainstTheGreedComponent } from './pages/yinyang/soundcloud/path/shields/against-the-greed/against-the-greed.component';
+import { DigitalPerspectiveComponent } from './pages/yinyang/soundcloud/path/shields/digital-perspective/digital-perspective.component';
+import { SixtyNineComponent } from './pages/yinyang/soundcloud/path/shields/sixty-nine/sixty-nine.component';
+import { ICanFeelComponent } from './pages/yinyang/soundcloud/path/shields/ican-feel/ican-feel.component';
+import { UnionPointComponent } from './pages/yinyang/soundcloud/path/shields/union-point/union-point.component';
+import { WeAreToolsComponent } from './pages/yinyang/soundcloud/path/shields/we-are-tools/we-are-tools.component';
+import { EternalMastersComponent } from './pages/yinyang/soundcloud/path/shields/eternal-masters/eternal-masters.component';
+import { WorstMusicComponent } from './pages/yinyang/soundcloud/path/shields/worst-music/worst-music.component';
+import { UniverseComponent } from './pages/yinyang/soundcloud/path/shields/universe/universe.component';
+import { BoobooComponent } from './pages/yinyang/soundcloud/path/shields/booboo/booboo.component';
+import { DoItComponent } from './pages/yinyang/soundcloud/path/shields/do-it/do-it.component';
+import { WaterBloodImageComponent } from './pages/yinyang/soundcloud/magic/fantasy/water-blood-image/water-blood-image.component';
 import { OscarFmComponent } from './pages/mystic/oscar-fm/oscar-fm.component';
-import { MysticPortalComponent } from './pages/soundcloud/boom/mystic-portal/mystic-portal.component';
-import { WoodFireComponent } from './pages/soundcloud/magic/fantasy/wood-fire/wood-fire.component';
-import { FragmentsComponent } from './pages/soundcloud/boom/fragments/fragments.component';
-import { SimplicityComponent } from './pages/soundcloud/signals/simplicity/simplicity.component';
+import { MysticPortalComponent } from './pages/yinyang/soundcloud/boom/mystic-portal/mystic-portal.component';
+import { WoodFireComponent } from './pages/yinyang/soundcloud/magic/fantasy/wood-fire/wood-fire.component';
+import { FragmentsComponent } from './pages/yinyang/soundcloud/boom/fragments/fragments.component';
+import { SimplicityComponent } from './pages/yinyang/soundcloud/signals/simplicity/simplicity.component';
 import { DanceOfLoveComponent } from './pages/love/dance-of-love/dance-of-love.component';
-import { LetsTalkAboutLoveComponent } from './pages/mixcloud/tao/lets-talk-about-love/lets-talk-about-love.component';
-import { IAmMusicPerfectBombComponent } from './pages/mixcloud/tao/iam-music-perfect-bomb/iam-music-perfect-bomb.component';
-import { LetsMakeChangeWeAllNeedComponent } from './pages/mixcloud/tao/lets-make-change-we-all-need/lets-make-change-we-all-need.component';
-import { MagicTouchInTheShadowsComponent } from './pages/mixcloud/tao/magic-touch-in-the-shadows/magic-touch-in-the-shadows.component';
-import { OurTryNotOurChoiceComponent } from './pages/mixcloud/tao/our-try-not-our-choice/our-try-not-our-choice.component';
-import { OurEternalLicenseComponent } from './pages/mixcloud/tao/our-eternal-license/our-eternal-license.component';
-import { TheChallengeComponent } from './pages/mixcloud/tao/the-challenge/the-challenge.component';
-import { PrinceOfDarknessComponent } from './pages/mixcloud/tao/prince-of-darkness/prince-of-darkness.component';
-import { AreYouEvilComponent } from './pages/mixcloud/tao/are-you-evil/are-you-evil.component';
-import { IWantYouYouWantMeComponent } from './pages/mixcloud/tao/iwant-you-you-want-me/iwant-you-you-want-me.component';
-import { IWantYouSoBadComponent } from './pages/mixcloud/tao/iwant-you-so-bad/iwant-you-so-bad.component';
-import { DevelopingunKnownCodeComponent } from './pages/mixcloud/tao/developingun-known-code/developingun-known-code.component';
-import { IWantToShowYouSomethingComponent } from './pages/mixcloud/tao/i-want-to-show-you-something/i-want-to-show-you-something.component';
-import { ShareYourVisionsBeSymbolComponent } from './pages/mixcloud/tao/share-your-visions-be-symbol/share-your-visions-be-symbol.component';
-import { WeDontNeedSecurityButFunctionalityComponent } from './pages/mixcloud/tao/we-dont-need-security-but-functionality/we-dont-need-security-but-functionality.component';
-import { AllAboutUsComponent } from './pages/soundcloud/magic/fantasy/all-about-us/all-about-us.component';
-import { PsyJungleComponent } from './pages/mixcloud/tao/psy-jungle/psy-jungle.component';
-import { LetsDiveIntoTheWorldofJavaScriptComponent } from './pages/mixcloud/tao/lets-dive-into-the-worldof-java-script/lets-dive-into-the-worldof-java-script.component';
-import { TropicalIgnitionMasterComponent } from './pages/mixcloud/tao/tropical-ignition-master/tropical-ignition-master.component';
-import { WeWillSoonComponent } from './pages/mixcloud/tao/we-will-soon/we-will-soon.component';
-import { YouBlowMyMindComponent } from './pages/mixcloud/tao/you-blow-my-mind/you-blow-my-mind.component';
-import { MysticTheoriesCultComponent } from './pages/mixcloud/tao/mystic-theories-cult/mystic-theories-cult.component';
-import { CareUsAndWeWillCareYouComponent } from './pages/mixcloud/tao/care-us-and-we-will-care-you/care-us-and-we-will-care-you.component';
-// import { EmotionalSignalsComponent } from './pages/bandcamp/albums/es/emotional-signals/emotional-signals.component';
-import { ErrorComponent } from './pages/sys/error/error.component';
-// import { PrivacyComponent } from './pages/wiki/privacy/privacy.component';
+import { LetsTalkAboutLoveComponent } from './pages/yinyang/mixcloud/tao/lets-talk-about-love/lets-talk-about-love.component';
+import { IAmMusicPerfectBombComponent } from './pages/yinyang/mixcloud/tao/iam-music-perfect-bomb/iam-music-perfect-bomb.component';
+// tslint:disable-next-line:max-line-length
+import { LetsMakeChangeWeAllNeedComponent } from './pages/yinyang/mixcloud/tao/lets-make-change-we-all-need/lets-make-change-we-all-need.component';
+// tslint:disable-next-line:max-line-length
+import { MagicTouchInTheShadowsComponent } from './pages/yinyang/mixcloud/tao/magic-touch-in-the-shadows/magic-touch-in-the-shadows.component';
+import { OurTryNotOurChoiceComponent } from './pages/yinyang/mixcloud/tao/our-try-not-our-choice/our-try-not-our-choice.component';
+import { OurEternalLicenseComponent } from './pages/yinyang/mixcloud/tao/our-eternal-license/our-eternal-license.component';
+import { TheChallengeComponent } from './pages/yinyang/mixcloud/tao/the-challenge/the-challenge.component';
+import { PrinceOfDarknessComponent } from './pages/yinyang/mixcloud/tao/prince-of-darkness/prince-of-darkness.component';
+import { AreYouEvilComponent } from './pages/yinyang/mixcloud/tao/are-you-evil/are-you-evil.component';
+import { IWantYouYouWantMeComponent } from './pages/yinyang/mixcloud/tao/iwant-you-you-want-me/iwant-you-you-want-me.component';
+import { IWantYouSoBadComponent } from './pages/yinyang/mixcloud/tao/iwant-you-so-bad/iwant-you-so-bad.component';
+import { DevelopingunKnownCodeComponent } from './pages/yinyang/mixcloud/tao/developingun-known-code/developingun-known-code.component';
+// tslint:disable-next-line:max-line-length
+import { IWantToShowYouSomethingComponent } from './pages/yinyang/mixcloud/tao/i-want-to-show-you-something/i-want-to-show-you-something.component';
+// tslint:disable-next-line:max-line-length
+import { ShareYourVisionsBeSymbolComponent } from './pages/yinyang/mixcloud/tao/share-your-visions-be-symbol/share-your-visions-be-symbol.component';
+// tslint:disable-next-line:max-line-length
+import { WeDontNeedSecurityButFunctionalityComponent } from './pages/yinyang/mixcloud/tao/we-dont-need-security-but-functionality/we-dont-need-security-but-functionality.component';
+import { AllAboutUsComponent } from './pages/yinyang/soundcloud/magic/fantasy/all-about-us/all-about-us.component';
+import { PsyJungleComponent } from './pages/yinyang/mixcloud/tao/psy-jungle/psy-jungle.component';
+// tslint:disable-next-line:max-line-length
+import { LetsDiveIntoTheWorldofJavaScriptComponent } from './pages/yinyang/mixcloud/tao/lets-dive-into-the-worldof-java-script/lets-dive-into-the-worldof-java-script.component';
+import { TropicalIgnitionMasterComponent } from './pages/yinyang/mixcloud/tao/tropical-ignition-master/tropical-ignition-master.component';
+import { WeWillSoonComponent } from './pages/yinyang/mixcloud/tao/we-will-soon/we-will-soon.component';
+import { YouBlowMyMindComponent } from './pages/yinyang/mixcloud/tao/you-blow-my-mind/you-blow-my-mind.component';
+import { MysticTheoriesCultComponent } from './pages/yinyang/mixcloud/tao/mystic-theories-cult/mystic-theories-cult.component';
+// tslint:disable-next-line:max-line-length
+import { CareUsAndWeWillCareYouComponent } from './pages/yinyang/mixcloud/tao/care-us-and-we-will-care-you/care-us-and-we-will-care-you.component';
+// import { EmotionalSignalsComponent } from './pages/yinyang/albums/es/emotional-signals/emotional-signals.component';
+// import { ErrorComponent } from './pages/sys/error/error.component';
+// import { PrivacyComponent } from './pages/license/wiki/privacy/privacy.component';
 
 
 const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: '', redirectTo: '/home', pathMatch: 'full'},
-  { path: '*', component: ErrorComponent },
+//  { path: '**', component: ErrorComponent },
   { path: 'home', component: HomeComponent },
   { path: 'who', component: WhoComponent },
   { path: 'oscar/fm', component: OscarFmComponent },
@@ -237,7 +244,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'path/of/shields', component: PathshieldsComponent }, // path of shields ( image )
   { path: 'simplicity', component: SimplicityComponent }, // simplicity ( signals of time )
 // ######################################################################################################
-//  { path: 'mixcloud', component: MixcloudComponent }, // Mixcloud
+//  { path: 'yinyang/mixcloud', component: yinyang/mixcloudComponent }, // yinyang/mixcloud
   { path: 'we/must/change/our/ways', component: ChangeComponent }, // Tribute - Severn Cullis Suzuki
   { path: 'lets/talk/about/love', component: LetsTalkAboutLoveComponent },
   { path: 'our/try/not/our/choice', component: OurTryNotOurChoiceComponent },
@@ -272,7 +279,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'last/warning/tao/touch', component: TaoComponent }, // Last Warning
   { path: 'data/objects/and/functions', component: DataComponent }, // Data
 // ######################################################################################################
-//  { path: 'soundcloud', component: SoundcloudComponent }, // SoundCloud
+//  { path: 'yinyang/soundcloud', component: yinyang/soundcloudComponent }, // yinyang/soundcloud
   { path: 'lets/make/business', component: BusinessComponent }, // lets make business ( magic of fantasy )
   { path: 'water/blood/path', component: WaterBloodImageComponent },
   { path: 'dont/take/us/seriously/we/are/having/fun', component: SeriouslyComponent },
@@ -462,10 +469,10 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
 //    PrivacyComponent
 //    LoginComponent,
 // ######################################################################################################
-//    SoundcloudComponent, // Soundcloud
+//    yinyang/soundcloudComponent, // yinyang/soundcloud
     BusinessComponent,
 // ######################################################################################################
-//    MixcloudComponent, // Mixcloud
+//    yinyang/mixcloudComponent, // yinyang/mixcloud
     SeriouslyComponent,
     ChangeComponent, // Tribute to Severn Cullis Suzuki
     CatComponent, // Yin Yang Tao Tribute - Boom Festival Shamanism - 2016
@@ -659,7 +666,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     MysticTheoriesCultComponent,
     CareUsAndWeWillCareYouComponent,
 //    EmotionalSignalsComponent,
-    ErrorComponent,
+//    ErrorComponent,
 
   ],
   imports: [
