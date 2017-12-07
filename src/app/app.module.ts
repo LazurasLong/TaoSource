@@ -46,6 +46,8 @@ import { FirststepsComponent } from './pages/license/wiki/firststeps/firststeps.
 import { CoreconceptsComponent } from './pages/license/wiki/coreconcepts/coreconcepts.component';
 import { IdeaComponent } from './pages/license/wiki/idea/idea.component';
 import { ChallengeComponent } from './pages/license/wiki/challenge/challenge.component';
+import { DevelopersComponent } from './pages/license/wiki/developers/developers.component';
+import { SocialmediaComponent } from './pages/license/wiki/socialmedia/socialmedia.component';
 import { PathComponent } from './pages/license/wiki/path/path.component';
 // ###################################################################################################### yinyang
 import { BandcampComponent } from './pages/yinyang/bandcamp.component';
@@ -447,6 +449,8 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'wiki/idea', component: IdeaComponent },
   { path: 'wiki/challenge', component: ChallengeComponent },
   { path: 'wiki/path', component: PathComponent },
+  { path: 'wiki/developers', component: DevelopersComponent },
+  { path: 'wiki/socialmedia', component: SocialmediaComponent },
 //  { path: 'login', component: LoginComponent },
 //  { path: 'wiki/privacy', component: PrivacyComponent }
 ]
@@ -458,6 +462,8 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     LicenseComponent,
     WhoComponent,
     WikiComponent,
+    DevelopersComponent,
+    SocialmediaComponent,
     WhoweareComponent,
     UtellmeComponent,
     IntroComponent,
@@ -679,7 +685,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
       { enableTracing: false }
     )
   ],
-  providers: [Location, 
+  providers: [Location,
     {
       provide: LocationStrategy,
       useClass: HashLocationStrategy,
