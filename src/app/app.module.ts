@@ -6,7 +6,7 @@ import { APP_BASE_HREF } from '@angular/common';
 import { RouterModule, Routes, Route, provideRoutes } from '@angular/router';
 import { HashLocationStrategy, Location, LocationStrategy } from '@angular/common';
 // import { RecaptchaModule } from 'ng-recaptcha';
-import * as firebase from 'firebase';
+// import * as firebase from 'firebase';
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -;
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component'; // Visions
