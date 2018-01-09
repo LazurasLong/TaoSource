@@ -228,6 +228,25 @@ import { YouBlowMyMindComponent } from './pages/yinyang/mixcloud/tao/you-blow-my
 import { MysticTheoriesCultComponent } from './pages/yinyang/mixcloud/tao/mystic-theories-cult/mystic-theories-cult.component';
 // tslint:disable-next-line:max-line-length
 import { CareUsAndWeWillCareYouComponent } from './pages/yinyang/mixcloud/tao/care-us-and-we-will-care-you/care-us-and-we-will-care-you.component';
+import { WalkingRiverComponent } from './pages/yinyang/soundcloud/magic/fantasy/walking-river/walking-river.component';
+import { LoveDieComponent } from './pages/yinyang/soundcloud/magic/fantasy/love-die/love-die.component';
+import { PianoWordsComponent } from './pages/yinyang/soundcloud/magic/fantasy/piano-words/piano-words.component';
+import { Press4MonkeyComponent } from './pages/yinyang/soundcloud/magic/fantasy/press4-monkey/press4-monkey.component';
+import { NeedActivityComponent } from './pages/yinyang/soundcloud/magic/fantasy/need-activity/need-activity.component';
+import { LastdaySacrificeComponent } from './pages/yinyang/soundcloud/magic/fantasy/lastday-sacrifice/lastday-sacrifice.component';
+import { FastSignalsComponent } from './pages/yinyang/soundcloud/magic/fantasy/fast-signals/fast-signals.component';
+import { BrainChiloutComponent } from './pages/yinyang/soundcloud/magic/fantasy/brain-chilout/brain-chilout.component';
+import { DowhateveryoudobestMusicComponent } from './pages/yinyang/soundcloud/magic/fantasy/dowhateveryoudobest-music/dowhateveryoudobest-music.component';
+import { ThatSexyFeelingComponent } from './pages/yinyang/soundcloud/magic/fantasy/that-sexy-feeling/that-sexy-feeling.component';
+import { ByYourSideComponent } from './pages/yinyang/soundcloud/magic/fantasy/by-your-side/by-your-side.component';
+import { DanceLikeWaterComponent } from './pages/yinyang/soundcloud/magic/fantasy/dance-like-water/dance-like-water.component';
+import { ThisMyStyleComponent } from './pages/yinyang/soundcloud/magic/fantasy/this-my-style/this-my-style.component';
+import { CraftingNewGenerationsComponent } from './pages/yinyang/soundcloud/magic/fantasy/crafting-new-generations/crafting-new-generations.component';
+import { MakeitRightComponent } from './pages/yinyang/soundcloud/magic/fantasy/makeit-right/makeit-right.component';
+import { NotAloneHolyShadowsComponent } from './pages/yinyang/soundcloud/magic/fantasy/not-alone-holy-shadows/not-alone-holy-shadows.component';
+import { SetUsFreeComponent } from './pages/yinyang/soundcloud/magic/fantasy/set-us-free/set-us-free.component';
+import { DeedsPath2ParadiseComponent } from './pages/yinyang/soundcloud/magic/fantasy/deeds-path2-paradise/deeds-path2-paradise.component';
+import { LeadandWeWillFollowComponent } from './pages/yinyang/soundcloud/magic/fantasy/leadand-we-will-follow/leadand-we-will-follow.component';
 // import { EmotionalSignalsComponent } from './pages/yinyang/albums/es/emotional-signals/emotional-signals.component';
 // import { ErrorComponent } from './pages/sys/error/error.component';
 // import { PrivacyComponent } from './pages/license/wiki/privacy/privacy.component';
@@ -672,6 +691,25 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     YouBlowMyMindComponent,
     MysticTheoriesCultComponent,
     CareUsAndWeWillCareYouComponent,
+    WalkingRiverComponent,
+    LoveDieComponent,
+    PianoWordsComponent,
+    Press4MonkeyComponent,
+    NeedActivityComponent,
+    LastdaySacrificeComponent,
+    FastSignalsComponent,
+    BrainChiloutComponent,
+    DowhateveryoudobestMusicComponent,
+    ThatSexyFeelingComponent,
+    ByYourSideComponent,
+    DanceLikeWaterComponent,
+    ThisMyStyleComponent,
+    CraftingNewGenerationsComponent,
+    MakeitRightComponent,
+    NotAloneHolyShadowsComponent,
+    SetUsFreeComponent,
+    DeedsPath2ParadiseComponent,
+    LeadandWeWillFollowComponent,
 //    EmotionalSignalsComponent,
 //    ErrorComponent,
 
