@@ -1,0 +1,33 @@
+div {
+    text-align: center;
+    font-size: 120%;
+}
+
+a {
+    animation: none;
+}
+
+#banner {
+background: url("https://i00nsu.keybase.pub/odicforcesounds.com/images/shadows.jpg") no-repeat center center fixed;
+background-size: cover;
+height: 100%;
+/* Set up proportionate scaling */
+min-width: 100%;
+min-height: 100%;
+margin-top: 0;
+
+/* Set up positioning */
+position: relative;
+left: 0;
+}
+
+#main {
+    width: 100%;
+    min-width: 25%;
+    text-align: center;
+    font-size: 120%;
+}
+
+p {
+    margin-top: 2%;
+}

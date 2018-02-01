@@ -6,7 +6,12 @@ import { APP_BASE_HREF } from '@angular/common';
 import { RouterModule, Routes, Route, provideRoutes } from '@angular/router';
 import { HashLocationStrategy, Location, LocationStrategy } from '@angular/common';
 // import { RecaptchaModule } from 'ng-recaptcha';
-// import * as firebase from 'firebase';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { AngularFireStorageModule } from 'angularfire2/storage';
+import { AngularFireAuthModule } from 'angularfire2/auth';
+import { environment } from '../environments/environment';
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -;
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component'; // Visions
@@ -236,17 +241,23 @@ import { NeedActivityComponent } from './pages/yinyang/soundcloud/magic/fantasy/
 import { LastdaySacrificeComponent } from './pages/yinyang/soundcloud/magic/fantasy/lastday-sacrifice/lastday-sacrifice.component';
 import { FastSignalsComponent } from './pages/yinyang/soundcloud/magic/fantasy/fast-signals/fast-signals.component';
 import { BrainChiloutComponent } from './pages/yinyang/soundcloud/magic/fantasy/brain-chilout/brain-chilout.component';
+// tslint:disable-next-line:max-line-length
 import { DowhateveryoudobestMusicComponent } from './pages/yinyang/soundcloud/magic/fantasy/dowhateveryoudobest-music/dowhateveryoudobest-music.component';
 import { ThatSexyFeelingComponent } from './pages/yinyang/soundcloud/magic/fantasy/that-sexy-feeling/that-sexy-feeling.component';
 import { ByYourSideComponent } from './pages/yinyang/soundcloud/magic/fantasy/by-your-side/by-your-side.component';
 import { DanceLikeWaterComponent } from './pages/yinyang/soundcloud/magic/fantasy/dance-like-water/dance-like-water.component';
 import { ThisMyStyleComponent } from './pages/yinyang/soundcloud/magic/fantasy/this-my-style/this-my-style.component';
+// tslint:disable-next-line:max-line-length
 import { CraftingNewGenerationsComponent } from './pages/yinyang/soundcloud/magic/fantasy/crafting-new-generations/crafting-new-generations.component';
 import { MakeitRightComponent } from './pages/yinyang/soundcloud/magic/fantasy/makeit-right/makeit-right.component';
+// tslint:disable-next-line:max-line-length
 import { NotAloneHolyShadowsComponent } from './pages/yinyang/soundcloud/magic/fantasy/not-alone-holy-shadows/not-alone-holy-shadows.component';
 import { SetUsFreeComponent } from './pages/yinyang/soundcloud/magic/fantasy/set-us-free/set-us-free.component';
 import { DeedsPath2ParadiseComponent } from './pages/yinyang/soundcloud/magic/fantasy/deeds-path2-paradise/deeds-path2-paradise.component';
+// tslint:disable-next-line:max-line-length
 import { LeadandWeWillFollowComponent } from './pages/yinyang/soundcloud/magic/fantasy/leadand-we-will-follow/leadand-we-will-follow.component';
+import { BlogComponent } from './pages/blog/blog.component';
+import { LoginComponent } from './logic/login/login.component';
 // import { EmotionalSignalsComponent } from './pages/yinyang/albums/es/emotional-signals/emotional-signals.component';
 // import { ErrorComponent } from './pages/sys/error/error.component';
 // import { PrivacyComponent } from './pages/license/wiki/privacy/privacy.component';
@@ -260,6 +271,8 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'oscar/fm', component: OscarFmComponent },
   { path: 'about/me/and/you', component: WhoweareComponent },
   { path: 'you/are/the/wood/i/am/the/fire', component: WoodFireComponent },
+  { path: 'blog', component: BlogComponent },
+  { path: 'logmein', component: LoginComponent },
   { path: 'license', component: LicenseComponent }, // Eternal License
 //  { path: 'articles', component: ArticlesComponent },
 //  { path: 'water/vs/blood', component: WaterbloodComponent },
@@ -710,6 +723,8 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     SetUsFreeComponent,
     DeedsPath2ParadiseComponent,
     LeadandWeWillFollowComponent,
+    BlogComponent,
+    LoginComponent,
 //    EmotionalSignalsComponent,
 //    ErrorComponent,
 
@@ -718,6 +733,10 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     BrowserModule,
     FormsModule,
     HttpModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule, // imports firebase/firestore, only needed for database features
+    AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
+    AngularFireStorageModule, // imports firebase/storage only needed for storage features
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: false }
