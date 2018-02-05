@@ -24,17 +24,22 @@ List all <b>Brands</b> which have more approved Actions Above the Others.
 
 <b>Note</b>: in this Rating Videos process, Actions Shall have 6 Positive Approves without 1 deny in sequence of different users, to be finaly approved.
 
-<b>Note</b>: Users are notified of a new Video, whithout knowing who is the Author of the Video. User personal Information is always invisible to other players. 
+<b>Note</b>: Users are notified of a new Video, whithout knowing who is the Author of the Video. User personal Information is always invisible to other players.
+
 
 ##### You are not here to make "friends", You are here to show to the World how much You Care this world. When You have finished the Challenge, You will be redirected to a community where everyone had finish the challenge, and this community is the perfect place to know new friends and start to sell or buy what they are selling, using the points you gain along the way. 
 
 ## Privacy Concerns: Data Base
 This project "Care" about Privacy.
-- Registration is made by the Popular Social Media Networks like Github, Facebook, Twitter, etc... 
+- Registration is made by the Popular Social Media Networks like Github, Facebook, Twitter, etc, or email. Email Must Exist. (Registration, Passwd Recovery)
 - The user decide his/her privacy. 
 - This platform will Not ask the user to add more personal information that the user already care to share by registration process. 
 - Actions need to have more information about the user. GPS & Time Zone
 - GPS points & Time Zone information will be recorded in text format in User profile Actions List, with refered Path. 
+- <b>Note</b>: Only Reported Videos which are reported as an Abuse which Violate License Principles, are not Deleted. 
+- Privacy Rights are can be Violated at Action Time in HCP (Human Care Path). Because the Video servers as Concept Proof, while in in rating process, videos must be viewed by someone else. (random) When Video have a Final Stage (approved or Denied), Video Shall be Deleted!
+- GPS + Time Zone information is used to add as Note in each Approved User Action and add it in a World Map as a Pixel which refers an Action made in that Point of the Planet.  
+- This challenge don't care about how much secure You are, but if the actions are made. Secure communications sometimes are slow and not good to Real Time Video Recording. If Player Have a good connetion, player only needs an email to start playing. 
  
  ### Logic: The BlockChain - The Eco System
 ##### 1 Approved Action === 1 Point | 1 Point === +1 coin
@@ -60,7 +65,7 @@ This project "Care" about Privacy.
 - using Firebase (Google) free to test
 ## 2. Profile Info
 - Email (Registration & Login) - Popular Social Media Sync 
-- Year of Birth: (Personal user information is related to Chinese Zodiacts / Taoism / Buddism) 
+- Year of Birth: (Personal user information is related to Chinese Zodiacts / Taoism / Buddis  
 ###### Note: Information related to user profile Zodiac should be static or synchronized from external sources. 
 
 ## 3. User Interface Forms
