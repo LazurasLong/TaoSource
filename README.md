@@ -49,12 +49,13 @@ This project "Care" about Privacy.
 - CryptoCoins Communities Should care about the Energy that is spend by each single user of this Competition. If one Approved action represents Value, a CryptoCoin Should be given to each User Approved Action.
 
 ### Logic: The [Paths](https://odicforcesounds.com/#/wiki/path) in Challenge are the mining process. 
+
+# Todo: WebDesign
+### Frontend and Backend
 # Device Target:
 - Android, iPhone, 
 - Create hardware specific to play: Glass's? Maybe a Hat? Something will do it, is only to record a video. 
 - Drones? If team / Company Group. One drive the drone, others do what ever is needed. 
-# Todo: WebDesign
-### Frontend and Backend
 # User Interface
 ## 1. System Login
 - using Firebase (Google) free to test
