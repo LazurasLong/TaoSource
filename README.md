@@ -37,7 +37,7 @@ This project "Care" about Privacy.
 - Actions need to have more information about the user. GPS & Time Zone
 - GPS points & Time Zone information will be recorded in text format in User profile Actions List, with refered Path. 
 - <b>Note</b>: Only Reported Videos which are reported as an Abuse which Violate License Principles, are not Deleted. 
-- Privacy Rights are can be Violated at Action Time in HCP (Human Care Path). Because the Video servers as Concept Proof, while in in rating process, videos must be viewed by someone else. (random) When Video have a Final Stage (approved or Denied), Video Shall be Deleted!
+- Privacy Rights can be Violated at Action Time in HCP (Human Care Path). Because the Video serves as a Concept Proof, while in rating process, videos must be viewed by someone else. (random) When Video have a Final Stage (approved or Denied), Video Shall be Deleted!
 - GPS + Time Zone information is used to add as Note in each Approved User Action and add it in a World Map as a Pixel which refers an Action made in that Point of the Planet.  
 - This challenge don't care about how much secure You are, but if the actions are made. Secure communications sometimes are slow and not good to Real Time Video Recording. If Player Have a good connetion, player only needs an email to start playing. 
  
