@@ -1,11 +1,8 @@
-ng build --prod --output-hashing --sourcemaps &&
-sleep 4 &&
+ng build --target=production --environment=prod --aot --build-optimizer --vendor-chunk=true --output-hashing --sourcemaps &&
+sleep 40 &&
 echo "project is built" &&
 rm dist/*.gz &&
 echo "gz files removed from dist/" &&
-cp -Rv redirects/* dist/ &&
-echo "dist/ folder ready to firebase deploy" &&
-echo "Lets hope there is no error >D - commiting / publishing project" &&
-echo "while we wait for firebase upload...lets give them more 60 secounds " && 
-firebase deploy 
+cp -Rv redirects/* dist/* . &&
+git add . && git commit -m "set me alive at github" && git push
 echo "Done - in few secounds / minutes we can see the result alive"
