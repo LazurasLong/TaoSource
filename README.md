@@ -8,10 +8,8 @@
 ##### You Shall Not Deny to Join the Force!
 
 ## Abstraction + Fantasy = Logic
-## 1 + 1 = 1 or 3 [You Tell me](https://odicforcesounds.com/#/tao)
-#### Note: You Shall not deny to Join [World Cleaner](https://www.facebook.com/odicforcesounds/posts/831816413649165) challenge, the main Gift delivered and expressed by the [Monkey King](https://odicforcesounds.com/#/sun/wukong/the/monkey/king) 
-
-
+#### 1 + 1 = 1 or 3 [You Tell me](https://odicforcesounds.com/#/tao)
+#### Note: You Shall not deny to Join [World Cleaner](https://www.facebook.com/odicforcesounds/posts/831816413649165) challenge, the main Gift delivered and expressed by Sun Wukong, the [Monkey King](https://odicforcesounds.com/#/sun/wukong/the/monkey/king) 
 
 ##### This Application is:
 A World Wide Political Science Business Challenge
@@ -51,7 +49,10 @@ This project "Care" about Privacy.
 - CryptoCoins Communities Should care about the Energy that is spend by each single user of this Competition. If one Approved action represents Value, a CryptoCoin Should be given to each User Approved Action.
 
 ### Logic: The [Paths](https://odicforcesounds.com/#/wiki/path) in Challenge are the mining process. 
--
+# Device Target:
+- Android, iPhone, 
+- Create hardware specific to play: Glass's? Maybe a Hat? Something will do it, is only to record a video. 
+- Drones? If team / Company Group. One drive the drone, others do what ever is needed. 
 # Todo: WebDesign
 ### Frontend and Backend
 # User Interface
@@ -87,15 +88,15 @@ This project "Care" about Privacy.
 # Public Interface:
 
 ## 1. Odicforcesounds pages and menus tabs
-- Done.
+- Work in progress
 ## 2. Registration and Login system.
 - New tab menu to login / register
 ## 3. Brands Competition Status menu tab
-- Statistic with the list of brands which have more approved actions above the others. (ads exposition, free publicity and promotion)
+- Statistic with the list of brands which have more approved actions above the others. (ads exposition, free publicity and brand promotion)
 ## 4. Abuse reported Videos (public)
 - List of users who are blocked and made a video against all concepts of this challenge. 
 - If a user cares about privacy, then a user shall care his behaviors.
-###### Because application sometimes open without our concern, or if a child create a video, the content need to be approved  
+###### Because application sometimes open without our concern, the content need to be approved or a lock system must be applyed to open application.   
 ## 5. Solo / no brand - Public User List
 - User start with no public exposition.
 - If the user desire to make it public, is possible. For Social / Political proposes. 
@@ -104,7 +105,8 @@ This project "Care" about Privacy.
 
 This challenge assume [everyone](https://odicforcesounds.com/#/absolute/everything/and/everyone) is included!
 
-This means, all Religions, Spiritual, Mystic groups, Political, Charity groups. 
+This means, all Religions, Spiritual, Mystic, Political, Charity, Sport groups. 
 
-All groups or invidual who represent a Logo. ( Public and Private Business )
+All groups or invidual who represent a Logo. 
+( Public and Private Business )
 
