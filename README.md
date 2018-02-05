@@ -18,7 +18,12 @@ All who represent one or more <b>Logos</b>
 A World Wide Brands Competition for <b>image</b> propose Only!
 #### This Competition will:
 List all <b>Brands</b> which have more approved Actions Above the Others. 
-
+#### About Human Rights
+- Rights refer rules/laws as a way to produce the Right Effects of having Rights!
+- If we have the right to have a home, someone shall have the duty to give me what we diserve.
+- If I have the right to have a life, someone shall have the duty to give basic supports. 
+- Rights ask Duties, and Duties ask Actions. 
+- Do You know a better way to Educate?  
 ## Application Main Objective: 
 #### Create Realtime-Videos and Rate Recorded-Videos
 
