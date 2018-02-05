@@ -6,10 +6,8 @@ import { APP_BASE_HREF } from '@angular/common';
 import { RouterModule, Routes, Route, provideRoutes } from '@angular/router';
 import { HashLocationStrategy, Location, LocationStrategy } from '@angular/common';
 // import { RecaptchaModule } from 'ng-recaptcha';
-import { AngularFireModule } from 'angularfire2';
-import { AngularFirestoreModule } from 'angularfire2/firestore';
-import { AngularFireStorageModule } from 'angularfire2/storage';
-import { AngularFireAuthModule } from 'angularfire2/auth';
+// import { AngularFireModule } from 'angularfire2';
+// import { AngularFireAuthModule } from 'angularfire2/auth';
 import { environment } from '../environments/environment';
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -;
@@ -69,7 +67,7 @@ import { Vot9Component } from './pages/yinyang/albums/vot/tracks/vot9/vot9.compo
 import { Vot10Component } from './pages/yinyang/albums/vot/tracks/vot10/vot10.component';
 import { Vot11Component } from './pages/yinyang/albums/vot/tracks/vot11/vot11.component';
 // ######################################################################################################
-import { MwComponent } from './pages/yinyang/albums/mw/mw.component';// Machine World - Album and Tracks
+import { MwComponent } from './pages/yinyang/albums/mw/mw.component'; // Machine World - Album and Tracks
 import { Mw1Component } from './pages/yinyang/albums/mw/tracks/mw1/mw1.component'; // Control - Free to Ask
 import { Mw2Component } from './pages/yinyang/albums/mw/tracks/mw2/mw2.component'; // Control - Free to Ask
 import { Mw3Component } from './pages/yinyang/albums/mw/tracks/mw3/mw3.component'; // Control - Free to Ask
@@ -96,7 +94,7 @@ import { St11Component } from './pages/yinyang/albums/st/tracks/st11/st11.compon
 import { St12Component } from './pages/yinyang/albums/st/tracks/st12/st12.component';
 import { St13Component } from './pages/yinyang/albums/st/tracks/st13/st13.component';
 // ######################################################################################################
-import { SkdComponent } from './pages/yinyang/albums/skd/skd.component';// Shiva and Kali Dance - Album and Tracks
+import { SkdComponent } from './pages/yinyang/albums/skd/skd.component'; // Shiva and Kali Dance - Album and Tracks
 import { Skd1Component } from './pages/yinyang/albums/skd/tracks/skd1/skd1.component';
 import { Skd2Component } from './pages/yinyang/albums/skd/tracks/skd2/skd2.component';
 import { Skd3Component } from './pages/yinyang/albums/skd/tracks/skd3/skd3.component';
@@ -733,10 +731,10 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     BrowserModule,
     FormsModule,
     HttpModule,
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule, // imports firebase/firestore, only needed for database features
-    AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
-    AngularFireStorageModule, // imports firebase/storage only needed for storage features
+ //   AngularFireModule.initializeApp(environment.firebase),
+   // AngularFirestoreModule, // imports firebase/firestore, only needed for database features
+   // AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
+ //  AngularFireStorageModule, // imports firebase/storage only needed for storage features
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: false }
