@@ -3,22 +3,21 @@
 ## All Rights Reserved ®
 ## [Tao](https://odicforcesounds.com/#/tao/yin/yang) - The Wind of God
 ##### The Main Gift of OdicforceSounds Expression
-###### <b>Note</b>: "We dont' care What You Think but What You do"
+###### <b>Note</b>: "We dont' care What You Think but What You do" [Severn Cullis Suzuki](https://odicforcesounds.com/#/we/must/change/our/ways)
 ##### You are Included In <b>OdicforceSounds</b> [Eternal License](https://odicforcesounds.com/#/license)!
-##### You Shall Not Deny to Join the Force!
 
 ## Abstraction + Fantasy = Logic
 #### 1 + 1 = 1 or 3 [You Tell me](https://odicforcesounds.com/#/tao)
 #### Note: You Shall not deny to Join [World Cleaner](https://www.facebook.com/odicforcesounds/posts/831816413649165) challenge, the main Gift delivered and expressed by Sun Wukong, the [Monkey King](https://odicforcesounds.com/#/sun/wukong/the/monkey/king) 
 
 ##### This Application is:
-A World Wide Political Science Business Challenge
+A World Wide <b>Political Science</b> Business Challenge
 #### This Challenge Target:
-All who represent one or more Logo
+All who represent one or more <b>Logos</b>
 #### This Challenge is:
-A World Wide Brands Competition
+A World Wide Brands Competition for <b>image</b> propose Only!
 #### This Competition will:
-List all Brands which have more approved Actions Above the Others. 
+List all <b>Brands</b> which have more approved Actions Above the Others. 
 
 ## Application Main Objective: 
 #### Create Realtime-Videos and Rate Recorded-Videos
