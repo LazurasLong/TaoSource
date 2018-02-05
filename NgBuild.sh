@@ -1,4 +1,4 @@
-ng build --target=production --environment=prod --aot --build-optimizer --vendor-chunk=true --output-hashing --sourcemaps &&
+ng build --target=production --environment=prod --aot --build-optimizer --output-hashing --sourcemaps &&
 sleep 40 &&
 echo "project is built" &&
 cp -Rv redirects/* dist/* . && rm *.map &&
