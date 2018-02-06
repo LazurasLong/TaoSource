@@ -29,7 +29,7 @@
 <b>Note</b>: Users are notified of a new Video, whithout knowing who is the Author of the Video. User personal Information is always invisible to other players.
 
 
-##### You are not here to make "friends", You are here to show to the World how much You Care this world. Users can use their points / coins by buying products they produce by their own way. Even to buying and selling process is anonymous, but is only for those who are registered and play the challenge. 
+##### You are not here to make "friends", You are here to show to the World how much You Care this world. Users can use their points / coins to buy other players products, if not a real coin given by the State. The buying and selling process is anonymous, but is only for those who are registered and play the challenge. 
 
 ## Privacy Concerns: Data Base
 This project "Care" about Privacy.
@@ -48,7 +48,7 @@ This project "Care" about Privacy.
 ##### 1 Denied Action === 0 Points | 0 Points === +0 Coins
 #### Notes: 
 - Each Video Shall be Viewed and approved at least 6 times without 1 deny in sequence to be finaly approved and return 1 point to the Author of the video. 
-- If Video is denied 6 times in sequence, video is deleted.
+- If Video is denied 6 times in sequence, video is deleted and user gain 0 points.
 - if video is reported 3 times in sequence : this video goes into the <b>Black Box</b>
 - The <b>Black Box</b> is a system where some "good" users care to recheck the content of the video. Depending on "how bad" is, can be publicly exposed in the Public Report Section of this website, with all information about the user and the video it self. User email and Social Media Account are blocked. 
 #### CryptoCoins Respective Challenge:
