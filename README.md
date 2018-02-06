@@ -1,27 +1,24 @@
 - This project is currently Using Angular5 
 # World Cleaner
 ## All Rights Reserved ®
-## [Tao](https://odicforcesounds.com/#/tao/yin/yang) - The Wind of God
+## [Tao](https://odicforcesounds.com/#/tao) - The Wind of God
 ##### The Main Gift of OdicforceSounds Expression
-###### <b>Note</b>: "We dont' care What You Think but What You do" [Severn Cullis Suzuki](https://odicforcesounds.com/#/we/must/change/our/ways)
+###### <b>Note</b>: "We dont' care What You Think but What You do" [Severn Cullis Suzuki](https://odicforcesounds.com/#/we/must/change/our/ways) Public Talk Tribute
 ##### You are Included In <b>OdicforceSounds</b> [Eternal License](https://odicforcesounds.com/#/license)!
 
 ## Abstraction + Fantasy = Logic
 #### 1 + 1 = 1 or 3 [You Tell me](https://odicforcesounds.com/#/tao)
-#### Note: You Shall not deny to Join [World Cleaner](https://www.facebook.com/odicforcesounds/posts/831816413649165) challenge, the main Gift delivered and expressed by Sun Wukong, the [Monkey King](https://odicforcesounds.com/#/sun/wukong/the/monkey/king) 
+##### Note: You Shall not deny to Join [World Cleaner](https://www.facebook.com/odicforcesounds/posts/831816413649165) challenge, the main Gift delivered and expressed by Sun Wukong, the [Monkey King](https://odicforcesounds.com/#/sun/wukong/the/monkey/king) 
 
-##### This Application is:
-A World Wide <b>Political Science</b> Business Challenge
-#### This Challenge Target:
-All who represent one or more <b>Logos</b>
-#### This Challenge is:
-A World Wide Brands Competition for <b>image</b> propose Only!
-#### This Competition will:
-List all <b>Brands</b> which have more approved Actions Above the Others. 
+#### This Application aims to:
+- Be a World Wide <b>Political Science</b> Business Challenge
+- Target All who represent one or more <b>Logos</b>
+- Is a World Wide Brands Competition for <b>image</b> propose Only!
+- List all <b>Brands</b> which have more approved Actions Above the Others. 
 #### About Human Rights
 - Rights refer rules/laws as a way to produce the Right Effects of having Rights!
-- If we have the right to have a home, someone shall have the duty to give me what we diserve.
-- If I have the right to have a life, someone shall have the duty to give basic supports. 
+- If we have the right to have a home, someone shall have the duty to give us what we diserve. (Government?)
+- If I have the right to have a life, someone shall have the duty to give basic supports. (mother?)
 - Rights ask Duties, and Duties ask Actions. 
 - Do You know a better way to Educate?  
 ## Application Main Objective: 
@@ -32,7 +29,7 @@ List all <b>Brands</b> which have more approved Actions Above the Others.
 <b>Note</b>: Users are notified of a new Video, whithout knowing who is the Author of the Video. User personal Information is always invisible to other players.
 
 
-##### You are not here to make "friends", You are here to show to the World how much You Care this world. When You have finished the Challenge, You will be redirected to a community where everyone had finish the challenge, and this community is the perfect place to know new friends and start to sell or buy what they are selling, using the points you gain along the way. 
+##### You are not here to make "friends", You are here to show to the World how much You Care this world. Users can use their points / coins by buying products they produce by their own way. Even to buying and selling process is anonymous, but is only for those who are registered and play the challenge. 
 
 ## Privacy Concerns: Data Base
 This project "Care" about Privacy.
@@ -46,7 +43,7 @@ This project "Care" about Privacy.
 - GPS + Time Zone information is used to add as Note in each Approved User Action and add it in a World Map as a Pixel which refers an Action made in that Point of the Planet.  
 - This challenge don't care about how much secure You are, but if the actions are made. Secure communications sometimes are slow and not good to Real Time Video Recording. If Player Have a good connetion, player only needs an email to start playing. 
  
- ### Logic: The BlockChain - The Eco System
+### Logic: The BlockChain - The Eco System
 ##### 1 Approved Action === 1 Point | 1 Point === +1 coin
 ##### 1 Denied Action === 0 Points | 0 Points === +0 Coins
 #### Notes: 
