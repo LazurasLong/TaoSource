@@ -13,15 +13,13 @@
   left: 0;
   }
 
-.text-box {
-  width: 100%;
-  min-width: 25%;
-  text-align: center;
-  font-size: 220%;
+  #main {
+    width: 100%;
+    min-width: 25%;
+    text-align: center;
+    font-size: 220%;
 }
 
 p {
-  margin-top: 5px;
-  padding-right: 2px;
-
+    margin-top: 2%;
 }
