@@ -1,6 +1,25 @@
+#banner {
+    background: url("https://i00nsu.keybase.pub/odicforcesounds.com/images/bbre.jpg") no-repeat center center fixed;
+    background-size: 100%;
+    height: 100%;
+    /* Set up proportionate scaling */
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: 0;
+
+    /* Set up positioning */
+    position: relative;
+  }
+
+  .container {
+    width: 100%;
+  }
+
 #main {
   text-align: center;
-  margin-top: 2%;
+  align-content: center;
+  align-items: center;
+  align-self: center;
 }
 #text-box {
   margin-top: 2%;
@@ -9,3 +28,4 @@
   text-align: center;
   font-size: 120%;
 }
+
