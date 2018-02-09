@@ -276,6 +276,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
 //  { path: 'water/vs/blood', component: WaterbloodComponent },
   { path: 'path/of/shields', component: PathshieldsComponent }, // path of shields ( image )
   { path: 'simplicity', component: SimplicityComponent }, // simplicity ( signals of time )
+  { path: 'my/style', component: ThisMyStyleComponent },
 // ######################################################################################################
 //  { path: 'yinyang/mixcloud', component: yinyang/mixcloudComponent }, // yinyang/mixcloud
   { path: 'we/must/change/our/ways', component: ChangeComponent }, // Tribute - Severn Cullis Suzuki
@@ -361,7 +362,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'pain/vs/love', component: Vot3Component }, // Pain vs Love
   { path: 'black/birds/red/eyes', component: Vot4Component }, // Black Birds
   { path: 'burned/in/the/hands/of/wind', component: Vot5Component }, // burned in the hand of wind
-  { path: 'summer/time/rock/and/roll', component: Vot6Component }, // Summer Night
+  { path: 'summer/night/rock/and/roll', component: Vot6Component }, // Summer Night
   { path: 'v/euclidean/space', component: Vot7Component }, // V - euclidean space
   { path: 'invisible/frequency/you/can/change', component: Vot8Component }, // track 8
   { path: 'ma6nata/evil/inside', component: Vot9Component }, // track 9

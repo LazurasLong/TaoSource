@@ -4,28 +4,17 @@
 }
 
 #banner {
-background: url("https://i00nsu.keybase.pub/odicforcesounds.com/images/wukong.jpg") no-repeat center center fixed;
-  background-size: cover;
-  /* Set up proportionate scaling */
-  min-width: 100%;
-  min-height: 100%;
+background: url("https://i00nsu.keybase.pub/odicforcesounds.com/images/tatao.jpg") no-repeat center center fixed;
+background-size: cover;
+/* Set up proportionate scaling */
+min-width: 100%;
+min-height: 100%;
 
-  /* Set up positioning */
-  position: relative;
-  left: 0;
-  }
-
-  h4 {
-    color: greenyellow;
-  }
-#yellow {
-  color: greenyellow;
+/* Set up positioning */
+position: relative;
+left: 0;
 }
 
-img {
-  position: relative;
-}
-
-p {
-  font-size: 150%;
+h3 {
+    font-size: 2em;
 }

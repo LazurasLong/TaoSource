@@ -1,6 +1,6 @@
 div {
     text-align: center;
-    font-size: 120%;
+
 }
 
 a {
@@ -30,4 +30,5 @@ left: 0;
 
 p {
     margin-top: 2%;
+    font-size: 1.5em;
 }

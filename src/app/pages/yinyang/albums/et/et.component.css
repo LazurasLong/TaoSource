@@ -5,12 +5,13 @@
 }
 
 #text-box {
-  widows: 95%;
+  width: 95%;
   margin-top: 2%;
   margin-left: 2%;
   margin-right: 2%;
   text-align: justify;
-  font-size: 120%;
+  font-size: 150%;
+  line-height: 2;
 }
 
 #sell {
