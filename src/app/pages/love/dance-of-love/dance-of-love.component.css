@@ -4,11 +4,6 @@
   line-height: 2;
 }
 
-#box-text p {
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
 #frame {
   text-align: center;
 }
@@ -18,7 +13,7 @@
 }
 
 #banner {
-    background: url("https://i00nsu.keybase.pub/odicforcesounds.com/images/mondrago.jpg") no-repeat center center fixed;
+    background: url("https://i00nsu.keybase.pub/odicforcesounds.com/images/monkeydragondance.jpg") no-repeat center center fixed;
     background-size: auto;
     height: 100%;
     /* Set up proportionate scaling */
