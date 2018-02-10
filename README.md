@@ -22,6 +22,13 @@
 - Target All who represent one or more <b>Logos</b>
 - Is a World Wide Brands Competition for <b>image</b> propose Only!
 - List all <b>Brands</b> which have more approved Actions Above the Others. 
+_ The process of education is based on repetition. 
+
+For those who don't have the will to clean or **help** Nature environment, because they have no motivation. 
+Now you have many motivations! _ 
+
+Earn **Points**, earn **Game status**, earn **Professional status**, earn **Civic status**, earn **real gifts**, earn **life experience**, earn personal and community **business**, and more! 
+
 #### About Human Rights
 - Rights refer rules/laws as a way to produce the Right Effects of having Rights!
 - If we have the right to have a home, someone shall have the duty to give us what we diserve. (Government?)
