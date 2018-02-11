@@ -1,6 +1,6 @@
 #banner {
   background: url("https://i00nsu.keybase.pub/odicforcesounds.com/images/monkey.jpg") no-repeat center center fixed;
-  background-size: auto;
+  background-size: cover;
   height: 100%;
   /* Set up proportionate scaling */
   min-width: 100%;
@@ -8,68 +8,42 @@
   margin-top: 0;
 
   /* Set up positioning */
-  position: relative;
+  position: absolute;
 }
 
 .container {
-  width: 100%;
-  min-width: 25%;
+  width: 13.5%;
+  text-align: center;
 }
 
 h4 {
   text-align: center;
 }
 
-#vot {
-  margin-top: 2%;
-  text-align: center;
-  font-size: 1.5em;
+
+
+table {
+    width: 100%;
+    min-width: 25%;
+    text-align: center;
 }
 
-#mw {
-  margin-top: 2%;
-  text-align: center;
-  font-size: 1.5em;
+table th {
+    text-align: center;
 }
 
-#st {
-  margin-top: 2%;
-  text-align: center;
-  font-size: 1.5em;
+table td {
+    font-size: 100%;
+    text-align: center;
+    margin-top: 0.5em;
+    font-size: 1em;
+    color: orange;
+    width: 10.5%;
 }
 
-#skd {
-  margin-top: 2%;
-  text-align: center;
-  font-size: 1.5em;
+p {
+    font-size: 1.5em;
+    text-align: center;
+    color: orange;
 }
 
-#ed {
-  margin-top: 2%;
-  text-align: center;
-  font-size: 1.5em;
-}
-
-#nfi {
-  margin-top: 2%;
-  text-align: center;
-  font-size: 1.5em;
-}
-
-#es {
-  margin-top: 2%;
-  text-align: center;
-  font-size: 1.5em;
-}
-
-#ot {
-  margin-top: 2%;
-  text-align: center;
-  font-size: 1.5em;
-}
-
-#life {
-  margin-top: 2%;
-  text-align: center;
-  font-size: 1.5em;
-}

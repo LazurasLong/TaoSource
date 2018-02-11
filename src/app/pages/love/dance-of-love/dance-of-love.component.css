@@ -1,8 +1,18 @@
+p {
+    color: orange;
+    font-size: 23px;
+}
+
+a {
+    color:lightseagreen;
+}
 #box-text {
   text-align: center;
+  align-content: center;
   font-size: 1.5em;
   line-height: 2;
 }
+
 
 #frame {
   text-align: center;
@@ -14,18 +24,13 @@
 
 #banner {
     background: url("https://i00nsu.keybase.pub/odicforcesounds.com/images/monkeydragondance.jpg") no-repeat center center fixed;
-    background-size: auto;
+    background-size: cover;
     height: 100%;
     /* Set up proportionate scaling */
-    min-width: 100%;
-    min-height: 100%;
     margin-top: 0;
 
     /* Set up positioning */
     position: relative;
   }
 
-  .container {
-    width: 100%;
-    min-width: 25%;
-  }
+

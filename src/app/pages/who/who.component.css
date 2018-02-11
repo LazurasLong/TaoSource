@@ -9,7 +9,7 @@
   margin-top: 0;
 
   /* Set up positioning */
-  position: relative;
+  position: fixed;
   left: 0;
   }
 

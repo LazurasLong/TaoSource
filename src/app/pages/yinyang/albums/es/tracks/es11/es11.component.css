@@ -1,29 +1,30 @@
-h2 {
-  color: yellow;
+table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 25%;
+    text-align: center;
 }
 
-#main {
-  text-align: center;
-  margin-top: 5%;
+table th {
+    border: 1px solid rgb(0, 237, 245);
+    text-align: center;
+    font-size: 120%;
+    padding: 1em;
 }
 
-#title {
-  text-align: center;
+table td {
+    border: 0.1px solid rgb(0, 217, 255);
+    font-size: 150%;
+    text-align: center;
+    padding: 1em;
 }
 
-#image {
-  text-align: center;
-}
-
-#text-box {
-  text-align: center;
-}
-
-#subtitle {
-  text-align: center;
-}
-
-#topicnote {
-  text-align: center;
+button {
+    background: darkslategrey;
+    color: white;
+    border: none;
+    font-size: 120%;
+    margin-top: 0%;
+    text-align: center;
 }
 

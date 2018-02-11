@@ -259,6 +259,10 @@ import { LoginComponent } from './logic/login/login.component';
 // import { EmotionalSignalsComponent } from './pages/yinyang/albums/es/emotional-signals/emotional-signals.component';
 // import { ErrorComponent } from './pages/sys/error/error.component';
 // import { PrivacyComponent } from './pages/license/wiki/privacy/privacy.component';
+import { FooterComponent } from './html/footer/footer.component';
+import { HeaderComponent } from './html/header/header.component';
+import { WrapperComponent } from './html/wrapper/wrapper.component';
+import { SetComponent } from './pages/yinyang/albums/es/tracks/es11/set/set.component';
 
 
 const appRoutes: Routes = [ // HTML VIRTUAL PATH
@@ -482,6 +486,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'wiki/path', component: PathComponent },
   { path: 'wiki/developers', component: DevelopersComponent },
   { path: 'wiki/socialmedia', component: SocialmediaComponent },
+  { path: 'social/tool/kit', component: SetComponent },
 //  { path: 'login', component: LoginComponent },
 //  { path: 'wiki/privacy', component: PrivacyComponent }
 ]
@@ -724,6 +729,10 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     LeadandWeWillFollowComponent,
     BlogComponent,
     LoginComponent,
+    FooterComponent,
+    HeaderComponent,
+    WrapperComponent,
+    SetComponent,
 //    EmotionalSignalsComponent,
 //    ErrorComponent,
 

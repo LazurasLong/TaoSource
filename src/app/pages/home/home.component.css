@@ -17,7 +17,7 @@ min-height: 100%;
 margin-top: 0;
 
 /* Set up positioning */
-position: relative;
+position: absolute;
 left: 0;
 }
 
