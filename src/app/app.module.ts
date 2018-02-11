@@ -461,6 +461,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'shamanic/visions', component: Es9Component }, // Shamanic Visions
   { path: 'the/fun/project/is/fun/to/take/care', component: Es10Component }, // Fun to Care
   { path: 'social/tool/kit/world/wide/conscience/cleaner', component: Es11Component },
+  { path: 'social', component: SetComponent },
   { path: 'hacking/into/the/error/festival/patch', component: Es12Component },
   { path: 'trust/the/constant/loop', component: Es13Component },
 // ######################################################################################################
@@ -486,7 +487,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'wiki/path', component: PathComponent },
   { path: 'wiki/developers', component: DevelopersComponent },
   { path: 'wiki/socialmedia', component: SocialmediaComponent },
-  { path: 'social/tool/kit', component: SetComponent },
+
 //  { path: 'login', component: LoginComponent },
 //  { path: 'wiki/privacy', component: PrivacyComponent }
 ]

@@ -7,7 +7,7 @@
     min-height: 100%;
 
     /* Set up positioning */
-    position: relative;
+    position: absolute;
     left: 0;
 }
 
