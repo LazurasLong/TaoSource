@@ -27,6 +27,7 @@
     "core-js": "^2.4.1",
     "eslint": "^4.17.0",
     "firebase": "^4.9.0",
+    "font-awesome": "^4.7.0",
     "jshint": "^2.9.5",
     "makestatic-sitemap": "^1.2.2",
     "ng-factory": "^1.1.0",
