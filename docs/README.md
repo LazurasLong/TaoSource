@@ -1,5 +1,5 @@
 - This project is currently Using Angular5 
-# World Cleaner
+# [Social Tool Kit - World Wide Conscious Cleaner](http://localhost:4200/#/social/tool/kit/world/wide/conscience/cleaner)
 ## All Rights Reserved ®
 ## [Tao](https://odicforcesounds.com/#/tao) - The Wind of God
 ##### The Main Gift of OdicforceSounds Expression
@@ -7,27 +7,45 @@
 ##### You are Included In <b>OdicforceSounds</b> [Eternal License](https://odicforcesounds.com/#/license)!
 
 ## Abstraction + Fantasy = Logic
-#### 1 + 1 = 1 or 3 [You Tell me](https://odicforcesounds.com/#/tao)
+## 1 + 1 = 1 or 3 [Feeling Logic](https://odicforcesounds.com/#/you/are/the/wood/i/am/the/fire) ?
 ##### Note: You Shall not deny to Join [World Cleaner](https://www.facebook.com/odicforcesounds/posts/831816413649165) challenge, the main Gift delivered and expressed by Sun Wukong, the [Monkey King](https://odicforcesounds.com/#/sun/wukong/the/monkey/king) 
+
+### For Education Propose Only! 
+( About Me and this project )
+
+"[No matter what we think, but what we do!](https://www.youtube.com/watch?v=oJJGuIZVfLM)"
+
+[The Game Project - Is Fun To Take Care](https://odicforcesounds.bandcamp.com/track/the-game-project-is-fun-to-take-care)
 
 #### This Application aims to:
 - Be a World Wide <b>Political Science</b> Business Challenge
 - Target All who represent one or more <b>Logos</b>
 - Is a World Wide Brands Competition for <b>image</b> propose Only!
 - List all <b>Brands</b> which have more approved Actions Above the Others. 
+_ The process of education is based on repetition. 
+
+For those who don't have the will to clean or **help** Nature environment, because they have no motivation. 
+Now you have many motivations! _ 
+
+Earn **Points**, earn **Game status**, earn **Professional status**, earn **Civic status**, earn **real gifts**, earn **life experience**, earn personal and community **business**, and more! 
+
 #### About Human Rights
 - Rights refer rules/laws as a way to produce the Right Effects of having Rights!
 - If we have the right to have a home, someone shall have the duty to give us what we diserve. (Government?)
 - If I have the right to have a life, someone shall have the duty to give basic supports. (mother?)
 - Rights ask Duties, and Duties ask Actions. 
 - Do You know a better way to Educate?  
+
+Some way or another, we all care!
+
+Imagine it, as a `karma` _healing_ **game**, your personal Curriculum Vitae, with all your civic and Social actions!
+
 ## Application Main Objective: 
 #### Create Realtime-Videos and Rate Recorded-Videos
 
 <b>Note</b>: in this Rating Videos process, Actions Shall have 6 Positive Approves without 1 deny in sequence of different users, to be finaly approved.
 
 <b>Note</b>: Users are notified of a new Video, whithout knowing who is the Author of the Video. User personal Information is always invisible to other players.
-
 
 ##### You are not here to make "friends", You are here to show to the World how much You Care this world. Users can use their points / coins to buy other players products, if not a real coin given by the State. The buying and selling process is anonymous, but is only for those who are registered and play the challenge. 
 
