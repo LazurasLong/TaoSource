@@ -1,14 +1,14 @@
 #main {
   width: 100%;
   text-align: center;
-  margin-top: 2%;
+  font-size: 2em;
+  line-height: 1em;
 }
 
 #textarea {
-  min-width: 20%;
-  margin-right: 0.2%;
-  margin-left: 4%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
 }
 
 #all2center {
@@ -72,4 +72,17 @@ text-align: center;
   text-align: center;
   display: flex;
   float: none;
+}
+
+
+#banner {
+background: url("https://i00nsu.keybase.pub/odicforcesounds.com/images/wecameinpeace.jpg") no-repeat center center fixed;
+background-size: 100% 97%;
+/* Set up proportionate scaling */
+min-width: 100%;
+min-height: 100%;
+margin-top: 0;
+
+/* Set up positioning */
+position: absolute;
 }
