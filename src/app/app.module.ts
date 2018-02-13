@@ -254,14 +254,14 @@ import { SetUsFreeComponent } from './pages/yinyang/soundcloud/magic/fantasy/set
 import { DeedsPath2ParadiseComponent } from './pages/yinyang/soundcloud/magic/fantasy/deeds-path2-paradise/deeds-path2-paradise.component';
 // tslint:disable-next-line:max-line-length
 import { LeadandWeWillFollowComponent } from './pages/yinyang/soundcloud/magic/fantasy/leadand-we-will-follow/leadand-we-will-follow.component';
-import { BlogComponent } from './pages/blog/blog.component';
+
 import { LoginComponent } from './logic/login/login.component';
 // import { EmotionalSignalsComponent } from './pages/yinyang/albums/es/emotional-signals/emotional-signals.component';
 // import { ErrorComponent } from './pages/sys/error/error.component';
 // import { PrivacyComponent } from './pages/license/wiki/privacy/privacy.component';
 import { FooterComponent } from './html/footer/footer.component';
 import { HeaderComponent } from './html/header/header.component';
-import { WrapperComponent } from './html/wrapper/wrapper.component';
+
 import { SetComponent } from './pages/yinyang/albums/es/tracks/es11/set/set.component';
 
 
@@ -273,7 +273,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'oscar/fm', component: OscarFmComponent },
   { path: 'about/me/and/you', component: WhoweareComponent },
   { path: 'you/are/the/wood/i/am/the/fire', component: WoodFireComponent },
-  { path: 'blog', component: BlogComponent },
+
   { path: 'logmein', component: LoginComponent },
   { path: 'license', component: LicenseComponent }, // Eternal License
 //  { path: 'articles', component: ArticlesComponent },
@@ -729,11 +729,9 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     SetUsFreeComponent,
     DeedsPath2ParadiseComponent,
     LeadandWeWillFollowComponent,
-    BlogComponent,
     LoginComponent,
     FooterComponent,
     HeaderComponent,
-    WrapperComponent,
     SetComponent,
 //    EmotionalSignalsComponent,
 //    ErrorComponent,
