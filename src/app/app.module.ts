@@ -256,16 +256,14 @@ import { DeedsPath2ParadiseComponent } from './pages/yinyang/soundcloud/magic/fa
 import { LeadandWeWillFollowComponent } from './pages/yinyang/soundcloud/magic/fantasy/leadand-we-will-follow/leadand-we-will-follow.component';
 
 import { LoginComponent } from './logic/login/login.component';
-// import { EmotionalSignalsComponent } from './pages/yinyang/albums/es/emotional-signals/emotional-signals.component';
-// import { ErrorComponent } from './pages/sys/error/error.component';
-// import { PrivacyComponent } from './pages/license/wiki/privacy/privacy.component';
+
 import { FooterComponent } from './html/footer/footer.component';
 import { HeaderComponent } from './html/header/header.component';
 
 import { SetComponent } from './pages/yinyang/albums/es/tracks/es11/set/set.component';
 
 
-const appRoutes: Routes = [ // HTML VIRTUAL PATH
+const appRoutes: Routes = [ //
   { path: '', redirectTo: '/home', pathMatch: 'full'},
 //  { path: '**', component: ErrorComponent },
   { path: 'home', component: HomeComponent },
@@ -488,9 +486,27 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
   { path: 'wiki/developers', component: DevelopersComponent },
   { path: 'wiki/socialmedia', component: SocialmediaComponent },
   { path: 'walking/river', component: WalkingRiverComponent },
+  { path: 'love/or/die', component: LoveDieComponent },
+  { path: 'piano/words', component: PianoWordsComponent },
+  { path: 'press/for/monkey', component: Press4MonkeyComponent },
+  { path: 'need/activity', component: NeedActivityComponent },
+  { path: 'last/days/of/sacrifice', component: LastdaySacrificeComponent },
+  { path: 'fast/signals', component: FastSignalsComponent },
+  { path: 'brain/chilout', component: BrainChiloutComponent },
+  { path: 'do/music', component: DowhateveryoudobestMusicComponent },
+  { path: 'sexy/feeling', component: ThatSexyFeelingComponent },
+  { path: 'by/your/side', component: ByYourSideComponent },
+  { path: 'dance/like/water', component: DanceLikeWaterComponent },
+  { path: 'crafting/new/generations', component: CraftingNewGenerationsComponent },
+  { path: 'make/it/right', component: MakeitRightComponent },
+  { path: 'not/alone/holy/shadows', component: NotAloneHolyShadowsComponent },
+  { path: 'set/us/free', component: SetUsFreeComponent },
+  { path: 'deeds', component: DeedsPath2ParadiseComponent },
+  { path: 'lead/the/way', component: LeadandWeWillFollowComponent },
+
 
 //  { path: 'login', component: LoginComponent },
-//  { path: 'wiki/privacy', component: PrivacyComponent }
+
 ]
 
 @NgModule({
@@ -733,8 +749,7 @@ const appRoutes: Routes = [ // HTML VIRTUAL PATH
     FooterComponent,
     HeaderComponent,
     SetComponent,
-//    EmotionalSignalsComponent,
-//    ErrorComponent,
+
 
   ],
   imports: [
