@@ -1,27 +1,36 @@
-
-
-  #text-box {
-    width: 50%;
-    margin-left: 25%;
+h2 {
     text-align: center;
-    font-size: 1.5em;
-    color: yellow;
-  }
+}
 
-  img {
-      text-align: center;
-  }
-  #banner {
-    background: url("https://i00nsu.keybase.pub/odicforcesounds.com/images/me2.jpg") no-repeat center center fixed;
-    background-size: cover;
-    /* Set up proportionate scaling */
-    min-width: 100%;
-    min-height: 100%;
-    margin-top: 0;
+#text-box {
+text-align: center;
+font-size: 5em;
+color: yellow;
+}
 
-    /* Set up positioning */
-    position: absolute;
-  }
-  p {
-    font-size: 1em;
-  }
+img {
+    text-align: right;
+    font-size: 0.5em;
+}
+
+#bodygraph {
+text-align: center;
+font-size: 0.5em;
+}
+
+#banner {
+background: url("https://i00nsu.keybase.pub/odicforcesounds.com/images/me2.jpg") no-repeat center center fixed;
+background-size: cover;
+/* Set up proportionate scaling */
+min-width: 100%;
+min-height: 100%;
+margin-top: 0;
+
+/* Set up positioning */
+position: absolute;
+}
+
+p {
+    font-size: 0.5em;
+}
+

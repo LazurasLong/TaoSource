@@ -7,11 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Ot4Component implements OnInit {
 
-
-  constructor() { 
-
-  }
-
   ngOnInit() {
   }
 
