@@ -1,14 +1,13 @@
 #banner {
     background: url("https://i00nsu.keybase.pub/odicforcesounds.com/images/business.jpg") no-repeat center center fixed;
-    background-size: auto;
-    height: 100%;
+    background-size: cover;
     /* Set up proportionate scaling */
     min-width: 100%;
     min-height: 100%;
     margin-top: 0;
 
     /* Set up positioning */
-    position: relative;
+    position: absolute;
   }
 #player {
   text-align: center;

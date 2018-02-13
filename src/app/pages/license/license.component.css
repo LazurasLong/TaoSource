@@ -10,6 +10,7 @@ p {
   min-width: 25%;
   text-align: center;
   font-size: 1.5em;
+  line-height: 1em;
 }
 #banner {
     background: url("https://i00nsu.keybase.pub/odicforcesounds.com/images/drag.jpeg") no-repeat center center fixed;
