@@ -273,258 +273,274 @@ import { MagicFireComponent } from './pages/yinyang/soundcloud/magic/magic-fire/
 
 
 const appRoutes: Routes = [ //
-  { path: '', redirectTo: '/home', pathMatch: 'full'},
-//  { path: '**', component: ErrorComponent },
-  { path: 'home', component: HomeComponent },
-  { path: 'who', component: WhoComponent },
-  { path: 'oscar/fm', component: OscarFmComponent },
-  { path: 'about/me/and/you', component: WhoweareComponent },
-  { path: 'you/are/the/wood/i/am/the/fire', component: WoodFireComponent },
-  { path: 'magic/fire', component: MagicFireComponent },
+    { path: '', redirectTo: '/home', pathMatch: 'full'},
+    //  { path: '**', component: ErrorComponent },
+    { path: 'tao', component: UtellmeComponent },
+    { path: 'home', component: HomeComponent },
+    { path: 'who', component: WhoComponent },
+    { path: 'oscar/fm', component: OscarFmComponent },
+    { path: 'about/me/and/you', component: WhoweareComponent },
+    { path: 'license', component: LicenseComponent }, // Eternal License
 
-  // { path: 'logmein', component: LoginComponent },
-  { path: 'license', component: LicenseComponent }, // Eternal License
-//  { path: 'articles', component: ArticlesComponent },
-//  { path: 'water/vs/blood', component: WaterbloodComponent },
-  { path: 'path/of/shields', component: PathshieldsComponent }, // path of shields ( image )
-  { path: 'simplicity', component: SimplicityComponent }, // simplicity ( signals of time )
-  { path: 'my/style', component: ThisMyStyleComponent },
-// ######################################################################################################
-//  { path: 'yinyang/mixcloud', component: yinyang/mixcloudComponent }, // yinyang/mixcloud
-  { path: 'we/must/change/our/ways', component: ChangeComponent }, // Tribute - Severn Cullis Suzuki
-  { path: 'lets/talk/about/love', component: LetsTalkAboutLoveComponent },
-  { path: 'our/try/not/our/choice', component: OurTryNotOurChoiceComponent },
-  { path: 'our/eternal/license', component: OurEternalLicenseComponent },
-  { path: 'the/challenge', component: TheChallengeComponent },
-  { path: 'are/you/evil', component: AreYouEvilComponent },
-  { path: 'share/your/visions/be/symbol/of/our/experience', component: ShareYourVisionsBeSymbolComponent },
-  { path: 'i/want/to/show/you/something', component: IWantToShowYouSomethingComponent },
-  { path: 'developing/unknown/code', component: DevelopingunKnownCodeComponent },
-  { path: 'prince/of/darkness', component: PrinceOfDarknessComponent },
-  { path: 'magic/touch/in/the/shadows', component: MagicTouchInTheShadowsComponent },
-  { path: 'lets/make/the/change/we/all/need', component: LetsMakeChangeWeAllNeedComponent },
-  { path: 'i/am/music/the/perfect/bomb', component: IAmMusicPerfectBombComponent },
-  { path: 'i/want/you/so/bad', component: IWantYouSoBadComponent },
-  { path: 'psy/jungle', component: PsyJungleComponent },
-  { path: 'you/blow/my/mind', component: YouBlowMyMindComponent },
-  { path: 'we/will/soon', component: WeWillSoonComponent },
-  { path: 'tropical/ignition/master', component: TropicalIgnitionMasterComponent },
-  { path: 'lets/dive/into/the/world/of/javascript', component: LetsDiveIntoTheWorldofJavaScriptComponent },
-  { path: 'it/is/all/about/us', component: AllAboutUsComponent },
-  { path: 'we/dont/need/security/but/functionality', component: WeDontNeedSecurityButFunctionalityComponent },
-  { path: 'i/want/you/you/want/me', component: IWantYouYouWantMeComponent },
-  { path: 'ring/of/fire/yin', component: RfyinComponent }, // Tao Ring of Fire (Yin)
-  { path: 'ring/of/fire/yang', component: RfyangComponent }, // Tao Ring of Fire (Yang)
-  { path: 'eternal/fance/of/love/tao', component: DramonkComponent }, // Dragon & Monkey ( Hope )
-  { path: 'firebase/solar/plexus', component: SolplexComponent }, // Firebase (Solar Plexus)
-  { path: 'black/gold', component: MonkComponent }, // Monk (Black Gold)
-  { path: 'dance/of/love', component: DanceOfLoveComponent },
-  { path: 'care/us/and/we/will/care/you', component: CareUsAndWeWillCareYouComponent },
-  { path: 'real/time', component: RtComponent }, // Real Time Shamanic Quest
-  { path: 'mission/world/wide/target', component: MissionComponent }, // World wide Target
-  { path: 'last/warning/tao/touch', component: TaoComponent }, // Last Warning
-  { path: 'data/objects/and/functions', component: DataComponent }, // Data
-// ######################################################################################################
-//  { path: 'yinyang/soundcloud', component: yinyang/soundcloudComponent }, // yinyang/soundcloud
-  { path: 'lets/make/business', component: BusinessComponent }, // lets make business ( magic of fantasy )
-  { path: 'water/blood/path', component: WaterBloodImageComponent },
-  { path: 'dont/take/us/seriously/we/are/having/fun', component: SeriouslyComponent },
-  { path: 'fragments/you/need/forgotten/past', component: FragmentsComponent },
-  { path: 'boom/cat', component: CatComponent }, // Black Cat & White Cat
-  { path: 'mystic/portal', component: MysticPortalComponent },
-  { path: 'mystic/theories/cult/to/the/self/identification', component: MysticTheoriesCultComponent },
-  { path: 'three/you/tell/me', component: ThreeComponent }, // 3 You tell Me!
-  { path: 'absolute/everything/and/everyone', component: AbsoluteComponent }, // Absolute
-  { path: 'fire', component: BringyoufireComponent }, // Bring You Fire
-  { path: 'dragon', component: DragonComponent }, // The Dragon
-  { path: 'sun/wukong/the/monkey/king', component: MonkingComponent }, // Sun Wukong
-  { path: 'possession/of/will', component: WillpowerComponent }, // the Possession of Will
-  { path: 'fire/in/my/eyes/metal/in/my/soul', component: MetalsoulComponent },
-  { path: 'because/we/love', component: BecauseweloveComponent },
-  { path: 'dark/warrior', component: DarkwarriorComponent },
-  { path: 'money/is/no/power', component: MoneynopowerComponent },
-  { path: 'expression/nature', component: ExpressionNatureComponent },
-  { path: 'hipnotic/dance', component: HipnoticDanceComponent },
-  { path: 'the/first/three/minutes', component: FirstMinutesComponent },
-  { path: 'she/need/he/create', component: SheNeedHeCreateComponent },
-  { path: 'myth/illusions/memories', component: IlusionMythComponent },
-  { path: 'deep/thoughts', component: DeepThoughtsComponent },
-  { path: 'd/o/d', component: DoDComponent },
-  { path: 'against/the/greed', component: AgainstTheGreedComponent },
-  { path: 'digital/perspective', component: DigitalPerspectiveComponent },
-  { path: 'sixty/nine', component: SixtyNineComponent },
-  { path: 'i/can/feel/i/have/a/body', component: ICanFeelComponent },
-  { path: 'we/are/tools/objects/of/expression', component: WeAreToolsComponent },
-  { path: 'eternal/masters/of/my/heart', component: EternalMastersComponent },
-  { path: 'not/the/worst/music/in/the/world', component: WorstMusicComponent },
-  { path: 'feel/the/night/feel/the/universe', component: UniverseComponent },
-  { path: 'union/point/synchrozined', component: UnionPointComponent },
-  { path: 'boo/the/condition/of/illusion', component:  BoobooComponent },
-  { path: 'lets/do/it', component: DoItComponent },
-// ######################################################################################################
-// ######################################################################################################
-// ######################################################################################################
-  { path: 'yin/yang', component: BandcampComponent }, // YinYang Tribute
-// ######################################################################################################
-// ######################################################################################################
-// ######################################################################################################
-  { path: 'visions/of/thor', component: VotComponent }, // Visions of Thor Album and Tracks
-  { path: 'emerge/internal/upgrade', component: Vot1Component }, // Emerge
-  { path: 'water/horses/woman/free', component: Vot2Component }, // Water Horses - Woman Free
-  { path: 'pain/vs/love', component: Vot3Component }, // Pain vs Love
-  { path: 'black/birds/red/eyes', component: Vot4Component }, // Black Birds
-  { path: 'burned/in/the/hands/of/wind', component: Vot5Component }, // burned in the hand of wind
-  { path: 'summer/night/rock/and/roll', component: Vot6Component }, // Summer Night
-  { path: 'v/euclidean/space', component: Vot7Component }, // V - euclidean space
-  { path: 'invisible/frequency/you/can/change', component: Vot8Component }, // track 8
-  { path: 'ma6nata/evil/inside', component: Vot9Component }, // track 9
-  { path: 'shake/my/snakes', component: Vot10Component }, // track 10
-  { path: 'we/are/the/ones', component: Vot11Component }, // track 11
-// ######################################################################################################
-  { path: 'machine/world', component: MwComponent }, // Machine World Album and Tracks
-  { path: 'storming/plan/enigmatic/war', component: Mw1Component },
-  { path: 'pain/art/illusion/and/expression', component: Mw2Component },
-  { path: 'control/free/to/ask', component: Mw3Component }, // Control - Free to Ask
-  { path: 'time/to/live/cache/cleaner', component: Mw4Component },
-  { path: 'panic/luck', component: Mw5Component },
-  { path: 'thunder/with/within/and/without', component: Mw6Component },
-  { path: 'forest/jungle/at/night', component: Mw7Component },
-  { path: 'have/fun/nothing/wrong/with/you/too', component: Mw8Component },
-  { path: 'noise/breaker/lead/the/way', component: Mw9Component },
-  { path: 'strang/groove/noise', component: Mw10Component },
-// ######################################################################################################
-  { path: 'space/trip', component: StComponent }, // Space Trip Album and Tracks
-  { path: 'anomaly/disconnected/functions', component: St1Component },
-  { path: 'organized/classic/motions', component: St2Component },
-  { path: 'brave/new/choice/no/heroes', component: St3Component },
-  { path: 'dark/net/mantra/over/flaw', component: St4Component },
-  { path: 'id/666', component: St5Component }, // ID - 666
-  { path: 'metamorphose/be/quiet/and/learn', component: St6Component },
-  { path: 'complex/unknown/value', component: St7Component },
-  { path: 'residents/of/love/deep/touch', component: St8Component },
-  { path: 'silnuvano/flush', component: St9Component },
-  { path: 'spiritual/redemption/odicforce', component: St10Component },
-  { path: 'inside/outside', component: St11Component },
-  { path: 'running/out/of/time/no/turning/back', component: St12Component },
-  { path: 'pagan/cult/to/the/sun', component: St13Component },
-// ######################################################################################################
-  { path: 'shiva/and/kali/dance', component: SkdComponent }, // Shiva and Kali Dance
-  { path: 'discipline/no/escape', component: Skd1Component }, // Shiva and Kali Dance
-  { path: 'hard/work/deep/concentration', component: Skd2Component },
-  { path: 'united/colors/of/skeleton/grow/your/skills', component: Skd3Component },
-  { path: 'air/trip/fly/to/me', component: Skd4Component },
-  { path: 'yellow/energy/burning/box', component: Skd5Component },
-  { path: 'underwater/into/the/sky', component: Skd6Component },
-  { path: 'drive/flow/crazy/ghost/train', component: Skd7Component },
-  { path: 'first/contact/path/of/shields', component: Skd8Component },
-  { path: 'do/not/deny/i/am/the/one', component: Skd9Component },
-  { path: 'healing/correction/body/and/mind', component: Skd10Component },
-  { path: 'conneted/to/you', component: Skd11Component },
-  { path: 'delay/expectative', component: Skd12Component },
-  { path: 'future/cosmic/atraction', component: Skd13Component },
-  { path: 'call/me/karma', component: Skd14Component },
-  { path: 'care/not/focus', component: Skd15Component },
-  { path: 'neurotic/path', component: Skd16Component },
-  { path: 'you/dare/suck/my/sax', component: Skd17Component },
-  { path: 'my/dream/boom/festival', component: Skd18Component },
-  { path: 'human/paradox/new/world', component: Skd19Component },
-  { path: 'terms/of/living/love/or/die', component: Skd20Component },
-// ######################################################################################################
-  { path: 'eternal/delay', component: EtComponent }, // Eternal Delay
-  { path: 'respect/spiritual/life', component: Et1Component },
-  { path: 'organic/fields/all/energy/all/soul', component: Et2Component },
-  { path: 'remember/why/you/are/here', component: Et3Component },
-  { path: 'show/us/some/respect/warning', component: Et4Component },
-  { path: 'human/test/sent', component: Et5Component },
-  { path: 'flow/into/darkness/feels/like/water', component: Et6Component },
-  { path: 'light/interception/sensitive/and/obscure', component: Et7Component },
-  { path: 'you/dont/believe/in/what/you/say', component: Et8Component },
-  { path: 'wait/madness/is/no/good', component: Et9Component },
-  { path: 'welcome/to/yourself/i/am/your/conscience', component: Et10Component },
-  { path: 'ladies/and/gentleman/move/on', component: Et11Component },
-// ######################################################################################################
-  { path: 'noise/frequency/impulse', component: NfiComponent }, // Noise Frequency Album
-  { path: 'bass/drop/blend', component: Nfi1Component },
-  { path: 'between/us/image/and/sound', component: Nfi2Component },
-  { path: 'dimensional/party/bit/parity', component: Nfi3Component },
-  { path: 'not/bad/wrong', component: Nfi4Component }, // not bad - Wrong
-  { path: 'failure/people/dont/care', component: Nfi5Component },
-  { path: 'fuck/politic/sex/is/fun/vs/fuck/sex/politic/is/fun', component: Nfi6Component },
-  { path: 'extreme/flow/go/deep/into/spiritual/life', component: Nfi7Component },
-  { path: 'i/know/myself/i/am/a/free/men', component: Nfi8Component },
-  { path: 'minimal/life/another/planet', component: Nfi9Component },
-  { path: 'time/code/stealth/mode', component: Nfi10Component },
-  { path: 'just/a/technical/skill/set', component: Nfi11Component },
-  { path: 'body/answer/common/sense/is/not/intelligence', component: Nfi12Component },
-  // ######################################################################################################
-  { path: 'emotional/signals', component: EsComponent }, // Emotional Signals Album and Tracks
-  { path: 'we/came/in/peace', component: Es1Component }, // We Came in Peace
-  { path: 'just/another/open/door', component: Es2Component },
-  { path: 'bigger/or/equal/to/zero', component: Es3Component },
-  { path: 'tao/yin/yang', component: Es4Component },
-  { path: 'magnetic/condition/psy/cats', component: Es5Component },
-  { path: 'dominated/by/time/ruled/by/desire', component: Es6Component },
-  { path: 'intro/litle/box/universe', component: Es7Component },
-  { path: 'little/box/universe', component: Es8Component }, // Little Box - Universe
-  { path: 'shamanic/visions', component: Es9Component }, // Shamanic Visions
-  { path: 'the/fun/project/is/fun/to/take/care', component: Es10Component }, // Fun to Care
-  { path: 'tool/kit', component: Es11Component },
-  { path: 'social', component: SetComponent },
-  { path: 'hacking/into/the/error/festival/patch', component: Es12Component },
-  { path: 'trust/the/constant/loop', component: Es13Component },
-// ######################################################################################################
-  { path: 'only/tributes', component: OtComponent }, // Only Tributes Album and Tracks
-  { path: 'cats/like/to/dance/dogs/like/to/watch', component: Ot1Component }, // Dogs and Cats
-//  { path: 'emerge/internal/upgrade', component: Ot2Component }, // Lords - Egocentric Will
-  { path: 'bruce/lee/advice', component: Ot3Component }, // Bruce Lee
-  { path: 'galactic/passion/dragon/fire', component: Ot4Component }, // FCP
-  { path: 'lords/egocentric/will', component: Ot5Component }, // Lord or the Rings
-  { path: 'matrix/no/limits', component: Ot6Component }, // Lords - Egocentric Will
-//  { path: 'V - euclidean Space', component: Ot7Component }, // euclidean space
-  { path: 'two/sides/one/force', component: Ot8Component }, // two sides one force ( star wars )
-  { path: 'devil/spell/me/and/you', component: Ot9Component }, // Lords - Egocentric Will
-  { path: 'vital/manipulation/become/mad', component: Ot10Component }, // Lords - Egocentric Will
-  { path: 'parallel/wish/the/mirror', component: Ot11Component }, // Lords - Egocentric Will
-  { path: 'tao', component: UtellmeComponent },
-  { path: 'wiki', component: WikiComponent },
-  { path: 'wiki/intro', component: IntroComponent },
-  { path: 'wiki/firststeps', component: FirststepsComponent },
-  { path: 'wiki/core', component: CoreconceptsComponent },
-  { path: 'wiki/idea', component: IdeaComponent },
-  { path: 'wiki/challenge', component: ChallengeComponent },
-  { path: 'wiki/path', component: PathComponent },
-  { path: 'wiki/developers', component: DevelopersComponent },
-  { path: 'wiki/socialmedia', component: SocialmediaComponent },
-  { path: 'walking/river', component: WalkingRiverComponent },
-  { path: 'love/or/die', component: LoveDieComponent },
-  { path: 'piano/words', component: PianoWordsComponent },
-  { path: 'press/for/monkey', component: Press4MonkeyComponent },
-  { path: 'need/activity', component: NeedActivityComponent },
-  { path: 'last/days/of/sacrifice', component: LastdaySacrificeComponent },
-  { path: 'fast/signals', component: FastSignalsComponent },
-  { path: 'brain/chilout', component: BrainChiloutComponent },
-  { path: 'do/music', component: DowhateveryoudobestMusicComponent },
-  { path: 'sexy/feeling', component: ThatSexyFeelingComponent },
-  { path: 'by/your/side', component: ByYourSideComponent },
-  { path: 'dance/like/water', component: DanceLikeWaterComponent },
-  { path: 'crafting/new/generations', component: CraftingNewGenerationsComponent },
-  { path: 'make/it/right', component: MakeitRightComponent },
-  { path: 'not/alone/holy/shadows', component: NotAloneHolyShadowsComponent },
-  { path: 'set/us/free', component: SetUsFreeComponent },
-  { path: 'deeds', component: DeedsPath2ParadiseComponent },
-  { path: 'lead/the/way', component: LeadandWeWillFollowComponent },
-  // WIKI PAGES
-  { path: 'nature/care/path', component: NatureCarePathComponent },
-  { path: 'animal/care/path', component: AnimalCarePathComponent },
-  { path: 'human/care/path', component: HumanCarePathComponent },
-  { path: 'business/care/path', component: BusinessCarePathComponent },
-  { path: 'business/care/path/food', component: FoodBusinessComponent },
-  { path: 'business/care/path/proprieties', component: ProprietyOwnersComponent },
-  { path: 'activism', component: ActivismComponent },
-  { path: 'woofing', component: WoofingComponent },
+    { path: 'simplicity', component: SimplicityComponent }, // simplicity ( signals of time )
+    { path: 'my/style', component: ThisMyStyleComponent },
+    // ######################################################################################################
+    //  { path: 'yinyang/mixcloud', component: yinyang/mixcloudComponent }, // yinyang/mixcloud
+    { path: 'we/must/change/our/ways', component: ChangeComponent }, // Tribute - Severn Cullis Suzuki
+    { path: 'lets/talk/about/love', component: LetsTalkAboutLoveComponent },
+    { path: 'our/try/not/our/choice', component: OurTryNotOurChoiceComponent },
+    { path: 'our/eternal/license', component: OurEternalLicenseComponent },
+    { path: 'the/challenge', component: TheChallengeComponent },
+    { path: 'are/you/evil', component: AreYouEvilComponent },
+    { path: 'share/your/visions/be/symbol/of/our/experience', component: ShareYourVisionsBeSymbolComponent },
+    { path: 'i/want/to/show/you/something', component: IWantToShowYouSomethingComponent },
+    { path: 'developing/unknown/code', component: DevelopingunKnownCodeComponent },
+    { path: 'prince/of/darkness', component: PrinceOfDarknessComponent },
+    { path: 'magic/touch/in/the/shadows', component: MagicTouchInTheShadowsComponent },
+    { path: 'lets/make/the/change/we/all/need', component: LetsMakeChangeWeAllNeedComponent },
+    { path: 'i/am/music/the/perfect/bomb', component: IAmMusicPerfectBombComponent },
+    { path: 'i/want/you/so/bad', component: IWantYouSoBadComponent },
+    { path: 'psy/jungle', component: PsyJungleComponent },
+    { path: 'you/blow/my/mind', component: YouBlowMyMindComponent },
+    { path: 'we/will/soon', component: WeWillSoonComponent },
+    { path: 'tropical/ignition/master', component: TropicalIgnitionMasterComponent },
+    { path: 'lets/dive/into/the/world/of/javascript', component: LetsDiveIntoTheWorldofJavaScriptComponent },
+    { path: 'it/is/all/about/us', component: AllAboutUsComponent },
+    { path: 'we/dont/need/security/but/functionality', component: WeDontNeedSecurityButFunctionalityComponent },
+    { path: 'i/want/you/you/want/me', component: IWantYouYouWantMeComponent },
+    { path: 'ring/of/fire/yin', component: RfyinComponent }, // Tao Ring of Fire (Yin)
+    { path: 'ring/of/fire/yang', component: RfyangComponent }, // Tao Ring of Fire (Yang)
+    { path: 'eternal/fance/of/love/tao', component: DramonkComponent }, // Dragon & Monkey ( Hope )
+    { path: 'firebase/solar/plexus', component: SolplexComponent }, // Firebase (Solar Plexus)
+    { path: 'black/gold', component: MonkComponent }, // Monk (Black Gold)
+    { path: 'dance/of/love', component: DanceOfLoveComponent },
+    { path: 'care/us/and/we/will/care/you', component: CareUsAndWeWillCareYouComponent },
+    { path: 'real/time', component: RtComponent }, // Real Time Shamanic Quest
+    { path: 'mission/world/wide/target', component: MissionComponent }, // World wide Target
+    { path: 'last/warning/tao/touch', component: TaoComponent }, // Last Warning
+    { path: 'data/objects/and/functions', component: DataComponent }, // Data
+    // ######################################################################################################
 
+    { path: 'dont/take/us/seriously/we/are/having/fun', component: SeriouslyComponent },
 
+// ###################################################################### Tao Touch Start
+    { path: 'fragments/you/need/forgotten/past', component: FragmentsComponent },
+    { path: 'boom/cat', component: CatComponent }, // Black Cat & White Cat
+    { path: 'mystic/portal', component: MysticPortalComponent },
+// ###################################################################### Tao Touch End
 
+    { path: 'mystic/theories/cult/to/the/self/identification', component: MysticTheoriesCultComponent },
+
+// ###################################################################### Path of Shields Start
+    { path: 'three/you/tell/me', component: ThreeComponent }, // 3 You tell Me!
+    { path: 'path/of/shields', component: PathshieldsComponent }, // path of shields ( image )
+    { path: 'dragon', component: DragonComponent }, // The Dragon
+    { path: 'possession/of/will', component: WillpowerComponent }, // the Possession of Will
+    { path: 'fire/in/my/eyes/metal/in/my/soul', component: MetalsoulComponent },
+    { path: 'because/we/love', component: BecauseweloveComponent },
+    { path: 'dark/warrior', component: DarkwarriorComponent },
+    { path: 'money/is/no/power', component: MoneynopowerComponent },
+    { path: 'expression/nature', component: ExpressionNatureComponent },
+    { path: 'hipnotic/dance', component: HipnoticDanceComponent },
+    { path: 'the/first/three/minutes', component: FirstMinutesComponent },
+    { path: 'she/need/he/create', component: SheNeedHeCreateComponent },
+    { path: 'd/o/d', component: DoDComponent },
+    { path: 'against/the/greed', component: AgainstTheGreedComponent },
+    { path: 'digital/perspective', component: DigitalPerspectiveComponent },
+    { path: 'sixty/nine', component: SixtyNineComponent },
+    { path: 'i/can/feel/i/have/a/body', component: ICanFeelComponent },
+    { path: 'we/are/tools/objects/of/expression', component: WeAreToolsComponent },
+    { path: 'eternal/masters/of/my/heart', component: EternalMastersComponent },
+    { path: 'not/the/worst/music/in/the/world', component: WorstMusicComponent },
+    { path: 'feel/the/night/feel/the/universe', component: UniverseComponent },
+    { path: 'union/point/synchrozined', component: UnionPointComponent },
+    { path: 'boo/the/condition/of/illusion', component:  BoobooComponent },
+    { path: 'lets/do/it', component: DoItComponent },
+    { path: 'deep/thoughts', component: DeepThoughtsComponent },
+// ###################################################################### Path of Shields End
+
+// ###################################################################### Magic of Fantasy Start
+    { path: 'magic/fire', component: MagicFireComponent },
+    { path: 'absolute/everything/and/everyone', component: AbsoluteComponent }, // Absolute
+    { path: 'fire', component: BringyoufireComponent }, // Bring You Fire
+    { path: 'sun/wukong/the/monkey/king', component: MonkingComponent }, // Sun Wukong
+    { path: 'myth/illusions/memories', component: IlusionMythComponent },
+    { path: 'lets/make/business', component: BusinessComponent }, // lets make business ( magic of fantasy )
+    { path: 'water/blood/path', component: WaterBloodImageComponent },
+    { path: 'walking/river', component: WalkingRiverComponent },
+    { path: 'love/or/die', component: LoveDieComponent },
+    { path: 'piano/words', component: PianoWordsComponent },
+    { path: 'press/for/monkey', component: Press4MonkeyComponent },
+    { path: 'need/activity', component: NeedActivityComponent },
+    { path: 'last/days/of/sacrifice', component: LastdaySacrificeComponent },
+    { path: 'fast/signals', component: FastSignalsComponent },
+    { path: 'brain/chilout', component: BrainChiloutComponent },
+    { path: 'do/music', component: DowhateveryoudobestMusicComponent },
+    { path: 'sexy/feeling', component: ThatSexyFeelingComponent },
+    { path: 'by/your/side', component: ByYourSideComponent },
+    { path: 'dance/like/water', component: DanceLikeWaterComponent },
+    { path: 'crafting/new/generations', component: CraftingNewGenerationsComponent },
+    { path: 'make/it/right', component: MakeitRightComponent },
+    { path: 'not/alone/holy/shadows', component: NotAloneHolyShadowsComponent },
+    { path: 'set/us/free', component: SetUsFreeComponent },
+    { path: 'deeds', component: DeedsPath2ParadiseComponent },
+    { path: 'lead/the/way', component: LeadandWeWillFollowComponent },
+// ###################################################################### Magic of Fantasy End
+
+// ########################################################################## // YinYang Tribute
+    { path: 'yin/yang', component: BandcampComponent },
+// ########################################################################## // Visions of Thor Start
+    { path: 'visions/of/thor', component: VotComponent },
+    { path: 'emerge/internal/upgrade', component: Vot1Component }, // Emerge
+    { path: 'water/horses/woman/free', component: Vot2Component }, // Water Horses - Woman Free
+    { path: 'pain/vs/love', component: Vot3Component }, // Pain vs Love
+    { path: 'black/birds/red/eyes', component: Vot4Component }, // Black Birds
+    { path: 'burned/in/the/hands/of/wind', component: Vot5Component }, // burned in the hand of wind
+    { path: 'summer/night/rock/and/roll', component: Vot6Component }, // Summer Night
+    { path: 'v/euclidean/space', component: Vot7Component }, // V - euclidean space
+    { path: 'invisible/frequency/you/can/change', component: Vot8Component }, // track 8
+    { path: 'ma6nata/evil/inside', component: Vot9Component }, // track 9
+    { path: 'shake/my/snakes', component: Vot10Component }, // track 10
+    { path: 'we/are/the/ones', component: Vot11Component }, // track 11
+// ########################################################################## // Visions of Thor End
+
+// ############################################################################ // Machine World Start
+    { path: 'machine/world', component: MwComponent },
+    { path: 'storming/plan/enigmatic/war', component: Mw1Component },
+    { path: 'pain/art/illusion/and/expression', component: Mw2Component },
+    { path: 'control/free/to/ask', component: Mw3Component },
+    { path: 'time/to/live/cache/cleaner', component: Mw4Component },
+    { path: 'panic/luck', component: Mw5Component },
+    { path: 'thunder/with/within/and/without', component: Mw6Component },
+    { path: 'forest/jungle/at/night', component: Mw7Component },
+    { path: 'have/fun/nothing/wrong/with/you/too', component: Mw8Component },
+    { path: 'noise/breaker/lead/the/way', component: Mw9Component },
+    { path: 'strang/groove/noise', component: Mw10Component },
+// ############################################################################ // Machine World End
+
+// ##############################################################################  // Space Trip Start
+    { path: 'space/trip', component: StComponent },
+    { path: 'anomaly/disconnected/functions', component: St1Component },
+    { path: 'organized/classic/motions', component: St2Component },
+    { path: 'brave/new/choice/no/heroes', component: St3Component },
+    { path: 'dark/net/mantra/over/flaw', component: St4Component },
+    { path: 'id/666', component: St5Component }, // ID - 666
+    { path: 'metamorphose/be/quiet/and/learn', component: St6Component },
+    { path: 'complex/unknown/value', component: St7Component },
+    { path: 'residents/of/love/deep/touch', component: St8Component },
+    { path: 'silnuvano/flush', component: St9Component },
+    { path: 'spiritual/redemption/odicforce', component: St10Component },
+    { path: 'inside/outside', component: St11Component },
+    { path: 'running/out/of/time/no/turning/back', component: St12Component },
+    { path: 'pagan/cult/to/the/sun', component: St13Component },
+// ##############################################################################  // Space Trip End
+
+// ############################################################################### Shiva and Kali Dance Start
+    { path: 'shiva/and/kali/dance', component: SkdComponent },
+    { path: 'discipline/no/escape', component: Skd1Component },
+    { path: 'hard/work/deep/concentration', component: Skd2Component },
+    { path: 'united/colors/of/skeleton/grow/your/skills', component: Skd3Component },
+    { path: 'air/trip/fly/to/me', component: Skd4Component },
+    { path: 'yellow/energy/burning/box', component: Skd5Component },
+    { path: 'underwater/into/the/sky', component: Skd6Component },
+    { path: 'drive/flow/crazy/ghost/train', component: Skd7Component },
+    { path: 'first/contact/path/of/shields', component: Skd8Component },
+    { path: 'do/not/deny/i/am/the/one', component: Skd9Component },
+    { path: 'healing/correction/body/and/mind', component: Skd10Component },
+    { path: 'conneted/to/you', component: Skd11Component },
+    { path: 'delay/expectative', component: Skd12Component },
+    { path: 'future/cosmic/atraction', component: Skd13Component },
+    { path: 'call/me/karma', component: Skd14Component },
+    { path: 'care/not/focus', component: Skd15Component },
+    { path: 'neurotic/path', component: Skd16Component },
+    { path: 'you/dare/suck/my/sax', component: Skd17Component },
+    { path: 'my/dream/boom/festival', component: Skd18Component },
+    { path: 'human/paradox/new/world', component: Skd19Component },
+    { path: 'terms/of/living/love/or/die', component: Skd20Component },
+// ############################################################################### Shiva and Kali Dance Start
+
+// ###########################################################################  // Eternal Delay Start
+    { path: 'eternal/delay', component: EtComponent },
+    { path: 'respect/spiritual/life', component: Et1Component },
+    { path: 'organic/fields/all/energy/all/soul', component: Et2Component },
+    { path: 'remember/why/you/are/here', component: Et3Component },
+    { path: 'show/us/some/respect/warning', component: Et4Component },
+    { path: 'human/test/sent', component: Et5Component },
+    { path: 'flow/into/darkness/feels/like/water', component: Et6Component },
+    { path: 'light/interception/sensitive/and/obscure', component: Et7Component },
+    { path: 'you/dont/believe/in/what/you/say', component: Et8Component },
+    { path: 'wait/madness/is/no/good', component: Et9Component },
+    { path: 'welcome/to/yourself/i/am/your/conscience', component: Et10Component },
+    { path: 'ladies/and/gentleman/move/on', component: Et11Component },
+// ###########################################################################  // Eternal Delay End
+
+// ####################################################################### // Noise Frequency Start
+    { path: 'noise/frequency/impulse', component: NfiComponent },
+    { path: 'bass/drop/blend', component: Nfi1Component },
+    { path: 'between/us/image/and/sound', component: Nfi2Component },
+    { path: 'dimensional/party/bit/parity', component: Nfi3Component },
+    { path: 'not/bad/wrong', component: Nfi4Component }, // not bad - Wrong
+    { path: 'failure/people/dont/care', component: Nfi5Component },
+    { path: 'fuck/politic/sex/is/fun/vs/fuck/sex/politic/is/fun', component: Nfi6Component },
+    { path: 'extreme/flow/go/deep/into/spiritual/life', component: Nfi7Component },
+    { path: 'i/know/myself/i/am/a/free/men', component: Nfi8Component },
+    { path: 'minimal/life/another/planet', component: Nfi9Component },
+    { path: 'time/code/stealth/mode', component: Nfi10Component },
+    { path: 'just/a/technical/skill/set', component: Nfi11Component },
+    { path: 'body/answer/common/sense/is/not/intelligence', component: Nfi12Component },
+// ####################################################################### // Noise Frequency End
+
+// #################################################################### // Emotional Signals Start
+    { path: 'emotional/signals', component: EsComponent },
+    { path: 'we/came/in/peace', component: Es1Component }, // We Came in Peace
+    { path: 'just/another/open/door', component: Es2Component },
+    { path: 'bigger/or/equal/to/zero', component: Es3Component },
+    { path: 'tao/yin/yang', component: Es4Component },
+    { path: 'magnetic/condition/psy/cats', component: Es5Component },
+    { path: 'dominated/by/time/ruled/by/desire', component: Es6Component },
+    { path: 'intro/litle/box/universe', component: Es7Component },
+    { path: 'little/box/universe', component: Es8Component }, // Little Box - Universe
+    { path: 'shamanic/visions', component: Es9Component }, // Shamanic Visions
+    { path: 'the/fun/project/is/fun/to/take/care', component: Es10Component }, // Fun to Care
+    { path: 'tool/kit', component: Es11Component }, // Tool Kit Table
+    { path: 'social', component: SetComponent }, // Track
+    { path: 'hacking/into/the/error/festival/patch', component: Es12Component },
+    { path: 'trust/the/constant/loop', component: Es13Component },
+// #################################################################### // Emotional Signals End
+
+// ################################################################ // Only Tributes Start
+    { path: 'only/tributes', component: OtComponent },
+    { path: 'cats/like/to/dance/dogs/like/to/watch', component: Ot1Component }, // Dogs and Cats
+    //  { path: 'emerge/internal/upgrade', component: Ot2Component }, // Lords - Egocentric Will
+    { path: 'bruce/lee/advice', component: Ot3Component }, // Bruce Lee
+    { path: 'galactic/passion/dragon/fire', component: Ot4Component }, // FCP
+    { path: 'lords/egocentric/will', component: Ot5Component }, // Lord or the Rings
+    { path: 'matrix/no/limits', component: Ot6Component }, // Lords - Egocentric Will
+    //  { path: 'V - euclidean Space', component: Ot7Component }, // euclidean space
+    { path: 'two/sides/one/force', component: Ot8Component }, // two sides one force ( star wars )
+    { path: 'devil/spell/me/and/you', component: Ot9Component }, // Lords - Egocentric Will
+    { path: 'vital/manipulation/become/mad', component: Ot10Component }, // Lords - Egocentric Will
+    { path: 'parallel/wish/the/mirror', component: Ot11Component }, // Lords - Egocentric Will
+// ################################################################ // Only Tributes End
+
+    // WIKI PAGES
+    { path: 'wiki', component: WikiComponent },
+    { path: 'wiki/intro', component: IntroComponent },
+    { path: 'wiki/firststeps', component: FirststepsComponent },
+    { path: 'wiki/core', component: CoreconceptsComponent },
+    { path: 'wiki/idea', component: IdeaComponent },
+    { path: 'wiki/challenge', component: ChallengeComponent },
+    { path: 'wiki/path', component: PathComponent },
+    { path: 'wiki/developers', component: DevelopersComponent },
+    { path: 'wiki/socialmedia', component: SocialmediaComponent },
+    { path: 'nature/care/path', component: NatureCarePathComponent },
+    { path: 'animal/care/path', component: AnimalCarePathComponent },
+    { path: 'human/care/path', component: HumanCarePathComponent },
+    { path: 'business/care/path', component: BusinessCarePathComponent },
+    { path: 'business/care/path/food', component: FoodBusinessComponent },
+    { path: 'business/care/path/proprieties', component: ProprietyOwnersComponent },
+    { path: 'activism', component: ActivismComponent },
+    { path: 'woofing', component: WoofingComponent },
 //  { path: 'login', component: LoginComponent },
 
 ]
