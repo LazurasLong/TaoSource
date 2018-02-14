@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, Provider } from '@angular/core';
+import { NgModule, Provider, Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { APP_BASE_HREF } from '@angular/common';
@@ -255,12 +255,21 @@ import { DeedsPath2ParadiseComponent } from './pages/yinyang/soundcloud/magic/fa
 // tslint:disable-next-line:max-line-length
 import { LeadandWeWillFollowComponent } from './pages/yinyang/soundcloud/magic/fantasy/leadand-we-will-follow/leadand-we-will-follow.component';
 
-import { LoginComponent } from './logic/login/login.component';
+// import { LoginComponent } from './logic/login/login.component';
 
 import { FooterComponent } from './html/footer/footer.component';
 import { HeaderComponent } from './html/header/header.component';
 
 import { SetComponent } from './pages/yinyang/albums/es/tracks/es11/set/set.component';
+import { NatureCarePathComponent } from './pages/license/wiki/path/nature-care-path/nature-care-path.component';
+import { AnimalCarePathComponent } from './pages/license/wiki/path/animal-care-path/animal-care-path.component';
+import { HumanCarePathComponent } from './pages/license/wiki/path/human-care-path/human-care-path.component';
+import { BusinessCarePathComponent } from './pages/license/wiki/path/business-care-path/business-care-path.component';
+import { FoodBusinessComponent } from './pages/license/wiki/path/business-care-path/food-business/food-business.component';
+import { ProprietyOwnersComponent } from './pages/license/wiki/path/business-care-path/propriety-owners/propriety-owners.component';
+import { ActivismComponent } from './pages/license/wiki/path/nature-care-path/activism/activism.component';
+import { WoofingComponent } from './pages/license/wiki/path/nature-care-path/woofing/woofing.component';
+import { MagicFireComponent } from './pages/yinyang/soundcloud/magic/magic-fire/magic-fire.component';
 
 
 const appRoutes: Routes = [ //
@@ -271,8 +280,9 @@ const appRoutes: Routes = [ //
   { path: 'oscar/fm', component: OscarFmComponent },
   { path: 'about/me/and/you', component: WhoweareComponent },
   { path: 'you/are/the/wood/i/am/the/fire', component: WoodFireComponent },
+  { path: 'magic/fire', component: MagicFireComponent },
 
-  { path: 'logmein', component: LoginComponent },
+  // { path: 'logmein', component: LoginComponent },
   { path: 'license', component: LicenseComponent }, // Eternal License
 //  { path: 'articles', component: ArticlesComponent },
 //  { path: 'water/vs/blood', component: WaterbloodComponent },
@@ -411,7 +421,7 @@ const appRoutes: Routes = [ //
   { path: 'healing/correction/body/and/mind', component: Skd10Component },
   { path: 'conneted/to/you', component: Skd11Component },
   { path: 'delay/expectative', component: Skd12Component },
-  { path: 'future/cosmic/attraction', component: Skd13Component },
+  { path: 'future/cosmic/atraction', component: Skd13Component },
   { path: 'call/me/karma', component: Skd14Component },
   { path: 'care/not/focus', component: Skd15Component },
   { path: 'neurotic/path', component: Skd16Component },
@@ -503,6 +513,16 @@ const appRoutes: Routes = [ //
   { path: 'set/us/free', component: SetUsFreeComponent },
   { path: 'deeds', component: DeedsPath2ParadiseComponent },
   { path: 'lead/the/way', component: LeadandWeWillFollowComponent },
+  // WIKI PAGES
+  { path: 'nature/care/path', component: NatureCarePathComponent },
+  { path: 'animal/care/path', component: AnimalCarePathComponent },
+  { path: 'human/care/path', component: HumanCarePathComponent },
+  { path: 'business/care/path', component: BusinessCarePathComponent },
+  { path: 'business/care/path/food', component: FoodBusinessComponent },
+  { path: 'business/care/path/proprieties', component: ProprietyOwnersComponent },
+  { path: 'activism', component: ActivismComponent },
+  { path: 'woofing', component: WoofingComponent },
+
 
 
 //  { path: 'login', component: LoginComponent },
@@ -745,10 +765,20 @@ const appRoutes: Routes = [ //
     SetUsFreeComponent,
     DeedsPath2ParadiseComponent,
     LeadandWeWillFollowComponent,
-    LoginComponent,
+  //  LoginComponent,
     FooterComponent,
     HeaderComponent,
     SetComponent,
+    NatureCarePathComponent,
+    AnimalCarePathComponent,
+    HumanCarePathComponent,
+    BusinessCarePathComponent,
+    FoodBusinessComponent,
+    ProprietyOwnersComponent,
+    ActivismComponent,
+    WoofingComponent,
+    MagicFireComponent,
+
 
 
   ],
