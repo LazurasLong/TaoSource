@@ -385,6 +385,7 @@ const appRoutes: Routes = [ //
     { path: 'set/us/free', component: SetUsFreeComponent },
     { path: 'deeds', component: DeedsPath2ParadiseComponent },
     { path: 'lead/the/way', component: LeadandWeWillFollowComponent },
+    { path: 'you/are/the/wood/i/am/the/fire', component: WoodFireComponent },
 // ###################################################################### Magic of Fantasy End
 
 // ########################################################################## // YinYang Tribute
