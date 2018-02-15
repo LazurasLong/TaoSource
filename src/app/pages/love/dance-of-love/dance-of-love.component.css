@@ -1,6 +1,7 @@
 p {
     color: orange;
     font-size: 23px;
+    font-size: calc(1.5vw + 1.5vh + 0.5vmin);
 }
 
 a {

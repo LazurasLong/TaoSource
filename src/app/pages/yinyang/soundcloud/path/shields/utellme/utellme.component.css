@@ -1,6 +1,6 @@
 #textbox {
     text-align: center;
-    color: greenyellow;
+    line-height: 1em;
 }
 
 #banner {
@@ -16,5 +16,6 @@ left: 0;
 }
 
 h3 {
-    font-size: 2em;
+    font-size: calc(1.5vw + 1.5vh + 0.5vmin);
+    line-height: 1em;
 }

@@ -8,13 +8,15 @@ a {
     margin:0 auto;
     display: block;
     text-align: center
+
 }
 .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    font-size: 1.5vw;
     text-align: center;
     font-size: 1.5em;
+    flex-shrink: 0;
 }
 
 .nav-tabs {
