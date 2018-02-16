@@ -270,6 +270,8 @@ import { ProprietyOwnersComponent } from './pages/license/wiki/path/business-car
 import { ActivismComponent } from './pages/license/wiki/path/nature-care-path/activism/activism.component';
 import { WoofingComponent } from './pages/license/wiki/path/nature-care-path/woofing/woofing.component';
 import { MagicFireComponent } from './pages/yinyang/soundcloud/magic/magic-fire/magic-fire.component';
+import { ActivistCommunitiesComponent } from './pages/license/wiki/path/activist-communities/activist-communities.component';
+import { WoofingCommunitiesComponent } from './pages/license/wiki/path/woofing-communities/woofing-communities.component';
 
 
 const appRoutes: Routes = [ //
@@ -795,6 +797,8 @@ const appRoutes: Routes = [ //
     ActivismComponent,
     WoofingComponent,
     MagicFireComponent,
+    ActivistCommunitiesComponent,
+    WoofingCommunitiesComponent,
 
 
 
