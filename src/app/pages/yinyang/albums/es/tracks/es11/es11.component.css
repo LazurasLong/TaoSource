@@ -1,8 +1,19 @@
+body {
+    background-color: black;
+}
 table {
     border-collapse: collapse;
+    border: 1px solid rgb(0, 237, 245);
     width: 100%;
     min-width: 25%;
     text-align: center;
+    flex-grow: 1;
+    -webkit-flex-grow: 1;
+    flex-shrink: 1;
+    -webkit-flex-shrink: 1;
+    vertical-align: top;
+    align-content: center;
+
 }
 
 table th {
@@ -10,6 +21,8 @@ table th {
     text-align: center;
     font-size: 120%;
     padding: 1em;
+    align-content: center;
+
 }
 
 table td {
@@ -17,6 +30,8 @@ table td {
     font-size: 150%;
     text-align: center;
     padding: 1em;
+    align-content: center;
+
 }
 
 button {
@@ -28,3 +43,24 @@ button {
     text-align: center;
 }
 
+
+
+#yinyang {
+    background-color: black;
+}
+
+
+#fantasy {
+    background-color: blue;
+    color: yellow;
+}
+
+#logic {
+    background-color: rgb(36, 48, 34);
+    color: greenyellow;
+}
+
+#application {
+    background-color: seagreen;
+    color: greenyellow;
+}
