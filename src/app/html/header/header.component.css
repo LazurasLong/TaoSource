@@ -5,24 +5,23 @@ a {
 
 .navbar {
     position: relative; /* Set the navbar to fixed position */
-    float:none;
-    margin:0 auto;
-    display: block;
+    float: none;
+    margin: auto;
+    display: inline-block;
     text-align: center
 
 
 }
 .navbar a {
-    float: none;
-    display: block;
+    position: relative;
+    float: 1px;
+    display: inline-block;
     text-align: center;
     font-size: calc(1.5vw + 1.5vh + 0.5vmin);
 }
 
 .nav-tabs {
-
   text-align: center;
-
 }
 
 .tab {
@@ -40,4 +39,8 @@ a {
   display: inline-block;
   float: none;
   vertical-align: middle;
+}
+
+.image {
+    width: 12px;
 }
