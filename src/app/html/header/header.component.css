@@ -5,9 +5,9 @@ a {
 
 .navbar {
     position: relative; /* Set the navbar to fixed position */
-    float: none;
-    margin: auto;
-    display: inline-block;
+    float: 1px;
+    margin:0 auto;
+    display: block;
     text-align: center
 
 
@@ -15,7 +15,7 @@ a {
 .navbar a {
     position: relative;
     float: 1px;
-    display: inline-block;
+
     text-align: center;
     font-size: calc(1.5vw + 1.5vh + 0.5vmin);
 }
@@ -41,6 +41,3 @@ a {
   vertical-align: middle;
 }
 
-.image {
-    width: 12px;
-}
