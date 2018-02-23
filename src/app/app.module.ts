@@ -256,8 +256,6 @@ import { DeedsPath2ParadiseComponent } from './pages/yinyang/soundcloud/magic/fa
 import { LeadandWeWillFollowComponent } from './pages/yinyang/soundcloud/magic/fantasy/leadand-we-will-follow/leadand-we-will-follow.component';
 
 // import { LoginComponent } from './logic/login/login.component';
-
-import { FooterComponent } from './html/footer/footer.component';
 import { HeaderComponent } from './html/header/header.component';
 
 import { SetComponent } from './pages/yinyang/albums/es/tracks/es11/set/set.component';
@@ -785,7 +783,7 @@ const appRoutes: Routes = [ //
     DeedsPath2ParadiseComponent,
     LeadandWeWillFollowComponent,
   //  LoginComponent,
-    FooterComponent,
+
     HeaderComponent,
     SetComponent,
     NatureCarePathComponent,
