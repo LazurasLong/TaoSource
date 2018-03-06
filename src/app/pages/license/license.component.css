@@ -16,7 +16,7 @@ p {
   line-height: 1em;
 }
 #banner {
-    background: url("https://i00nsu.keybase.pub/odicforcesounds.com/images/drag.jpeg") no-repeat center center fixed;
+    background: url("/../../../../assets/images/drag.jpeg") no-repeat center center fixed;
     background-size: cover;
 
     min-width: 100%;

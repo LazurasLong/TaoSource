@@ -1,7 +1,7 @@
 #banner {
-    background: url("https://i00nsu.keybase.pub/odicforcesounds.com/images/bbre.jpg") no-repeat center center fixed;
+    background: url("/../../../../assets/images/bbre.jpg") no-repeat center center fixed;
     background-size: 100%;
-    height: 100%;
+
     /* Set up proportionate scaling */
     min-width: 100%;
     min-height: 100%;
