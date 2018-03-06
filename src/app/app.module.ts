@@ -416,7 +416,7 @@ const appRoutes: Routes = [ //
     { path: 'forest/jungle/at/night', component: Mw7Component },
     { path: 'have/fun/nothing/wrong/with/you/too', component: Mw8Component },
     { path: 'noise/breaker/lead/the/way', component: Mw9Component },
-    { path: 'strang/groove/noise', component: Mw10Component },
+    { path: 'strange/groove/noise', component: Mw10Component },
 // ############################################################################ // Machine World End
 
 // ##############################################################################  // Space Trip Start
