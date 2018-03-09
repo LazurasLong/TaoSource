@@ -76,7 +76,7 @@ text-align: center;
 
 
 #banner {
-background: url("/../../../../assets/images/wecameinpeace.jpg") no-repeat center center fixed;
+background: url("https://raw.githubusercontent.com/odicforcesounds/odicforcesounds/master/src/assets/images/wecameinpeace.jpg") no-repeat center center fixed;
 background-size: 100% 97%;
 /* Set up proportionate scaling */
 min-width: 100%;

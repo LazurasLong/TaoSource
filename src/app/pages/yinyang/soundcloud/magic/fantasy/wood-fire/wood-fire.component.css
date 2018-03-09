@@ -1,5 +1,5 @@
 #banner {
-    background: url("/../../../../assets/images/woodfire.jpg") no-repeat center center fixed;
+    background: url("https://raw.githubusercontent.com/odicforcesounds/odicforcesounds/master/src/assets/images/woodfire.jpg") no-repeat center center fixed;
     background-size: 100% 126%;
     /* Set up proportionate scaling */
     min-width: 100%;

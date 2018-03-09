@@ -27,7 +27,7 @@ font-size: 0.5em;
 }
 
 #banner {
-background: url("/../../../../assets/images/me2.jpg") no-repeat center center fixed;
+background: url("https://raw.githubusercontent.com/odicforcesounds/odicforcesounds/master/src/assets/images/me2.jpg") no-repeat center center fixed;
 background-size: cover;
 /* Set up proportionate scaling */
 min-width: 100%;
