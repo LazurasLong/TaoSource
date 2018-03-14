@@ -1,4 +1,4 @@
-## All Rights Reserved ®
+ ## All Rights Reserved ®
 
 - If You deny to contribute to this project, You are Included In <b>OdicforceSounds</b> [Eternal License](https://odicforcesounds.com/#/license)!
 
