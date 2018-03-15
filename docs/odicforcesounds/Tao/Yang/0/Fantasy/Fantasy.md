@@ -14,7 +14,7 @@ Explore Them here:
 7. [Emotional Signals](./Music/Albums/Emotional_Signals.md)
 8. [Only Tributes](./Music/Albums/Only_Tributes.md)
 
-- All 8 First albums have global description. The Next 8 Albums don't have global description. (Links don't work). If You wish to read more about this last albums, be sure You explore track descriptions in odicforcesounds.com website. White to explore the world of Fantasy You should use Logic, You may have the Power to build an "image" in your brain about Fantasy as well!
+- All 8 First albums have global description. The Next 8 Albums don't have global description. (Links don't work). If You wish to read more about this last albums, be sure You explore track descriptions in odicforcesounds.com website. While to explore a world of Fantasy You should use Logic, You may have the Power to build an "image" in your brain, which is all about Fantasy as well!
 
 9. [The Long Road]()
 10. [The Unpredictable Change]()
@@ -38,3 +38,6 @@ If Your attention create the necessary imaginary structure to understand anythin
 
 ## Concepts:
 Concepts are abstractions, abstractions create tools to produce fantasy ( objects, forms, values, symbols ) so we can compare them and learn about the concept. May we understand that is pure fantasy.
+
+## Religions:
+Naturaly Religions care to educate Ideas, Concepts and all kind of abstractions which guide to a balanced behavior. While everything is only an illusion, I can ask you what is not! Maybe religions aim to be a way to educate. What is Logic is full of Fantasy, which means all Fantasy is full of Logic!
