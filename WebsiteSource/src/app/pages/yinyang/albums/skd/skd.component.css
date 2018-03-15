@@ -1,0 +1,36 @@
+#banner {
+    background: url("https://raw.githubusercontent.com/odicforcesounds/odicforcesounds/master/backgrounds/shivakalidance.jpg") no-repeat center center fixed;
+    background-size: 100%;
+
+    /* Set up proportionate scaling */
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: 0;
+
+    /* Set up positioning */
+    position: absolute;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+#main {
+  width: 100%;
+  min-width: 25%;
+  text-align: center;
+}
+
+#text-box {
+  width: 95%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: justify;
+  font-size: 150%;
+  line-height: 2;
+}
+
+#sell {
+  text-align: center;
+}

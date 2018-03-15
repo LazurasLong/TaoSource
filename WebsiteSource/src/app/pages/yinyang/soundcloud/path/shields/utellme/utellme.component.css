@@ -1,0 +1,21 @@
+#textbox {
+    text-align: center;
+    line-height: 1em;
+}
+
+#banner {
+background: url("https://raw.githubusercontent.com/odicforcesounds/odicforcesounds/master/backgrounds/tatao3.jpg") no-repeat center center fixed;
+background-size: cover;
+/* Set up proportionate scaling */
+min-width: 100%;
+min-height: 100%;
+
+/* Set up positioning */
+position: absolute;
+left: 0;
+}
+
+h3 {
+    font-size: calc(1.5vw + 1.5vh + 0.5vmin);
+    line-height: 1em;
+}

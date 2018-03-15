@@ -1,39 +1,24 @@
 
 
-/dist
+WebsiteSource/dist
 
 # dependencies
-/node_modules
-
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+WebsiteSource/node_modules
 
 # misc
-/.sass-cache
-/connect.lock
-/coverage/*
-/libpeerconnection.log
-npm-debug.log
-testem.log
-/typings
+WebsiteSource/.sass-cache
+WebsiteSource/connect.lock
+WebsiteSource/coverage/*
+WebsiteSource/libpeerconnection.log
+WebsiteSource/npm-debug.log
+WebsiteSource/testem.log
+WebsiteSource/typings
 =======
 
 # e2e
-/e2e/*.js
-/e2e/*.map
+WebsiteSource/e2e/*.js
+WebsiteSource/e2e/*.map
 
 #System Files
-.DS_Store
-Thumbs.db
+WebsiteSource/.DS_Store
+WebsiteSource/Thumbs.db

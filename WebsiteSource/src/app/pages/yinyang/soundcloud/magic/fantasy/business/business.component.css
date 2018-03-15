@@ -1,0 +1,24 @@
+#banner {
+    background: url("https://raw.githubusercontent.com/odicforcesounds/odicforcesounds/master/backgrounds/business.jpg") no-repeat center center fixed;
+    background-size: cover;
+    /* Set up proportionate scaling */
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: 0;
+
+    /* Set up positioning */
+    position: absolute;
+  }
+#player {
+  text-align: center;
+  margin-top: 2%;
+}
+#text-box {
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  text-align: center;
+  font-size: 2em;
+  color:white;
+}
+
