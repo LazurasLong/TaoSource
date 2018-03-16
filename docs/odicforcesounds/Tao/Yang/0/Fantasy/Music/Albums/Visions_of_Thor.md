@@ -12,6 +12,6 @@
 10. Shake - My Snakes 08:22
 11. We Are The Ones 03:36
 
-This Album is for Sell at [Bandcamp]() for 3 Euros only.
+This Album is for Sell at [Bandcamp](https://odicforcesounds.bandcamp.com/album/visions-of-thor-m-s-n) for 3 Euros only.
 
 Read Album Description in Github [here](../../Dreams/Descriptions/Visions_of_Thor.md)

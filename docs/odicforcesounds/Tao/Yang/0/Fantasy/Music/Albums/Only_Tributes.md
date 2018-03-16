@@ -12,6 +12,6 @@
 10. Vital Manipulation - Become Mad 17:58
 11. Parallel Wish - The Mirror 06:37
 
-- This Album is for Sell at [Bandcamp]() for 3 Euros only.
+- This Album is for Sell at [Bandcamp](https://odicforcesounds.bandcamp.com/album/only-tributes) for 3 Euros only.
 
 - Read Album Description in Github [here](../../Dreams/Descriptions/Only_Tributes.md) without links.

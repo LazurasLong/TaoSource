@@ -21,6 +21,6 @@
 19. Human Paradox - New World 10:18
 20. Terms Of Living - Love or Die 08:46
 
-This Album is for Sell at [Bandcamp]() for 3 Euros only.
+This Album is for Sell at [Bandcamp](https://odicforcesounds.bandcamp.com/album/shiva-and-kali-dance) for 3 Euros only.
 
 Read Album Description in Github [here](../../Dreams/Descriptions/Shiva_and_Kali_Dance.md)

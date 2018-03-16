@@ -12,6 +12,6 @@
 10. Welcome To Yourself - I am Your Conscience 11:37
 11. Ladies and Gentleman - Move On 18:00
 
-- This Album is for Sell at [Bandcamp]() for 3 Euros only.
+- This Album is for Sell at [Bandcamp](https://odicforcesounds.bandcamp.com/album/eternal-delay) for 3 Euros only.
 
 - Read Album Description in Github [here](../../Dreams/Descriptions/Eternal_Delay.md) without links.

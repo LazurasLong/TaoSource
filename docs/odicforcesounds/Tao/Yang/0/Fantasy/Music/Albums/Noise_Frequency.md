@@ -13,6 +13,6 @@
 11. Just a Technical Skill Set 07:09
 12. Body Answer - Common Sense Is Not Intelligence 03:08
 
-- This Album is for Sell at [Bandcamp]() for 3 Euros only.
+- This Album is for Sell at [Bandcamp](https://odicforcesounds.bandcamp.com/album/noise-frequency-impulse) for 3 Euros only.
 
 - Read Album Description in Github [here](../../Dreams/Descriptions/Noise_Frequency.md) without links.
