@@ -270,11 +270,22 @@ import { WoofingComponent } from './pages/license/wiki/path/nature-care-path/woo
 import { MagicFireComponent } from './pages/yinyang/soundcloud/magic/magic-fire/magic-fire.component';
 import { ActivistCommunitiesComponent } from './pages/license/wiki/path/activist-communities/activist-communities.component';
 import { WoofingCommunitiesComponent } from './pages/license/wiki/path/woofing-communities/woofing-communities.component';
+import { ReligionsComponent } from './pages/license/wiki/path/religions/religions.component';
+import { PoliticsComponent } from './pages/license/wiki/path/politics/politics.component';
+import { ZodiacsComponent } from './pages/license/wiki/path/zodiacs/zodiacs.component';
+import { BirthComponent } from './pages/license/wiki/path/birth/birth.component';
+import { SoulsComponent } from './pages/license/wiki/path/souls/souls.component';
+import { IndustryComponent } from './pages/license/wiki/path/industry/industry.component';
+import { ScienceComponent } from './pages/license/wiki/path/science/science.component';
+import { FunctionsComponent } from './pages/license/wiki/path/functions/functions.component';
+import { VariablesComponent } from './pages/license/wiki/path/variables/variables.component';
+import { CausesComponent } from './pages/license/wiki/path/causes/causes.component';
+import { CommunitiesComponent } from './pages/license/wiki/path/communities/communities.component';
 
 
 const appRoutes: Routes = [ //
     { path: '', redirectTo: '/tao', pathMatch: 'full'},
-    //  { path: '**', component: ErrorComponent },
+    { path: '**', redirectTo: 'wiki.odicforcesounds.com/oops', pathMatch: 'full' },
     { path: 'tao', component: UtellmeComponent },
     { path: 'home', component: HomeComponent },
     { path: 'who', component: WhoComponent },
@@ -542,6 +553,15 @@ const appRoutes: Routes = [ //
     { path: 'business/care/path/proprieties', component: ProprietyOwnersComponent },
     { path: 'activism', component: ActivismComponent },
     { path: 'woofing', component: WoofingComponent },
+    { path: 'birth', component: BirthComponent },
+    { path: 'functions', component: FunctionsComponent },
+    { path: 'industry', component: IndustryComponent },
+    { path: 'politics', component: PoliticsComponent },
+    { path: 'religions', component: ReligionsComponent },
+    { path: 'science', component: ScienceComponent },
+    { path: 'souls', component: SoulsComponent },
+    { path: 'variables', component: VariablesComponent },
+    { path: 'zodiacs', component: ZodiacsComponent },
 //  { path: 'login', component: LoginComponent },
 
 ]
@@ -797,6 +817,18 @@ const appRoutes: Routes = [ //
     MagicFireComponent,
     ActivistCommunitiesComponent,
     WoofingCommunitiesComponent,
+    ReligionsComponent,
+    PoliticsComponent,
+    ZodiacsComponent,
+
+    BirthComponent,
+    SoulsComponent,
+    IndustryComponent,
+    ScienceComponent,
+    FunctionsComponent,
+    VariablesComponent,
+    CausesComponent,
+    CommunitiesComponent,
 
 
 
