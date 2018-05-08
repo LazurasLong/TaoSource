@@ -281,6 +281,7 @@ import { FunctionsComponent } from './pages/license/wiki/path/functions/function
 import { VariablesComponent } from './pages/license/wiki/path/variables/variables.component';
 import { CausesComponent } from './pages/license/wiki/path/causes/causes.component';
 import { CommunitiesComponent } from './pages/license/wiki/path/communities/communities.component';
+import { BlogsComponent } from './pages/blogs/blogs.component';
 
 
 const appRoutes: Routes = [ //
@@ -562,7 +563,8 @@ const appRoutes: Routes = [ //
     { path: 'souls', component: SoulsComponent },
     { path: 'variables', component: VariablesComponent },
     { path: 'zodiacs', component: ZodiacsComponent },
-//  { path: 'login', component: LoginComponent },
+    { path: 'blogs', component: BlogsComponent },
+    // { path: 'login', component: LoginComponent },
 
 ]
 
@@ -829,6 +831,7 @@ const appRoutes: Routes = [ //
     VariablesComponent,
     CausesComponent,
     CommunitiesComponent,
+    BlogsComponent,
 
 
 

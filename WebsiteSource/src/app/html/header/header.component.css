@@ -15,11 +15,14 @@ a {
 .navbar a {
     position: relative;
     float: 1px;
-
+    padding:10px;
     text-align: center;
     font-size: calc(1vw + 1vh + 0.3vmin);
 }
 
+.navbar a:hover {
+    background-color: rgb(4, 20, 26);
+}
 .nav-tabs {
   text-align: center;
 }
