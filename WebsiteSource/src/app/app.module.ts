@@ -282,17 +282,41 @@ import { VariablesComponent } from './pages/license/wiki/path/variables/variable
 import { CausesComponent } from './pages/license/wiki/path/causes/causes.component';
 import { CommunitiesComponent } from './pages/license/wiki/path/communities/communities.component';
 import { BlogsComponent } from './pages/blogs/blogs.component';
+import { OdicComponent } from './pages/yinyang/soundcloud/odic/odic.component';
+import { TaoTheWindOfGodComponent } from './pages/yinyang/soundcloud/odic/tao-the-wind-of-god/tao-the-wind-of-god.component';
+import { HermitWalkForLibertyComponent } from './pages/yinyang/soundcloud/odic/hermit-walk-for-liberty/hermit-walk-for-liberty.component';
+import { PathOftheSunKeepersComponent } from './pages/yinyang/soundcloud/odic/path-ofthe-sun-keepers/path-ofthe-sun-keepers.component';
+import { BirdsOfFireComponent } from './pages/yinyang/soundcloud/odic/birds-of-fire/birds-of-fire.component';
+import { WiseChoiceComponent } from './pages/yinyang/soundcloud/odic/wise-choice/wise-choice.component';
+import { AwakeningDreamsComponent } from './pages/yinyang/soundcloud/odic/awakening-dreams/awakening-dreams.component';
+import { EyesOnYouComponent } from './pages/yinyang/soundcloud/odic/eyes-on-you/eyes-on-you.component';
+import { ComeAndSeeYouInMeComponent } from './pages/yinyang/soundcloud/odic/come-and-see-you-in-me/come-and-see-you-in-me.component';
+import { HuntingDreamsHuntersComponent } from './pages/yinyang/soundcloud/odic/hunting-dreams-hunters/hunting-dreams-hunters.component';
+import { SecretResponsabilityExposedComponent } from './pages/yinyang/soundcloud/odic/secret-responsability-exposed/secret-responsability-exposed.component';
 
 
 const appRoutes: Routes = [ //
     { path: '', redirectTo: '/tao', pathMatch: 'full'},
-    { path: '**', redirectTo: 'wiki.odicforcesounds.com/oops', pathMatch: 'full' },
+    { path: '**', redirectTo: 'https://wiki.odicforcesounds.com/oops', pathMatch: 'full' },
     { path: 'tao', component: UtellmeComponent },
     { path: 'home', component: HomeComponent },
     { path: 'who', component: WhoComponent },
     { path: 'oscar/fm', component: OscarFmComponent },
     { path: 'about/me/and/you', component: WhoweareComponent },
     { path: 'license', component: LicenseComponent }, // Eternal License
+    // OdicforceSounds - OdicforceSounds - Monkey King - Sun Wukong
+    { path: 'expression', component: OdicComponent},
+    { path: 'tao/the/wind/of/god', component: TaoTheWindOfGodComponent },
+    { path: 'hermit/walk/for/liberty', component: HermitWalkForLibertyComponent },
+    { path: 'path/of/the/sun/keepers', component: PathOftheSunKeepersComponent },
+    { path: 'birds/of/fire', component: BirdsOfFireComponent },
+    { path: 'wise/choice', component: WiseChoiceComponent },
+    { path: 'awakening/dreams', component: AwakeningDreamsComponent },
+    { path: 'eyes/on/you', component: EyesOnYouComponent },
+    { path: 'comes/and/see/you/in/me', component: ComeAndSeeYouInMeComponent },
+    { path: 'hunting/dreams/hunters', component: HuntingDreamsHuntersComponent },
+    { path: 'secret/responsability/exposed', component: SecretResponsabilityExposedComponent },
+    // OdicforceSounds - OdicforceSounds - Monkey King - Sun Wukong
 
     { path: 'simplicity', component: SimplicityComponent }, // simplicity ( signals of time )
     { path: 'my/style', component: ThisMyStyleComponent },
@@ -832,6 +856,18 @@ const appRoutes: Routes = [ //
     CausesComponent,
     CommunitiesComponent,
     BlogsComponent,
+    // Monkey King - Sun Wukong
+    OdicComponent,
+    TaoTheWindOfGodComponent,
+    HermitWalkForLibertyComponent,
+    PathOftheSunKeepersComponent,
+    BirdsOfFireComponent,
+    WiseChoiceComponent,
+    AwakeningDreamsComponent,
+    EyesOnYouComponent,
+    ComeAndSeeYouInMeComponent,
+    HuntingDreamsHuntersComponent,
+    SecretResponsabilityExposedComponent,
 
 
 
