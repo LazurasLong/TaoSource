@@ -297,7 +297,7 @@ import { SecretResponsabilityExposedComponent } from './pages/yinyang/soundcloud
 
 const appRoutes: Routes = [ //
     { path: '', redirectTo: '/tao', pathMatch: 'full'},
-    { path: '**', redirectTo: 'https://wiki.odicforcesounds.com/oops', pathMatch: 'full' },
+    { path: '**', redirectTo: 'https://wiki.odicforcesounds.com/Oops', pathMatch: 'full' },
     { path: 'tao', component: UtellmeComponent },
     { path: 'home', component: HomeComponent },
     { path: 'who', component: WhoComponent },
@@ -313,7 +313,7 @@ const appRoutes: Routes = [ //
     { path: 'wise/choice', component: WiseChoiceComponent },
     { path: 'awakening/dreams', component: AwakeningDreamsComponent },
     { path: 'eyes/on/you', component: EyesOnYouComponent },
-    { path: 'comes/and/see/you/in/me', component: ComeAndSeeYouInMeComponent },
+    { path: 'come/and/see/you/in/me', component: ComeAndSeeYouInMeComponent },
     { path: 'hunting/dreams/hunters', component: HuntingDreamsHuntersComponent },
     { path: 'secret/responsability/exposed', component: SecretResponsabilityExposedComponent },
     // OdicforceSounds - OdicforceSounds - Monkey King - Sun Wukong
