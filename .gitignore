@@ -1,6 +1,6 @@
 
 
-WebsiteSource/dist
+WebsiteSource/docs/*
 
 # dependencies
 WebsiteSource/node_modules
