@@ -292,7 +292,12 @@ import { AwakeningDreamsComponent } from './pages/yinyang/soundcloud/odic/awaken
 import { EyesOnYouComponent } from './pages/yinyang/soundcloud/odic/eyes-on-you/eyes-on-you.component';
 import { ComeAndSeeYouInMeComponent } from './pages/yinyang/soundcloud/odic/come-and-see-you-in-me/come-and-see-you-in-me.component';
 import { HuntingDreamsHuntersComponent } from './pages/yinyang/soundcloud/odic/hunting-dreams-hunters/hunting-dreams-hunters.component';
-import { SecretResponsabilityExposedComponent } from './pages/yinyang/soundcloud/odic/secret-responsability-exposed/secret-responsability-exposed.component';
+import { SecretResponsabilityExposedComponent } from './pages/yinyang/soundcloud/odic/sre/secret-responsability-exposed.component';
+// Space
+import { TheUnpredictableChangeComponent } from './pages/yinyang/mixcloud/the-unpredictable-change/the-unpredictable-change.component';
+import { TheLongRoadComponent } from './pages/yinyang/mixcloud/the-long-road/the-long-road.component';
+import { SignalsOfTimeComponent } from './pages/yinyang/mixcloud/signals-of-time/signals-of-time.component';
+import { GalacticSignatureComponent } from './pages/yinyang/mixcloud/galactic-signature/galactic-signature.component';
 
 
 const appRoutes: Routes = [ //
@@ -868,6 +873,11 @@ const appRoutes: Routes = [ //
     ComeAndSeeYouInMeComponent,
     HuntingDreamsHuntersComponent,
     SecretResponsabilityExposedComponent,
+    // Mixcloud albums
+    TheUnpredictableChangeComponent,
+    TheLongRoadComponent,
+    SignalsOfTimeComponent,
+    GalacticSignatureComponent,
 
 
 

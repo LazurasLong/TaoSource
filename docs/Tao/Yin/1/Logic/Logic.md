@@ -15,7 +15,7 @@
 
 ## Business
 
-@Google, @Firebase, @Github, @Facebook, @Twitter, @Tumblr, @Instagram, @Youtube, @All, @worldwide, @brands, @challenge [Individual or Group who represents a LOGO](https://www.odicforcesounds.com/#/license)
+[@MicroSoft](https://github.com/Microsoft) [@Google](https://github.com/google), [@Firebase](https://github.com/firebase), [@Github](https://github.com/), [@Facebook](https://github.com/facebook), [@Twitter](https://github.com/twitter), [@Tumblr](https://github.com/tumblr), [@Instagram](https://github.com/Instagram), @Youtube, @All, @worldwide, @brands, @challenge [Individual or Group who represents a LOGO](https://www.odicforcesounds.com/#/license)
 
 ## Scope
 
