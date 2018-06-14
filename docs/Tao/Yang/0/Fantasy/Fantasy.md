@@ -36,7 +36,7 @@ If Zodiacs are part of the Fantasy World, then we should care what fantasy tell 
 
 If Chakras are part of the Fantasy World, then we should care what fantasy tell us about.
 
-- [Logic](../../../Yin/1/Logic.md): Focus
+- [Logic](../../../Yin/1/Logic/Logic.md): Focus
 
 ## Focus
 

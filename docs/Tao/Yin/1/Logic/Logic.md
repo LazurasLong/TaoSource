@@ -36,7 +36,7 @@
 
 ## User Profile
 
-1. Chinese [Zodiacs](../../../Yang/0/Fantasy/Zodiac/Zodiacs.md) Avatars are Static Data.
+1. Chinese [Zodiacs](./../../../Yang/0/Fantasy/Zodiac/Zodiacs.md) Avatars are Static Data.
 2. [Paths](./Challenge/Play/Paths.md) are expressed in Color.
 3. Each Path is one "Channel" of RBG Color. Complete 255 for Each ( at least )
 4. All Users Shall Start Profile Policy with Total Anonymous.
