@@ -1,4 +1,5 @@
 # An Expression of Fantasy
+
 ### Dreams of the same Dream
 
 ##### Each Album Cares an Expression of Simplicity, while simplicity shall be expressed in several fragments of... Simplicity it Self. You can call them Tracks, while I call them "Signals of Time"
@@ -30,13 +31,12 @@ Explore Them here:
 ## Zodiacs
 
 If Zodiacs are part of the Fantasy World, then we should care what fantasy tell us about.
-- Logic: Login System Must Ask Birth Date.
 
 ## Chakras
 
 If Chakras are part of the Fantasy World, then we should care what fantasy tell us about.
 
-- Logic: Focus
+- [Logic](../../../Yin/1/Logic.md): Focus
 
 ## Focus
 
