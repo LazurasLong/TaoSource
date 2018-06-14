@@ -16,9 +16,9 @@
 
 ## Business
 
-- [@MicroSoft](https://github.com/Microsoft) [@Google](https://github.com/google), [@Firebase](https://github.com/firebase), [@Github](https://github.com/), [@Facebook](https://github.com/facebook), [@Twitter](https://github.com/twitter), [@Tumblr](https://github.com/tumblr), [@Instagram](https://github.com/Instagram), @All, @worldwide, @brands, @challenge [Individual or Group who represents a LOGO](https://www.odicforcesounds.com/#/license)
-
-- [Subscribe this Challenge](./Business/Subscribe.md)
+- [@MicroSoft](https://github.com/Microsoft) [@Google](https://github.com/google), [@Firebase](https://github.com/firebase), [@Github](https://github.com/), [@Facebook](https://github.com/facebook), [@Twitter](https://github.com/twitter), [@Tumblr](https://github.com/tumblr), [@Instagram](https://github.com/Instagram)
+- [Individual or Group who represents a LOGO](https://www.odicforcesounds.com/#/license)
+- [Subscribe this Challenge](./Business/Subscriptions.md)
 
 ## Scope
 
@@ -36,7 +36,7 @@
 
 ## User Profile
 
-1. Chinese [Zodiacs](../../../Yang/0/Fantasy/Zodiac/Zodiac.md) Avatars are Static Data.
+1. Chinese [Zodiacs](../../../Yang/0/Fantasy/Zodiac/Zodiacs.md) Avatars are Static Data.
 2. [Paths](./Challenge/Play/Paths.md) are expressed in Color.
 3. Each Path is one "Channel" of RBG Color. Complete 255 for Each ( at least )
 4. All Users Shall Start Profile Policy with Total Anonymous.
@@ -48,7 +48,7 @@
 
 - Concepts (KISS) - "Coins are Points" for Users.
 - Brands only handle Points to Manage Social and Political Ranking Status (Public Information)
-- Logic (BOOLEAN) - 1(Positive(Approved)) 0(Negative(Denied))
+- Logic (BOOLEAN) - 1(Positive(**Approved**)) 0(Negative(**Denied**))
 - [Points](./Challenge/Play/Points.md) represent Approved Action.
 
 ## Actions
