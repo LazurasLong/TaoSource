@@ -298,6 +298,9 @@ import { TheUnpredictableChangeComponent } from './pages/yinyang/mixcloud/the-un
 import { TheLongRoadComponent } from './pages/yinyang/mixcloud/the-long-road/the-long-road.component';
 import { SignalsOfTimeComponent } from './pages/yinyang/mixcloud/signals-of-time/signals-of-time.component';
 import { GalacticSignatureComponent } from './pages/yinyang/mixcloud/galactic-signature/galactic-signature.component';
+import { SpiritualAlgorithmComponent } from './pages/yinyang/mixcloud/spiritual-algorithm/spiritual-algorithm.component';
+import { OdicPointsComponent } from './pages/license/wiki/odic-points/odic-points.component';
+import { OdicCoinsComponent } from './pages/license/wiki/odic-coins/odic-coins.component';
 
 
 const appRoutes: Routes = [ //
@@ -594,7 +597,13 @@ const appRoutes: Routes = [ //
     { path: 'zodiacs', component: ZodiacsComponent },
     { path: 'blogs', component: BlogsComponent },
     // { path: 'login', component: LoginComponent },
-
+    { path: 'the/unpredictable/change', component: TheUnpredictableChangeComponent },
+    { path: 'the/long/road', component: TheLongRoadComponent },
+    { path: 'spiritual/algorithm', component: SpiritualAlgorithmComponent },
+    { path: 'signals/of/time', component: SignalsOfTimeComponent },
+    { path: 'galactic/signaure', component: GalacticSignatureComponent },
+    { path: 'odic/points', component: OdicPointsComponent },
+    { path: 'odic/coins', component: OdicCoinsComponent },
 ]
 
 @NgModule({
@@ -833,7 +842,7 @@ const appRoutes: Routes = [ //
     SetUsFreeComponent,
     DeedsPath2ParadiseComponent,
     LeadandWeWillFollowComponent,
-  //  LoginComponent,
+     //  LoginComponent,
 
     HeaderComponent,
     SetComponent,
@@ -851,7 +860,7 @@ const appRoutes: Routes = [ //
     ReligionsComponent,
     PoliticsComponent,
     ZodiacsComponent,
-
+    //
     BirthComponent,
     SoulsComponent,
     IndustryComponent,
@@ -878,6 +887,9 @@ const appRoutes: Routes = [ //
     TheLongRoadComponent,
     SignalsOfTimeComponent,
     GalacticSignatureComponent,
+    SpiritualAlgorithmComponent,
+    OdicPointsComponent,
+    OdicCoinsComponent,
 
 
 
