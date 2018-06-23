@@ -201,8 +201,9 @@ import { WoodFireComponent } from './pages/yinyang/soundcloud/magic/fantasy/wood
 import { FragmentsComponent } from './pages/yinyang/soundcloud/boom/fragments/fragments.component';
 import { SimplicityComponent } from './pages/yinyang/soundcloud/signals/simplicity/simplicity.component';
 import { DanceOfLoveComponent } from './pages/love/dance-of-love/dance-of-love.component';
-import { LetsTalkAboutLoveComponent } from './pages/yinyang/mixcloud/tao/lets-talk-about-love/lets-talk-about-love.component';
-import { IAmMusicPerfectBombComponent } from './pages/yinyang/mixcloud/tao/iam-music-perfect-bomb/iam-music-perfect-bomb.component';
+import { LetsTalkAboutLoveComponent } from './pages/yinyang/mixcloud/the-long-road/lets-talk-about-love/lets-talk-about-love.component';
+// tslint:disable-next-line:max-line-length
+import { IAmMusicPerfectBombComponent } from './pages/yinyang/mixcloud/the-long-road/iam-music-perfect-bomb/iam-music-perfect-bomb.component';
 // tslint:disable-next-line:max-line-length
 import { LetsMakeChangeWeAllNeedComponent } from './pages/yinyang/mixcloud/tao/lets-make-change-we-all-need/lets-make-change-we-all-need.component';
 // tslint:disable-next-line:max-line-length
@@ -211,14 +212,16 @@ import { OurTryNotOurChoiceComponent } from './pages/yinyang/mixcloud/tao/our-tr
 import { OurEternalLicenseComponent } from './pages/yinyang/mixcloud/tao/our-eternal-license/our-eternal-license.component';
 import { TheChallengeComponent } from './pages/yinyang/mixcloud/tao/the-challenge/the-challenge.component';
 import { PrinceOfDarknessComponent } from './pages/yinyang/mixcloud/tao/prince-of-darkness/prince-of-darkness.component';
-import { AreYouEvilComponent } from './pages/yinyang/mixcloud/tao/are-you-evil/are-you-evil.component';
-import { IWantYouYouWantMeComponent } from './pages/yinyang/mixcloud/tao/iwant-you-you-want-me/iwant-you-you-want-me.component';
+import { AreYouEvilComponent } from './pages/yinyang/mixcloud/the-unpredictable-change/are-you-evil/are-you-evil.component';
+
+import { IWantYouYouWantMeComponent } from './pages/yinyang/mixcloud/the-long-road/iwant-you-you-want-me/iwant-you-you-want-me.component';
 import { IWantYouSoBadComponent } from './pages/yinyang/mixcloud/tao/iwant-you-so-bad/iwant-you-so-bad.component';
-import { DevelopingunKnownCodeComponent } from './pages/yinyang/mixcloud/tao/developingun-known-code/developingun-known-code.component';
 // tslint:disable-next-line:max-line-length
-import { IWantToShowYouSomethingComponent } from './pages/yinyang/mixcloud/tao/i-want-to-show-you-something/i-want-to-show-you-something.component';
+import { DevelopingunKnownCodeComponent } from './pages/yinyang/mixcloud/the-long-road/developingun-known-code/developingun-known-code.component';
 // tslint:disable-next-line:max-line-length
-import { ShareYourVisionsBeSymbolComponent } from './pages/yinyang/mixcloud/tao/share-your-visions-be-symbol/share-your-visions-be-symbol.component';
+import { IWantToShowYouSomethingComponent } from './pages/yinyang/mixcloud/the-unpredictable-change/i-want-to-show-you-something/i-want-to-show-you-something.component';
+// tslint:disable-next-line:max-line-length
+import { ShareYourVisionsBeSymbolComponent } from './pages/yinyang/mixcloud/the-unpredictable-change/share-your-visions-be-symbol/share-your-visions-be-symbol.component';
 // tslint:disable-next-line:max-line-length
 import { WeDontNeedSecurityButFunctionalityComponent } from './pages/yinyang/mixcloud/tao/we-dont-need-security-but-functionality/we-dont-need-security-but-functionality.component';
 import { AllAboutUsComponent } from './pages/yinyang/soundcloud/magic/fantasy/all-about-us/all-about-us.component';
@@ -226,11 +229,11 @@ import { PsyJungleComponent } from './pages/yinyang/mixcloud/tao/psy-jungle/psy-
 // tslint:disable-next-line:max-line-length
 import { LetsDiveIntoTheWorldofJavaScriptComponent } from './pages/yinyang/mixcloud/tao/lets-dive-into-the-worldof-java-script/lets-dive-into-the-worldof-java-script.component';
 import { TropicalIgnitionMasterComponent } from './pages/yinyang/mixcloud/tao/tropical-ignition-master/tropical-ignition-master.component';
-import { WeWillSoonComponent } from './pages/yinyang/mixcloud/tao/we-will-soon/we-will-soon.component';
+import { WeWillSoonComponent } from './pages/yinyang/mixcloud/the-long-road/we-will-soon/we-will-soon.component';
 import { YouBlowMyMindComponent } from './pages/yinyang/mixcloud/tao/you-blow-my-mind/you-blow-my-mind.component';
-import { MysticTheoriesCultComponent } from './pages/yinyang/mixcloud/tao/mystic-theories-cult/mystic-theories-cult.component';
+import { MysticTheoriesCultComponent } from './pages/yinyang/mixcloud/the-long-road/mystic-theories-cult/mystic-theories-cult.component';
 // tslint:disable-next-line:max-line-length
-import { CareUsAndWeWillCareYouComponent } from './pages/yinyang/mixcloud/tao/care-us-and-we-will-care-you/care-us-and-we-will-care-you.component';
+import { CareUsAndWeWillCareYouComponent } from './pages/yinyang/mixcloud/the-unpredictable-change/care-us-and-we-will-care-you/care-us-and-we-will-care-you.component';
 import { WalkingRiverComponent } from './pages/yinyang/soundcloud/magic/fantasy/walking-river/walking-river.component';
 import { LoveDieComponent } from './pages/yinyang/soundcloud/magic/fantasy/love-die/love-die.component';
 import { PianoWordsComponent } from './pages/yinyang/soundcloud/magic/fantasy/piano-words/piano-words.component';
