@@ -4,3 +4,5 @@
 - Take me into [Fantasy](/docs/Tao/Yang/0/Fantasy/Fantasy.md) (**Yang**(0)) - [Not Complete] but readable
 
 - Mix [Both](/docs/Tao/Tao.md) (**Tao**) - [Not Complete] but readable
+
+### Read OUR [LICENSE](./LICENSE)
