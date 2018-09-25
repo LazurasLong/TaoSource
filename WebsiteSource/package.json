@@ -28,7 +28,7 @@
     "eslint": "^4.17.0",
     "firebase": "^4.9.0",
     "font-awesome": "^4.7.0",
-    "jshint": "^2.9.5",
+    "jshint": "^2.9.6",
     "makestatic-sitemap": "^1.2.2",
     "ng-factory": "^1.1.0",
     "ng-recaptcha": "^3.0.2",
@@ -39,6 +39,7 @@
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~0.6.8",
     "@angular/cli": "6.0.8",
     "@types/jasmine": "2.8.6",
     "@types/node": "^9.4.0",
@@ -54,7 +55,7 @@
     "karma-jasmine": "^1.0.2",
     "karma-remap-istanbul": "^0.6.0",
     "popper.js": "^1.12.9",
-    "protractor": "~5.3.0",
+    "protractor": "^5.4.1",
     "ts-node": "4.1.0",
     "tslint": "^5.9.1",
     "typescript": "2.7.2"

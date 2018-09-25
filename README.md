@@ -5,4 +5,4 @@
 
 - Mix [Both](/docs/Tao/Tao.md) (**Tao**) - [Not Complete] but readable
 
-### Read OUR [LICENSE](./LICENSE)
+### Read OUR [LICENSE](https://github.com/odicforcesounds/Eternal-License/blob/master/LICENSE)
