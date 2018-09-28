@@ -1,8 +1,7 @@
 # 1+1=1 or 3
 
-- Take me into [Logic](/docs/Tao/Yin/1/Logic/Logic.md) (**Yin**(1)) - [Not Complete] but readable
-- Take me into [Fantasy](/docs/Tao/Yang/0/Fantasy/Fantasy.md) (**Yang**(0)) - [Not Complete] but readable
+[READ CHALLENGE](https://github.com/odicforcesounds/The-Challenge/blob/master/README.md)
 
-- Mix [Both](/docs/Tao/Tao.md) (**Tao**) - [Not Complete] but readable
+[READ WIKI](https://github.com/odicforcesounds/The-Challenge/blob/master/WIKI.md)
 
-### You are included in OUR Eternal [LICENSE](https://github.com/odicforcesounds/Eternal-License/blob/master/LICENSE)
+You are included in OUR Eternal [LICENSE](https://github.com/odicforcesounds/Eternal-License/blob/master/LICENSE)
