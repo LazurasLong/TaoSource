@@ -9892,7 +9892,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/i00nsu/github/TaoSource/odicforcesounds/www.odicforcesounds.com/src/polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! /home/jail/code/TaoSource/src/polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })
