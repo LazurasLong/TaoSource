@@ -24,5 +24,8 @@ p {
     /* Set up positioning */
     position: absolute;
     left: 0;
-  }
+}
 
+#player {
+  text-align: center;
+}

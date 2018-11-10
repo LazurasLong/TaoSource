@@ -310,7 +310,7 @@ const appRoutes: Routes = [ //
     { path: '', redirectTo: '/tao', pathMatch: 'full'},
     { path: '**', redirectTo: 'https://wiki.odicforcesounds.com/Oops', pathMatch: 'full' },
     { path: 'tao', component: UtellmeComponent },
-    { path: 'home', component: HomeComponent },
+    { path: 'visions', component: HomeComponent },
     { path: 'who', component: WhoComponent },
     { path: 'oscar/fm', component: OscarFmComponent },
     { path: 'about/me/and/you', component: WhoweareComponent },
@@ -549,7 +549,7 @@ const appRoutes: Routes = [ //
     { path: 'intro/litle/box/universe', component: Es7Component },
     { path: 'little/box/universe', component: Es8Component }, // Little Box - Universe
     { path: 'shamanic/visions', component: Es9Component }, // Shamanic Visions
-    { path: 'the/fun/project/is/fun/to/take/care', component: Es10Component }, // Fun to Care
+    { path: 'the/game/project/is/fun/to/take/care', component: Es10Component }, // Fun to Care
     { path: 'tool/kit', component: Es11Component }, // Tool Kit Table
     { path: 'social', component: SetComponent }, // Track
     { path: 'hacking/into/the/error/festival/patch', component: Es12Component },
