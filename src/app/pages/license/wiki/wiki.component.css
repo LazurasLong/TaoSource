@@ -1,0 +1,26 @@
+#banner {
+    background: url("https://raw.githubusercontent.com/odicforcesounds/Myth-illusions-Memories/master/License/wiki.jpg") no-repeat center center fixed;
+    background-size: cover;
+    /* Set up proportionate scaling */
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: 0;
+
+    /* Set up positioning */
+    position: absolute;
+    left: 0;
+    }
+
+.text-box {
+    width: 750px;
+    height: 60px;
+    margin-left: 20%;
+    text-align: center;
+    font-size: 200%;
+    color:black;
+}
+
+a {
+    color:orange;
+    font-size: 2em;
+}

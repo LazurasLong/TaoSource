@@ -1,24 +1,6 @@
-
-
-WebsiteSource/dist
-
-# dependencies
-WebsiteSource/node_modules
-
-# misc
-WebsiteSource/.sass-cache
-WebsiteSource/connect.lock
-WebsiteSource/coverage/*
-WebsiteSource/libpeerconnection.log
-WebsiteSource/npm-debug.log
-WebsiteSource/testem.log
-WebsiteSource/typings
-=======
-
-# e2e
-WebsiteSource/e2e/*.js
-WebsiteSource/e2e/*.map
-
-#System Files
-WebsiteSource/.DS_Store
-WebsiteSource/Thumbs.db
+dist/*
+node_modules/
+.firebaserc
+.firebase/
+firebase.json
+NgBuild.sh

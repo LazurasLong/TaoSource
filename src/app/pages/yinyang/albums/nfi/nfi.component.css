@@ -1,0 +1,30 @@
+#main {
+  width: 100%;
+
+  text-align: center;
+}
+
+#text-box {
+  width: 95%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: justify;
+  font-size: 200%;
+  line-height: 3;
+  color:black;
+}
+
+
+#banner {
+  background: url("https://raw.githubusercontent.com/odicforcesounds/Myth-illusions-Memories/master/NoiseFrequency/tauros.jpg") no-repeat center center fixed;
+  background-size: cover;
+
+  /* Set up proportionate scaling */
+  min-width: 100%;
+  min-height: 100%;
+  margin-top: 10;
+
+  /* Set up positioning */
+  position: absolute;
+}

@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+
+}
+
+.navbar {
+    position: relative; /* Set the navbar to fixed position */
+    float: 1px;
+    margin:0 auto;
+    display: block;
+    text-align: center
+
+
+}
+.navbar a {
+    position: relative;
+    float: 1px;
+    padding:10px;
+    text-align: center;
+    font-size: calc(1vw + 1vh + 0.3vmin);
+}
+
+.navbar a:hover {
+    background-color: rgb(4, 20, 26);
+}
+.nav-tabs {
+  text-align: center;
+}
+
+.tab {
+  background-color: black;
+}
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: middle;
+  }
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+}
+
